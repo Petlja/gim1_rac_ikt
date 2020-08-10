@@ -1,0 +1,10 @@
+=========
+Лекција_Х
+=========
+
+.. toctree:: 
+    :maxdepth: 1
+
+    uvod_lekcija_Х.rst
+    tekst_lekcija_Х.rst
+    zkviz_Х.rst

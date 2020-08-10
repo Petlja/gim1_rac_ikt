@@ -1,0 +1,10 @@
+=========
+Лекција 3
+=========
+
+.. toctree:: 
+    :maxdepth: 1
+
+    uvod_lekcija_3.rst
+    koriscenje_interneta_lekcija_3.rst
+    zkviz_3.rst

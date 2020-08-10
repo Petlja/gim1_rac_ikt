@@ -1,0 +1,10 @@
+=========
+Лекција 4
+=========
+
+.. toctree:: 
+    :maxdepth: 1
+
+    uvod_lekcija_4.rst
+    prava_bezbednost_lekcija_4.rst
+    zkviz_4.rst

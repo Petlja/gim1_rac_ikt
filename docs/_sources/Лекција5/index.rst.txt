@@ -1,0 +1,10 @@
+=========
+Лекција_5
+=========
+
+.. toctree:: 
+    :maxdepth: 1
+
+    uvod_lekcija_5.rst
+    razvoj_lekcija_5.rst
+    zkviz_5.rst

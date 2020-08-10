@@ -50,10 +50,10 @@ lessons:
         file: uvodni_tekst.rst
         description: # opciono
         guid: b2876810-ce7f-42d7-a572-1ea40d690ff5
-  - title: Лекција 1
+  - title: 1 Информационо-комуникационе технологије у савременом друштву
     folder: Лекција1
     guid: 9b1adadd-424d-4abe-be7b-4c113d793557
-    description: ИКТ у свакодневном животу
+    description: ИКТ у савременом друштву
     activities:
       - type: reading
         title: Увод и лекцију 1
@@ -61,19 +61,19 @@ lessons:
         description: # opciono
         guid: 6d18e8cc-0252-4b79-9c5a-1243c7991bfa
       - type: reading
-        title: ИКТ у свакодневном животу
+        title: ИКТ у савременом друштву
         file: IKT_lekcija_1.rst
         description: # opciono
         guid: da740fcc-c855-45d8-a7ad-8972d9fb70f2
       - type: quiz
-        title: Квиз 1
+        title: Провери своје знање 1
         file: zkviz_1.rst
         description: ...
         guid: 6d812450-9512-4f42-90d3-196f59f729d0
-  - title: Лекција 2
+  - title: 2 Рачунарске мреже и интернет
     folder: Лекција2
     guid: edce90bd-1925-4332-a116-84818f17b179
-    description: Рачунарске мреже и интернет
+    description: О рачунарским мрежама и интернету
     activities:
       - type: reading
         title: Увод и лекцију 2
@@ -86,11 +86,11 @@ lessons:
         description: #opciono
         guid: c2548baa-8fde-409b-b67f-55db2e5e8395
       - type: quiz
-        title: Пример test
+        title: Провери своје знање 2
         file: zkviz_2.rst
         description: ...
         guid: 26fc85ba-76a3-4efb-9059-d9a8a04f50d6
-  - title: Лекција 3
+  - title: 3 Коришћење интернета
     folder: Лекција3
     guid: 00fc122b-9480-4f8d-ab99-c3b3f449c2f6
     description: Коришћење интернета
@@ -102,11 +102,16 @@ lessons:
         guid: c2a89c0b-345d-41ad-9636-e449c8425717
       - type: reading
         title: Пример фајла
-        file: koriscenje_interneta_lekcija_3.rst
+        file: internet_servisi_lekcija_3.rst
         description: #opciono
-        guid: 561ac333-9ec0-48d3-b8da-3fe33058c159
+        guid: c8884c71-28eb-4832-8936-f242001344d3
+      - type: reading
+        title: Пример фајла
+        file: komunikacija_na_internetu_lekcija_3.rst
+        description: #opciono
+        guid: 27a9e1e0-a0b0-4c6a-953b-3290fe71a854
       - type: quiz
-        title: Пример test
+        title: Провери своје знање 3
         file: zkviz_3.rst
         description: ...
         guid: 69a4141b-ee38-4ba5-8432-18139c271bf5
@@ -126,7 +131,7 @@ lessons:
         description: #opciono
         guid: 89345fb9-4ff7-4182-9182-570ccc360c56
       - type: quiz
-        title: Пример testa
+        title: Провери своје знање 4
         file: zkviz_4.rst
         description: ...
         guid: a06a7e71-e223-4019-9b1d-9b373128ec97

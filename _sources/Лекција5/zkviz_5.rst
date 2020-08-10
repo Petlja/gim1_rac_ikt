@@ -1,5 +1,5 @@
-Квиз уз лекцију 1
-=================
+Тест
+====
 
 У овом фајлу биће приказано неколико питања која вам могу послужити као мустра за прављење тестова. 
 
@@ -90,52 +90,144 @@
     :feedback_d: Тачно
     :correct: d
     
-    Нека је Карел робот у положају као на слици
-     
-    .. image:: ../../_images/karel7.png 
-       :align: center
-     
-    Извршавањем којих од наредних програма ће робот проћи кроз цео лавиринт, caкупити свих пет лоптица и убацити их у рупу? 
-     
-    (1)
-      .. code-block:: python
-     
-        from karel import *   
-        napred()    
-        for i in range(5):    
-          uzmi()
-          for i in range(5):
-          ostavi()
-      
-    (2)
-      .. code-block:: python
-     
-        from karel import *   
-        napred()    
-        for i in range(5):    
-          uzmi()
-          napred()
-          for i in range(5):
-          ostavi()
-     
-    (3)
-      .. code-block:: python
-     
-        from karel import *   
-        napred()    
-        for i in range(5):    
-          uzmi()
-          napred()
-          ostavi()
-     
-    (4)
-      .. code-block:: python
-     
-        from karel import *   
-        napred()    
-        for i in range(5):    
-          uzmi()
-        napred()
-        for i in range(5):
-          ostavi()
+
+Питање 5.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. clickablearea:: question1
+   :question: Click the rainbow color(s)
+   :iscode:
+
+   :click-correct:Red:endclick:
+   :click-incorrect:Gold:endclick:
+   :click-correct:Blue:endclick:
+   :click-incorrect:Black:endclick:
+
+
+
+Питање 6.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+.. clickablearea:: question2
+   :question: Click the rainbow color(s)
+   :table:
+   :correct: 1,0;2,2;3,1;3,3;4,2
+   :incorrect: 2,1;2,3;3,2;4,1;4,3
+
+   +-------+---------+--------+
+   |  Red  |  Orange | Yellow |
+   +-------+---------+--------+
+   | White |  Green  | White  |
+   +-------+---------+--------+
+   |  Blue |  White  | Indigo |
+   +-------+---------+--------+
+   | White |  Violet | White  |
+   +-------+---------+--------+
+
+
+Питање 7.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+   .. fillintheblank:: unique_id
+
+   + --- Content area ---
+   |
+   | A question or prompt with 0 or more lines of content
+   |
+   | followed by a list
+   | One bullet list item for each blank to be rendered.
+   |
+   + --------------------
+
+
+Питање 8.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   .. fillintheblank:: unique_id
+
+   Question text goes here, with at least one |blank|, more are added like this: |blank|.
+
+   - :answer: Feedback for blank 1
+     :x: The last item of feedback mathes anything, regardless of content
+   - :another: Feedback for the second blank
+     :yet more: Feedback
+     :.*: A wildcard for the second blank
+
+
+Питање 9.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. fillintheblank:: fitb-ex1
+   :casei:
+
+   Fill in the blanks to make the following sentence: "The red car drove away."
+
+   The ``|blank|`` car drove ``|blank|``.
+
+   -   :red: Correct.
+       :x: Incorrect. Try 'red'.
+   -   :away: Correct.
+       :x: Incorrect. Try 'away'.
+
+
+
+Питање 10.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+       .. parsonsprob:: unique_id
+   :options:
+
+   + --- Content area ---
+   |
+   | one or more lines of instruction for the problem
+   | -----
+   | one or more lines of text
+   | =====
+   | grouped by
+   | =====
+   | five equals
+   |
+   + --------------------
+
+
+
+Питање 11.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+   .. parsonsprob:: pa-ex1
+
+   Construct a block of code that correctly implements 
+   the <b>accumulator</b> pattern.
+   -----
+   x = 0
+   for i in range(10):
+       x = x + 1
+
+
+
+Питање 12.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+       .. parsonsprob:: par_ex_num_left
+   :numbered: left
+
+   Construct a function that returns the max value from a list.
+   -----
+   def findmax(alist):
+   =====
+       if len(alist) == 0:
+           return None
+   =====
+       curmax = alist[0]
+       for item in alist:
+   =====
+           if item > curmax:
+   =====
+               curmax = item
+   =====
+       return curmax
+
 

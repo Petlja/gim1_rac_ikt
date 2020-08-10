@@ -1,23 +1,315 @@
-courseId: kurs-primer
+courseId: kurs-prvi-razred-gimnazija
 lang: sr-Cyrl
-title: Пример курса
+title: Рачунарство и информатика за први разред гимназије
 description:
   willLearn: # list
-    - Научићете 1
-    - Научићете 2
+    - каква је улога информационо-комуникационих технологија (ИКТ) у свакодневном окружењу, 
+    - који су кључни догађаји у развоју ИКТ-а, 
+    - који су друштвени аспекти ИКТ-а, 
+    - како се безбеднио користи интернет и и која су правила лепог понашања на интернету.
+    - који су основни принципи и начин рада рачунара
+    - како се врше основна подешавањима графичког оперативног система, програма, датотека
+    - како се примењују средства и методе заштите рачунара и информација
+    - како се организацију подаци и прилагођава радно окружење
+    - како се креирају и уређују дигитални докуменати - текстови и слајд-презентације.
+
   requirements:
-    - Имаш инсталиран Пајтон
-    - Имаш инсталиран Петљадок
+    - Приступ интернету
+    - Инсталиран графички оперативни систем
+    - Инсталирани програми за обраду текста и израду слајд-презентација 
+    - Отворен налог бар једном од сервиса office.com или  gmail.com
   toc:
-    - Пример_лекције
-    - Пример_лекције2
+    - Информационо - комуникационе технологије у савременом друштву. Ова тема изучава се 10 часова, односно 5 седмица.
+    - Рачунарство. Ова тема изучава се 8 часова, односно 4 недеље.
+    - Организација података и прилагођавање радног окружења. Ова тема изучава се 6 часова, односно 3 недеље.
+    - Креирање и уређевање дигиталних докумената. Ова тема изучава се 20 часова, односно 10 недеља. 
   externalLinks: # opciono 
-    - text: Синтакса restructuredText
-      href: https://docutils.sourceforge.io/docs/user/rst/quickref.html
-    - text: Синтакса restructuredText 2
-      href: https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html
+    - text: Мајкрософт платформа
+      href: https://office.com
+    - text: Гугл платформа
+      href: https://google.com
 
 lessons:
+  - title: Текст пре приступа курсу - не знам где да га ставим
+    folder: аТекстПре
+    guid: ac241f1a-cf38-4076-b757-8fd732944ded
+    description: Текст пре приступа курсу
+    activities:
+      - type: reading
+        title: Текст пре приступа курсу
+        file: tekst_pre.rst
+        description: # opciono
+        guid: 444516a6-93a0-4e97-abf3-b8466c805cf3
+  - title: Увод
+    folder: аУвод
+    guid: be157944-5c4e-4703-bdd2-137ca969183f
+    description: Увод у курс
+    activities:
+      - type: reading
+        title: Увод у курс
+        file: uvodni_tekst.rst
+        description: # opciono
+        guid: b2876810-ce7f-42d7-a572-1ea40d690ff5
+  - title: Лекција 1
+    folder: Лекција1
+    guid: 9b1adadd-424d-4abe-be7b-4c113d793557
+    description: ИКТ у свакодневном животу
+    activities:
+      - type: reading
+        title: Увод и лекцију 1
+        file: uvod_lekcija_1.rst
+        description: # opciono
+        guid: 6d18e8cc-0252-4b79-9c5a-1243c7991bfa
+      - type: reading
+        title: ИКТ у свакодневном животу
+        file: IKT_lekcija_1.rst
+        description: # opciono
+        guid: da740fcc-c855-45d8-a7ad-8972d9fb70f2
+      - type: quiz
+        title: Квиз 1
+        file: zkviz_1.rst
+        description: ...
+        guid: 6d812450-9512-4f42-90d3-196f59f729d0
+  - title: Лекција 2
+    folder: Лекција2
+    guid: edce90bd-1925-4332-a116-84818f17b179
+    description: Рачунарске мреже и интернет
+    activities:
+      - type: reading
+        title: Увод и лекцију 2
+        file: uvod_lekcija_2.rst
+        description: # opciono
+        guid: 58573f72-0aa0-4e35-916f-c6a2e3c65cc4
+      - type: reading
+        title: Рачунарске мреже и интернет
+        file: mreze_lekcija_2.rst
+        description: #opciono
+        guid: c2548baa-8fde-409b-b67f-55db2e5e8395
+      - type: quiz
+        title: Пример test
+        file: zkviz_2.rst
+        description: ...
+        guid: 26fc85ba-76a3-4efb-9059-d9a8a04f50d6
+  - title: Лекција 3
+    folder: Лекција3
+    guid: 00fc122b-9480-4f8d-ab99-c3b3f449c2f6
+    description: Коришћење интернета
+    activities:
+      - type: reading
+        title: Увод и лекцију 3
+        file: uvod_lekcija_3.rst
+        description: # opciono
+        guid: c2a89c0b-345d-41ad-9636-e449c8425717
+      - type: reading
+        title: Пример фајла
+        file: koriscenje_interneta_lekcija_3.rst
+        description: #opciono
+        guid: 561ac333-9ec0-48d3-b8da-3fe33058c159
+      - type: quiz
+        title: Пример test
+        file: zkviz_3.rst
+        description: ...
+        guid: 69a4141b-ee38-4ba5-8432-18139c271bf5
+  - title: Лекција 4
+    folder: Лекција4
+    guid: 71b11e1b-6174-4e5a-8845-cd82fec6ca6d
+    description: Права, заштита, безбедност, утицаји...
+    activities:
+      - type: reading
+        title: Увод и лекцију 4
+        file: uvod_lekcija_4.rst
+        description: # opciono
+        guid: e276fc55-640f-49b1-a508-d723839d7be7
+      - type: reading
+        title: Пример фајла
+        file: prava_bezbednost_lekcija_4.rst
+        description: #opciono
+        guid: 89345fb9-4ff7-4182-9182-570ccc360c56
+      - type: quiz
+        title: Пример testa
+        file: zkviz_4.rst
+        description: ...
+        guid: a06a7e71-e223-4019-9b1d-9b373128ec97
+  - title: Лекција_5
+    folder: Лекција5
+    guid: 4674d7f2-2930-46a5-b1e9-97cf5b269981
+    description: Развој ИКТ
+    activities:
+      - type: reading
+        title: Увод и лекцију 5
+        file: uvod_lekcija_5.rst
+        description: # opciono
+        guid: ca4afa47-ddd5-4c4c-8a65-001e165b7245
+      - type: reading
+        title: Развој ИКТ
+        file: razvoj_lekcija_5.rst
+        description: #opciono
+        guid: f1ba7c7d-922e-42ab-a18d-ed0bb04d3ecf
+      - type: quiz
+        title: Пример testa
+        file: zkviz_5.rst
+        description: ...
+        guid: ca156437-a2f3-42f9-8a6b-eea04c551fc8          
+  - title: Лекција_6
+    folder: Лекција6
+    guid: 943aed70-54b5-4ae0-871f-6b20fd3940cf
+    description: Развој ИКТ
+    activities:
+      - type: reading
+        title: Увод и лекцију 6
+        file: uvod_lekcija_6.rst
+        description: # opciono
+        guid: 264f642d-7e5d-453d-89f8-b59cd193ddf0
+      - type: reading
+        title: Развој ИКТ
+        file: tekst_lekcija_6.rst
+        description: #opciono
+        guid: 01835234-57be-4d0e-b32c-635d8daa538d
+      - type: quiz
+        title: Пример testa
+        file: zkviz_6.rst
+        description: ...
+        guid: 1537cd77-ec1e-4143-8a0a-851115b399cc       
+  - title: Лекција_7
+    folder: Лекција7
+    guid: 3df3c8b4-3cf9-4276-94d6-26cf02883de8
+    description: Развој ИКТ
+    activities:
+      - type: reading
+        title: Увод и лекцију 7
+        file: uvod_lekcija_7.rst
+        description: # opciono
+        guid: 9a15dd17-9ba7-4c69-9c2a-02eb9391ccb7
+      - type: reading
+        title: Развој ИКТ
+        file: tekst_lekcija_7.rst
+        description: #opciono
+        guid: aa9288f9-7380-43bd-8d8f-3bebe3a2f9fb
+      - type: quiz
+        title: Пример testa
+        file: zkviz_7.rst
+        description: ...
+        guid: 5a3fd35c-48b7-469c-8529-96d8abaa1dc7      
+  - title: Лекција_8
+    folder: Лекција8
+    guid: 456681ba-0325-4a9b-a93d-fd5d0959f361
+    description: Развој ИКТ
+    activities:
+      - type: reading
+        title: Увод и лекцију 8
+        file: uvod_lekcija_8.rst
+        description: # opciono
+        guid: 01bc36c2-b212-4fe2-aa8f-647558069909
+      - type: reading
+        title: Развој ИКТ
+        file: tekst_lekcija_8.rst
+        description: #opciono
+        guid: bd8e445e-7671-4b67-8faf-0f665c17fb1e
+      - type: quiz
+        title: Пример testa
+        file: zkviz_8.rst
+        description: ...
+        guid: e5a6d67c-01bd-44fb-ae40-703abbc34f56       
+  - title: Лекција_9
+    folder: Лекција9
+    guid: 3a0a7621-7caa-430d-840a-bbfea5fbea9a
+    description: Развој ИКТ
+    activities:
+      - type: reading
+        title: Увод и лекцију 9
+        file: uvod_lekcija_9.rst
+        description: # opciono
+        guid: 08d7cedb-245c-4c8e-bd98-27cafda6cba2
+      - type: reading
+        title: Развој ИКТ
+        file: tekst_lekcija_9.rst
+        description: #opciono
+        guid: a3a57f05-69a8-4d8a-818e-6c735e167354
+      - type: quiz
+        title: Пример testa
+        file: zkviz_9.rst
+        description: ...
+        guid: 8332a80c-a923-4969-b604-b525184c3f94       
+  - title: Лекција_10
+    folder: Лекција10
+    guid: 922b9bfd-6bb2-44b1-8f38-ae13c243cce1
+    description: Развој ИКТ
+    activities:
+      - type: reading
+        title: Увод и лекцију 10
+        file: uvod_lekcija_10.rst
+        description: # opciono
+        guid: 0523654a-cd2c-49f9-a272-2199c736018e
+      - type: reading
+        title: Развој ИКТ
+        file: tekst_lekcija_10.rst
+        description: #opciono
+        guid: e1715b0c-40d4-46df-b619-d8f09753cf90
+      - type: quiz
+        title: Пример testa
+        file: zkviz_10.rst
+        description: ...
+        guid: 133fc124-488a-4d9b-8e7e-756d5aefb7df       
+  - title: Лекција_11
+    folder: Лекција11
+    guid: 55e8eef2-71ba-4cda-8273-ad510449dec3
+    description: Развој ИКТ
+    activities:
+      - type: reading
+        title: Увод и лекцију 11
+        file: uvod_lekcija_11.rst
+        description: # opciono
+        guid: 780cf9b0-2a76-475d-8d62-941905e93603
+      - type: reading
+        title: Развој ИКТ
+        file: tekst_lekcija_11.rst
+        description: #opciono
+        guid: 002d4c9f-948c-4e5a-a5ff-2623c740be43
+      - type: quiz
+        title: Пример testa
+        file: zkviz_11.rst
+        description: ...
+        guid: 00fe81a3-f870-444b-afb3-8e1302341398  
+  - title: Лекција_12
+    folder: Лекција12
+    guid: b6271aef-7e95-4386-ab19-b9704502d10f
+    description: Развој ИКТ
+    activities:
+      - type: reading
+        title: Увод и лекцију 12
+        file: uvod_lekcija_12.rst
+        description: # opciono
+        guid: 80636c48-cbae-4cb3-8dca-29165f54c774
+      - type: reading
+        title: Развој ИКТ
+        file: tekst_lekcija_12.rst
+        description: #opciono
+        guid: 7a84c612-25db-470f-bc19-9077bec5158b
+      - type: quiz
+        title: Пример testa
+        file: zkviz_12.rst
+        description: ...
+        guid: 86a80b73-a74e-4153-9267-925107cf8ede      
+  - title: Лекција_Х
+    folder: ЛекцијаХ
+    guid: 5a4938c8-dec2-4f7c-a8e7-69c4f4c3c587
+    description: Х
+    activities:
+      - type: reading
+        title: Увод и лекцију Х
+        file: uvod_lekcija_Х.rst
+        description: # opciono
+        guid: 3c77fb05-a5d0-4f34-bb37-01783fa2275c
+      - type: reading
+        title: Х
+        file: tekst_lekcija_Х.rst
+        description: #opciono
+        guid: 4c951c97-4166-4280-a7da-adfdc2e1f595
+      - type: quiz
+        title: Пример testa
+        file: zkviz_Х.rst
+        description: ...
+        guid: 1776c676-25d8-47cf-8e3b-fab71fa9ee3f         
   - title: Наслов_1
     folder: Пример_лекција1
     guid: c2c651cd-53d9-4a3d-ba4f-650b8422f0bc

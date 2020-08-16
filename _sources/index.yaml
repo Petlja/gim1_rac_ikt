@@ -19,10 +19,10 @@ description:
     - Инсталирани програми за обраду текста и израду слајд-презентација 
     - Отворен налог бар једном од сервиса office.com или  gmail.com
   toc:
-    - Информационо - комуникационе технологије у савременом друштву. Ова тема изучава се 10 часова, односно 5 седмица.
-    - Рачунарство. Ова тема изучава се 8 часова, односно 4 недеље.
-    - Организација података и прилагођавање радног окружења. Ова тема изучава се 6 часова, односно 3 недеље.
-    - Креирање и уређевање дигиталних докумената. Ова тема изучава се 20 часова, односно 10 недеља. 
+    - Информационо - комуникационе технологије у савременом друштву. 
+    - Рачунарство. 
+    - Организација података и прилагођавање радног окружења. 
+    - Креирање и уређевање дигиталних докумената. 
   externalLinks: # opciono 
     - text: Мајкрософт платформа
       href: https://office.com
@@ -50,7 +50,17 @@ lessons:
         file: uvodni_tekst.rst
         description: # opciono
         guid: b2876810-ce7f-42d7-a572-1ea40d690ff5
-  - title: 1 Информационо-комуникационе технологије у савременом друштву
+  - title: Тема 1
+    folder: Тема1
+    guid: 975d3768-191d-47c2-8a9d-0a223a9f7b2d
+    description: Увод у тему 1
+    activities:
+      - type: reading
+        title: Садржај теме 1
+        file: tekst_tema_1.rst
+        description: # opciono
+        guid: b5fb2bb4-1b4d-4cc1-aff2-7cddf40d71b4
+  - title: 1 Информационо-комуникационе технологије
     folder: Лекција1
     guid: 9b1adadd-424d-4abe-be7b-4c113d793557
     description: ИКТ у савременом друштву
@@ -66,7 +76,7 @@ lessons:
         description: # opciono
         guid: da740fcc-c855-45d8-a7ad-8972d9fb70f2
       - type: quiz
-        title: Провери своје знање 1
+        title: Квиз 1
         file: zkviz_1.rst
         description: ...
         guid: 6d812450-9512-4f42-90d3-196f59f729d0
@@ -86,7 +96,7 @@ lessons:
         description: #opciono
         guid: c2548baa-8fde-409b-b67f-55db2e5e8395
       - type: quiz
-        title: Провери своје знање 2
+        title: Квиз 2
         file: zkviz_2.rst
         description: ...
         guid: 26fc85ba-76a3-4efb-9059-d9a8a04f50d6
@@ -101,12 +111,12 @@ lessons:
         description: # opciono
         guid: c2a89c0b-345d-41ad-9636-e449c8425717
       - type: reading
-        title: Пример фајла
+        title: Интернет сервиси
         file: internet_servisi_lekcija_3.rst
         description: #opciono
         guid: c8884c71-28eb-4832-8936-f242001344d3
       - type: reading
-        title: Пример фајла
+        title: Начини и правила комуникације и лепог понашања на интернету
         file: komunikacija_na_internetu_lekcija_3.rst
         description: #opciono
         guid: 27a9e1e0-a0b0-4c6a-953b-3290fe71a854
@@ -115,7 +125,7 @@ lessons:
         file: zkviz_3.rst
         description: ...
         guid: 69a4141b-ee38-4ba5-8432-18139c271bf5
-  - title: Лекција 4
+  - title: 4 Ауторска права, веродостојност информација, заштита и безбедност
     folder: Лекција4
     guid: 71b11e1b-6174-4e5a-8845-cd82fec6ca6d
     description: Права, заштита, безбедност, утицаји...
@@ -126,16 +136,31 @@ lessons:
         description: # opciono
         guid: e276fc55-640f-49b1-a508-d723839d7be7
       - type: reading
-        title: Пример фајла
-        file: prava_bezbednost_lekcija_4.rst
+        title: Ауторска права и веродостојност информација
+        file: prava_verodostojnost_lekcija_4.rst
         description: #opciono
         guid: 89345fb9-4ff7-4182-9182-570ccc360c56
+      - type: reading
+        title: Заштита личних података и приватност
+        file: zastita_bezbednost_lekcija_4.rst
+        description: #opciono
+        guid: d1fd4e54-b807-4098-9a62-22d24209a0c3
+      - type: reading
+        title: Утицаји ИКТ на здравље и околину
+        file: uticaji_lekcija_4.rst
+        description: #opciono
+        guid: 98bacd31-7647-4a6f-b1d5-60a9d6d289c2
+      - type: reading
+        title: Све боје интернета
+        file: sve_boje_lekcija_4.rst
+        description: #opciono
+        guid: 0cb2721a-0611-415e-bb5c-b1148463e979
       - type: quiz
         title: Провери своје знање 4
         file: zkviz_4.rst
         description: ...
         guid: a06a7e71-e223-4019-9b1d-9b373128ec97
-  - title: Лекција_5
+  - title: 5 Развој ИКТ
     folder: Лекција5
     guid: 4674d7f2-2930-46a5-b1e9-97cf5b269981
     description: Развој ИКТ
@@ -146,19 +171,34 @@ lessons:
         description: # opciono
         guid: ca4afa47-ddd5-4c4c-8a65-001e165b7245
       - type: reading
-        title: Развој ИКТ
-        file: razvoj_lekcija_5.rst
+        title: Историјски развој ИКТ
+        file: istorijski_razvoj_lekcija_5.rst
         description: #opciono
         guid: f1ba7c7d-922e-42ab-a18d-ed0bb04d3ecf
+      - type: reading
+        title: Генерације електронских рачунара
+        file: generacije_elektronskih_lekcija_5.rst
+        description: #opciono
+        guid: fa934240-e98f-4916-a371-a1180b9f66d5
       - type: quiz
         title: Пример testa
         file: zkviz_5.rst
         description: ...
         guid: ca156437-a2f3-42f9-8a6b-eea04c551fc8          
-  - title: Лекција_6
+  - title: Тема 2
+    folder: Тема2
+    guid: 14a2bc25-1759-406e-9fd7-96c79f5b4188
+    description: Увод у тему 2
+    activities:
+      - type: reading
+        title: Садржај теме 2
+        file: tekst_tema_2.rst
+        description: # opciono
+        guid: 032f5c92-1f68-41be-a9c6-bb774c610151
+  - title: 6 Принципи рада рачунара
     folder: Лекција6
     guid: 943aed70-54b5-4ae0-871f-6b20fd3940cf
-    description: Развој ИКТ
+    description: Принципи рада рачунара
     activities:
       - type: reading
         title: Увод и лекцију 6
@@ -166,19 +206,24 @@ lessons:
         description: # opciono
         guid: 264f642d-7e5d-453d-89f8-b59cd193ddf0
       - type: reading
-        title: Развој ИКТ
-        file: tekst_lekcija_6.rst
+        title: Како раде рачунари
+        file: kako_rade_računari_lekcija_6.rst
         description: #opciono
         guid: 01835234-57be-4d0e-b32c-635d8daa538d
+      - type: reading
+        title: Представљање података у рачунару
+        file: predstavljanje_podataka_lekcija_6.rst
+        description: #opciono
+        guid: 39579792-f886-44af-b14e-562e1dc135d1
       - type: quiz
         title: Пример testa
         file: zkviz_6.rst
         description: ...
         guid: 1537cd77-ec1e-4143-8a0a-851115b399cc       
-  - title: Лекција_7
+  - title: 7 Представљање бројева и рачунање са различитим основама
     folder: Лекција7
     guid: 3df3c8b4-3cf9-4276-94d6-26cf02883de8
-    description: Развој ИКТ
+    description: Представљање бројева и рачунање са различитим основама
     activities:
       - type: reading
         title: Увод и лекцију 7
@@ -186,8 +231,8 @@ lessons:
         description: # opciono
         guid: 9a15dd17-9ba7-4c69-9c2a-02eb9391ccb7
       - type: reading
-        title: Развој ИКТ
-        file: tekst_lekcija_7.rst
+        title: Представљање бројева и рачунање са различитим основама
+        file: predstavljanje_racunanje_lekcija_7.rst
         description: #opciono
         guid: aa9288f9-7380-43bd-8d8f-3bebe3a2f9fb
       - type: quiz
@@ -195,10 +240,10 @@ lessons:
         file: zkviz_7.rst
         description: ...
         guid: 5a3fd35c-48b7-469c-8529-96d8abaa1dc7      
-  - title: Лекција_8
+  - title: 8 Хардверске компоненте рачунарских система
     folder: Лекција8
     guid: 456681ba-0325-4a9b-a93d-fd5d0959f361
-    description: Развој ИКТ
+    description: Хардверске компоненте рачунарских система
     activities:
       - type: reading
         title: Увод и лекцију 8
@@ -206,8 +251,8 @@ lessons:
         description: # opciono
         guid: 01bc36c2-b212-4fe2-aa8f-647558069909
       - type: reading
-        title: Развој ИКТ
-        file: tekst_lekcija_8.rst
+        title: Хардвер
+        file: hardver_lekcija_8.rst
         description: #opciono
         guid: bd8e445e-7671-4b67-8faf-0f665c17fb1e
       - type: quiz
@@ -215,10 +260,10 @@ lessons:
         file: zkviz_8.rst
         description: ...
         guid: e5a6d67c-01bd-44fb-ae40-703abbc34f56       
-  - title: Лекција_9
+  - title: 9 Софтверске компоненте рачунарских система
     folder: Лекција9
     guid: 3a0a7621-7caa-430d-840a-bbfea5fbea9a
-    description: Развој ИКТ
+    description: Софтверске компоненте рачунарских система
     activities:
       - type: reading
         title: Увод и лекцију 9
@@ -226,19 +271,29 @@ lessons:
         description: # opciono
         guid: 08d7cedb-245c-4c8e-bd98-27cafda6cba2
       - type: reading
-        title: Развој ИКТ
-        file: tekst_lekcija_9.rst
+        title: Софтвер
+        file: softver_lekcija_9.rst
         description: #opciono
         guid: a3a57f05-69a8-4d8a-818e-6c735e167354
       - type: quiz
         title: Пример testa
         file: zkviz_9.rst
         description: ...
-        guid: 8332a80c-a923-4969-b604-b525184c3f94       
-  - title: Лекција_10
+        guid: 8332a80c-a923-4969-b604-b525184c3f94      
+  - title: Тема 3
+    folder: Тема3
+    guid: b044f839-cacb-4579-a947-3aa20aa474e8
+    description: Увод у тему 3
+    activities:
+      - type: reading
+        title: Садржај теме 3
+        file: tekst_tema_3.rst
+        description: # opciono
+        guid: 71b4b30c-beaf-434e-b405-eb52227b1af6 
+  - title: 10 Графички кориснички интерфејс
     folder: Лекција10
     guid: 922b9bfd-6bb2-44b1-8f38-ae13c243cce1
-    description: Развој ИКТ
+    description: Графички кориснички интерфејс
     activities:
       - type: reading
         title: Увод и лекцију 10
@@ -246,8 +301,8 @@ lessons:
         description: # opciono
         guid: 0523654a-cd2c-49f9-a272-2199c736018e
       - type: reading
-        title: Развој ИКТ
-        file: tekst_lekcija_10.rst
+        title: Графички кориснички интерфејс
+        file: gki_lekcija_10.rst
         description: #opciono
         guid: e1715b0c-40d4-46df-b619-d8f09753cf90
       - type: quiz
@@ -255,10 +310,10 @@ lessons:
         file: zkviz_10.rst
         description: ...
         guid: 133fc124-488a-4d9b-8e7e-756d5aefb7df       
-  - title: Лекција_11
+  - title: 11 Рад са документима и системом датотека
     folder: Лекција11
     guid: 55e8eef2-71ba-4cda-8273-ad510449dec3
-    description: Развој ИКТ
+    description: Рад са документима и системом датотека
     activities:
       - type: reading
         title: Увод и лекцију 11
@@ -266,8 +321,8 @@ lessons:
         description: # opciono
         guid: 780cf9b0-2a76-475d-8d62-941905e93603
       - type: reading
-        title: Развој ИКТ
-        file: tekst_lekcija_11.rst
+        title: Рад са документима и системом датотека
+        file: dokumenti_lekcija_11.rst
         description: #opciono
         guid: 002d4c9f-948c-4e5a-a5ff-2623c740be43
       - type: quiz
@@ -275,7 +330,7 @@ lessons:
         file: zkviz_11.rst
         description: ...
         guid: 00fe81a3-f870-444b-afb3-8e1302341398  
-  - title: Лекција_12
+  - title: 12 Архивирање, слање, чување, заштита.
     folder: Лекција12
     guid: b6271aef-7e95-4386-ab19-b9704502d10f
     description: Развој ИКТ
@@ -286,15 +341,30 @@ lessons:
         description: # opciono
         guid: 80636c48-cbae-4cb3-8dca-29165f54c774
       - type: reading
-        title: Развој ИКТ
-        file: tekst_lekcija_12.rst
+        title: Архивирање, слање и чување датотека.
+        file: arhiviranje_slanje_lekcija_12.rst
         description: #opciono
         guid: 7a84c612-25db-470f-bc19-9077bec5158b
+      - type: reading
+        title: Средства и методе заштите рачунара и информација
+        file: zastita_lekcija_12.rst
+        description: #opciono
+        guid: 9b1c06c7-048d-41a9-9dec-3b2e765e9454
       - type: quiz
         title: Пример testa
         file: zkviz_12.rst
         description: ...
         guid: 86a80b73-a74e-4153-9267-925107cf8ede      
+  - title: Тема 4
+    folder: Тема4
+    guid: c62d8768-efca-447e-901a-c9bdc63d1b08
+    description: Увод у тему 4
+    activities:
+      - type: reading
+        title: Садржај теме 4
+        file: tekst_tema_4.rst
+        description: # opciono
+        guid: f3125c1f-f448-40e9-aa4d-e867a3bda0e8
   - title: Лекција_Х
     folder: ЛекцијаХ
     guid: 5a4938c8-dec2-4f7c-a8e7-69c4f4c3c587

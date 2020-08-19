@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Интернет сервиси &#8212; 1_razred_IKT_DigitalnaPismenost</title>
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/clike.js"></script>
+    <script type="text/javascript" src="../_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/mchoice.js"></script>
+    <script type="text/javascript" src="../_static/timedmc.js"></script>
+    <script type="text/javascript" src="../_static/timed.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/clickable.js"></script>
+    <script type="text/javascript" src="../_static/timedclickable.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/datafile.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop.js"></script>
+    <script type="text/javascript" src="../_static/timeddnd.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/fitb.js"></script>
+    <script type="text/javascript" src="../_static/timedfitb.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/matrixeq.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/timedparsons.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script type="text/javascript" src="../_static/reveal.js"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/showEval.js"></script>
+    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="../_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="../_static/webglinteractive.js"></script>
+    <script type="text/javascript" src="../_static/FileSaver.min.js"></script>
+    <script type="text/javascript" src="../_static/Blob.js"></script>
+    <script type="text/javascript" src="../_static/karelCorner.js"></script>
+    <script type="text/javascript" src="../_static/karelRobot.js"></script>
+    <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="../_static/karelUI.js"></script>
+    <script type="text/javascript" src="../_static/karel.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/notes.js"></script>
+    <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
+    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Начини и правила комуникације и лепог понашања на интернету" href="komunikacija_na_internetu_lekcija_3.html" />
+    <link rel="prev" title="Садржај лекције 3" href="uvod_lekcija_3.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+
+<script type="text/javascript">
+  eBookConfig = {};
+  eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+  eBookConfig.app = eBookConfig.host+'/runestone';
+  eBookConfig.ajaxURL = eBookConfig.app+'/ajax/';
+  eBookConfig.course = '1_razred_IKT_DigitalnaPismenost';
+  eBookConfig.logLevel = 0;
+  eBookConfig.loginRequired = false;
+  eBookConfig.build_info = "";
+  eBookConfig.isLoggedIn = false;
+  eBookConfig.useRunestoneServices = false;
+  eBookConfig.python3 = true;
+  eBookConfig.basecourse = 'Primer_kurs';
+  eBookConfig.runestone_version = '3.1.1';
+  eBookConfig.imagesDir = '../_images/';
+  eBookConfig.staticDir = '../_static/';
+  if(typeof(Sk) != "undefined")
+      Sk.imgPath = eBookConfig.imagesDir;
+</script>
+
+<div id="fb-root"></div>
+
+
+
+  </head><body>
+
+
+<!-- Begin navbar -->
+
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <img src="../_static/img/logo.png" style="width:80px; height: 80px;"> 
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 10px; margin-left: 25px;">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../">1_razred_IKT_DigitalnaPismenost</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="margin-left: 50%;margin-top: 5%;font-size: 20px;">
+  
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+    <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../аТекстПре/index.html">Текст пре приступа курсу - не знам где да га ставим</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../аТекстПре/tekst_pre.html">Настава рачунарства и информатике за први разред гимназије</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../аУвод/index.html">Увод</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../аУвод/uvodni_tekst.html">Пар савета пре почетка</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Тема1/index.html">Тема 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Тема1/tekst_tema_1.html">Информационо-комуникационе технологије у савременом друштву</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција1/index.html">1 Информационо-комуникационе технологије</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција1/uvod_lekcija_1.html">Садржај лекције 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција1/IKT_lekcija_1.html">ИКТ у савременом друштву</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција1/zkviz_1.html">Квиз 1</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција2/index.html">2 Рачунарске мреже и интернет</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција2/uvod_lekcija_2.html">Садржај лекције 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција2/mreze_lekcija_2.html">Рачунарске мреже и интернет</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција2/zkviz_2.html">Квиз 2</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">3 Коришћење интернета</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="uvod_lekcija_3.html">Садржај лекције 3</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Интернет сервиси</a></li>
+<li class="toctree-l2"><a class="reference internal" href="komunikacija_na_internetu_lekcija_3.html">Начини и правила комуникације и лепог понашања на интернету</a></li>
+<li class="toctree-l2"><a class="reference internal" href="zkviz_3.html">Квиз 3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција4/index.html">4 Ауторска права, веродостојност информација, заштита и безбедност</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/uvod_lekcija_4.html">Садржај лекције 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/prava_verodostojnost_lekcija_4.html">Ауторска права и веродостојност информација</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/zastita_bezbednost_lekcija_4.html">Заштита и безбедност на мрежи</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/uticaji_lekcija_4.html">Утицаји ИКТ на здравље и околину</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/sve_boje_lekcija_4.html">Све боје интернета</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/zkviz_4.html">Квиз 4</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција5/index.html">5 Развој ИКТ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција5/uvod_lekcija_5.html">Садржај лекције 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција5/istorijski_razvoj_lekcija_5.html">Историјски развој информационо-комуникационих технологија</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција5/generacije_elektronskih_lekcija_5.html">Генерације електронских рачунара</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција5/zkviz_5.html">Квиз 5</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Тема2/index.html">Тема 2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Тема2/tekst_tema_2.html">Рачунарство</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција6/index.html">6 Принципи рада рачунара</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција6/uvod_lekcija_6.html">Садржај лекције 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција6/kako_rade_računari_lekcija_6.html">Како раде рачунари?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција6/predstavljanje_podataka_lekcija_6.html">Представљање података у рачунару</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција6/zkviz_6.html">Квиз 6</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција7/index.html">7 Представљање бројева и рачунање са различитим основама</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција7/uvod_lekcija_7.html">Садржај лекције 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција7/predstavljanje_racunanje_lekcija_7.html">Представљање бројева и рачунање са различитим основама</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција7/zkviz_7.html">Квиз 7</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција8/index.html">8 Хардверске компоненте рачунарских система</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција8/uvod_lekcija_8.html">Садржај лекције 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција8/hardver_lekcija_8.html">Хардвер</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција8/zkviz_8.html">Квиз 8</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција9/index.html">9 Софтверске компоненте рачунарских система</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција9/uvod_lekcija_9.html">Садржај лекције 9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција9/softver_lekcija_9.html">Софтверске компоненте рачунарских система</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција9/zkviz_9.html">Квиз 9</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Тема3/index.html">Тема 3</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Тема3/tekst_tema_3.html">Организација података и прилагођавање радног окружења</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција10/index.html">10 Графички кориснички интерфејс</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција10/uvod_lekcija_10.html">Садржај лекције 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција10/gki_lekcija_10.html">Графички кориснички интерфејс</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција10/zkviz_10.html">Квиз 10</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција11/index.html">11 Рад са документима и системом датотека</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција11/uvod_lekcija_11.html">Садржај лекције 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција11/dokumenti_lekcija_11.html">Рад са документима и системом датотека</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција11/zkviz_11.html">Квиз 11</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција12/index.html">12 Архивирање, слање, чување, заштита.</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција12/uvod_lekcija_12.html">Садржај лекције 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција12/arhiviranje_slanje_lekcija_12.html">Архивирање, слање и чување датотека</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција12/zastita_lekcija_12.html">Средства и методе заштите рачунара и информација</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција12/zkviz_12.html">Квиз 12</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Тема4/index.html">Тема 4</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Тема4/tekst_tema_4.html">Креирање и уређивање дигиталних докумената</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../ЛекцијаХ/index.html">Лекција_Х</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ЛекцијаХ/uvod_lekcija_Х.html">Садржај лекције X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ЛекцијаХ/tekst_lekcija_Х.html">Наслов</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ЛекцијаХ/zkviz_Х.html">Тест</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Пример_лекција1/index.html">Наслов_1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Пример_лекција1/primer_1.html">Пример пројекта</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Пример_лекција1/Пример pdf фајла.html">Пример pdf фајла</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Пример_лекција1/Пример видеа.html">Пример видеа</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Пример_лекција1/primer_test_1.html">Квиз уз лекцију 1</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Пример_лекција2/index.html">Naslov_2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Пример_лекција2/primer_2.html">Oво је пример друге лекције</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+
+        </div>
+      </div>
+  </div>
+<div class="container col-md-12" id="continue-reading"></div>
+
+<div class="container col-md-10 col-md-offset-2" id="main-content" style="margin-top: 70px;">
+  
+  <div class="section" id="id1">
+<h1>Интернет сервиси<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p>Увек када је уређај повезан на интернет, каже се и да је онлајн (енгл. online) а када је веза прекинута, каже се да је уређај офлајн (енгл. offline). Обратите пажњу, у српском језику ове речи, иако енглеског порекла, пишу се онако како их изговарамо. Неправилно је написати онлине исто колико би било неправилно и да напишемо, на пример, телевисион…</p>
+
+    </p></div></div>
+<p>Као што се из претходне лекције може закључити, интернет представља инфраструктуру. Као што у граду имамо инфраструктуру - улице, бандере са кабловима, цеви испод улица, па на њима функционишу различити сервиси: градски саобраћај, комуналне услуге, водовод, снабдевање струјом, тако и на интернету постоје различите услуге - сервиси. У овом моменту поменућемо само три: електронску пошту, пренос датотека и веб (WWW).</p>
+<p><strong>Пренос датотека (енгл FTP, File Transfer Protocol)</strong> је сервис који омогућује директно слање датотека. Један од првих сервиса на интернету.</p>
+<p><strong>Електронска пошта, имејл (енгл. email)</strong> је сервис путем којег корисници шаљу „писма”, односно пошиљке које се састоје од текста, али и других мултимедијалних прилога. Адресирају се адресама корисника, које смо већ описали када смо говорили о врстама адресирања на интернету. Примери адреса:
+<a class="reference external" href="mailto:mika&#46;petljanovic&#37;&#52;&#48;gmail&#46;com">mika<span>&#46;</span>petljanovic<span>&#64;</span>gmail<span>&#46;</span>com</a>, <a class="reference external" href="mailto:mika&#46;petljanovic&#37;&#52;&#48;outlook&#46;com">mika<span>&#46;</span>petljanovic<span>&#64;</span>outlook<span>&#46;</span>com</a>, су адресе једне особе на два различита мејл-сервиса, <a class="reference external" href="mailto:mika&#46;petljanovic&#37;&#52;&#48;sbb&#46;rs">mika<span>&#46;</span>petljanovic<span>&#64;</span>sbb<span>&#46;</span>rs</a> би била адреса код једног интернет-сервис провајдера, а <a class="reference external" href="mailto:mika&#46;petljanovic&#37;&#52;&#48;vigimnazija&#46;edu&#46;rs">mika<span>&#46;</span>petljanovic<span>&#64;</span>vigimnazija<span>&#46;</span>edu<span>&#46;</span>rs</a> би била адреса на домену школе. Ово су четири потпуно различите адресе. У сваком од ових случајева, пошиљка стиже на сервер конкретног мејл-сервиса, а корисник може да приступи сервису и уносећи своје корисничко име и лозинку може да приступи пошти у свом „поштанском сандучету” (енгл. inbox). Такав приступ се још зове „вебмејл”, јер се електронској пошти приступа путем веба (о којем говоримо у следећем пасусу). Постоји могућност да се на рачунар инсталира програм који се синхронизује када је рачунар повезан на интернет  тако да је могуће касније прегледање поште и када је веза прекинута. Ово је погодно ако немамо сталан приступ интернету.
+И овде једна језичка напомена: у српском језику, без обзира да ли је текст писан ћирилицом или латиницом, пише се имејл а не емаил. Знак „&#64;” који улази у састав сваке имејл адресе раздваја корисничко име од домена и чита се „ет”, од енглеске речи „at” што значи „при”, „на”. Зове се још и „мајмунче” или „манки” (од енглеског назива тог симбола monkey).</p>
+<p><strong>Веб, енгл. WWW - World Wide Web</strong>, што би се могло превести као „широм света разапета мрежа” - данас најраспрострањенији сервис, који преставља мрежу садржаја (заправо веб-страница)  на интернету, међусобно повезаних везама - линковима. Он обједињује многе, доскора различите сервисе - и хипертекстуалне документе и електронску пошту и пренос података, али и телефонирање путем интернета, електронско плаћање и много тога још.</p>
+
+    <div data-component="reveal" id="hipertekst"   data-showtitle="Шта је хипертекстуални документ?" data-hidetitle="Сакриј прозор">
+    
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p>Можда овај израз видиш први пут, али сасвим сигурно да хипертекстуалне документе користиш, чак и проучавајући ове лекције. То је текст у којем се налазе хиперлинкови, линкови или хипервезе, баш <a class="reference external" href="https://sr.wikipedia.org/sr-ec/%D0%A5%D0%B8%D0%BF%D0%B5%D1%80%D0%B2%D0%B5%D0%B7%D0%B0">овако</a>.  -то су речи (обично обојене плаво и подвучене, али могу да изгледају и другачије) и текстови који, када се на њих кликне мишем, воде на неку другу веб страницу или други део исте странице.</p>
+
+    </p></div></div>
+
+    </div>
+    <p>Хајде сада да детаљније упознамо два већ поменута сервиса која сигурно користиш, али вероватно не знаш све могућности, а можда нешто од тога и не користиш на сасвим исправан начин.</p>
+<div class="section" id="id3">
+<h2>Прегледање веба<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>Веб је сервис путем којег ти управо сада проучаваш овај курс. За приступ веб садржајима и њихово прегледање потребно је да покренеш програм „веб прегледач” (веб браузер, енгл. web browser). Најчешће коришћени веб-прегледачи су:
+Гугл кроум (Google Chrome), Мајкрософт еџ (Microsoft Edge), Мозила фајерфокс (Mozzila Firefox),  Опера (Opera) и Сафари (Safari).
+Веб садржаји су адресирани помоћу УРЛ адресе (већ смо описали шта је то, подсети се ако се не сећаш лекције са претходног часа). Садржај веб странице може да буде текст, хиперлинк, слика, видео, звук.</p>
+<a class="reference internal image-reference" href="../_images/3_veb_stranica.png"><img alt="../_images/3_veb_stranica.png" class="align-center" src="../_images/3_veb_stranica.png" style="width: 900px;" /></a>
+<p>Слика: Прегледање веб странице</p>
+<p>На страницама постоје хиперлинкови, као што смо већ напоменули, то су места која воде до других веб-страница.</p>
+<p>Кликом на хиперлинк (често се каже и скраћено, линк) отвара се страница ка којој он води. У зависности од тога како је креирана изворна страница, она друга ће се отворити уместо ње у истој картици истог прозора или у другој картици или прозору.  Десним кликом на линк отвара се мени који нам нуди додатне могућности:</p>
+<ul class="simple">
+<li><p>отворити линк у новој картици,</p></li>
+<li><p>отворити линк у другом прозору,</p></li>
+<li><p>отворити линк у прозору без архивирања (за безбедно коришћење на јавним или туђим рачунарима),</p></li>
+<li><p>у случају да је исти корисник пријављен на још неком уређају, појавиће се и опција за слање линка на други уређај</p></li>
+<li><p>чување странице на свом рачунару,</p></li>
+<li><p>копирање адресе ка којој води линк,</p></li>
+<li><p>преглед изворног HTML кода.</p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/3_desni_klik.png"><img alt="../_images/3_desni_klik.png" class="align-center" src="../_images/3_desni_klik.png" style="width: 500px;" /></a>
+<p>Слика: Мени који се добија десним кликом на хиперлинк</p>
+<p>Кликом на хиперлинк (често се каже и скраћено, линк) отвара се страница ка којој он води. У зависности од тога како је креирана изворна страница, она друга ће се отворити уместо ње у истој картици истог прозора или у другој картици или прозору.  Десним кликом на линк отвара се мени који нам нуди додатне могућности:</p>
+<ul class="simple">
+<li><p>отворити слику у новој картици,</p></li>
+<li><p>чување слике на рачунару,</p></li>
+<li><p>копирање слике у „клипборд” (да би се „налепила” унутар неког документа),</p></li>
+<li><p>копирање адресе слике,</p></li>
+<li><p>претраживање веба према слици,</p></li>
+<li><p>блокирање (уколико је инсталиран блокер непожељних садржаја),</p></li>
+<li><p>преглед изворног HTML кода.</p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/3_desni_klik_na_sliku.png"><img alt="../_images/3_desni_klik_na_sliku.png" class="align-center" src="../_images/3_desni_klik_na_sliku.png" style="width: 500px;" /></a>
+<p>Слика: Мени који се добија десним кликом на слику</p>
+</div>
+<div class="section" id="id4">
+<h2>Претраживање веба<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>Врло често људи не знају <strong>разлику између прегледача и претраживача</strong>. Обрати пажњу на то! Да поновимо још једном, прегледач је програм на твом рачунару помоћу којег прегледаш веб-садржаје на одређеној адреси. Претраживач је програм на неком серверу који ти помаже да пронађеш веб-странице чије адресе не знаш.
+Када отвориш, на пример Гугл-претраживач у неком прегледачу то изгледа овако:</p>
+<a class="reference internal image-reference" href="../_images/3_adresa_pretraga.png"><img alt="../_images/3_adresa_pretraga.png" class="align-center" src="../_images/3_adresa_pretraga.png" style="width: 600px;" /></a>
+<p>Слика: поља за адресу и за претрагу</p>
+<p>Ако знаш тачну адресу сајта уносиш је у поље на врху прозора. Ако тражиш сајтове везане за одређени појам, онда то уносиш у поље за претрагу које се налази на средини прозора.</p>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>Није свеједно да ли појам или адресу унесеш у једно или друго поље. Испробај са неколико појмова или адреса веб-сајтова па покушај да откријеш разлику.</p>
+
+    </p></div></div>
+</div>
+<div class="section" id="id5">
+<h2>Напредна претрага<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="../_images/biće_video3.png"><img alt="../_images/biće_video3.png" class="align-center" src="../_images/biće_video3.png" style="width: 400px;" /></a>
+</div>
+<div class="section" id="id6">
+<h2>Претрага по сликама<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p>Осим појма који укуцамо у поље за претрагу, можемо да вршимо претрагу и за задату слику. Видели сте неки леп пејзаж а не знате где се налази, прочитали сте неку вест са сликом која вам делује невероватно па желите да проверите да ли се та слика појављивала и у другом контексту или имате неки трећи разлог због којег желите да пронађете на интернету информације о нечему што имате на слици, изаберите претрагу по слици и поставите слику са свог рачунара или путем линка ако је слика већ на интернету.
+Испробајте ову могућност да видите какве све резултате можете да добијете!</p>
+<a class="reference internal image-reference" href="../_images/biće_slika_ili_video.png"><img alt="../_images/biće_slika_ili_video.png" class="align-center" src="../_images/biće_slika_ili_video.png" style="width: 400px;" /></a>
+</div>
+<div class="section" id="id7">
+<h2>Како раде претраживачи?<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p>Кад укуцаш у претраживач неки појам, он не претражује у том моменту све странице на вебу да би проверио где се тај појам појављује. Таква претрага би трајала недељама. Претраживачи на својим серверима имају програме који се називају „пауци” (енгл. spider, crawler) који стално претражују веб. Када наиђу на неки нов сајт, формирају „индекс” - који садржи кључне речи о том сајту (нешто налик картици одређене књиге у библиотечком каталогу, какви се још могу пронаћи у по некој старој библиотеци), а ако су сајт већ раније посетили онда ажурирају његов индекс уколико је било промена од претходне посете. Сви индекси се чувају у бази. Кад корисник укуца неки појам за претрагу, претраживач из те базе приказује индексе по релевантности. Који је сајт релевантнији за који појам биће одређено у зависности од алгоритма конкретног претраживача. Због тога се креатори веб-садржаја често довијају на разне начине како да учине да њихов сајт буде „на врху” претраге, а програмери претраживача често модификују те алгоритме како би претрага била објективна.</p>
+<a class="reference internal image-reference" href="../_images/3_spider.png"><img alt="../_images/3_spider.png" class="align-center" src="../_images/3_spider.png" style="width: 600px;" /></a>
+<p>Релевантност веб странице, односно вредност додељена веб страници као мера њене популарности или важности, која се користи за одређивање редоследа којим ће бити приказана резултатима претраживача назива се енглеским термином <strong>page rank</strong> (пејџ ренк, ранг странице).</p>
+<p>Код претраге довољно је да укуцамо једну или пар кључних речи, а можемо да користимо и алате за напредну претрагу којом можемо да искључимо појављивање неких речи, да вршимо претрагу према правима коришћења (лиценци, биће о томе касније речи), језику и слично.</p>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>Задатак 1</p>
+<p>Желите да сазнате нешто о животињи „јагуар”. Међутим, при претрази се појављују и сајтови на разним језицима (јер се јагуар исто пише у многим јазицима) а појављују се и сајтови о аутомобилима марке „Јагуар”. Како ћете подесити претрагу?</p>
+<p>Задатак 2</p>
+<p>Потребне су вам информације и формуле за геометријско тело „елипсоид” о којем сте чули из географије. Међутим кад укуцате тај појам, већина резултата се односи на чињеницу да наша планета има облик елипсоида, а вас занима „математичка страна приче”. При томе, владате добро и енглеским и још једним страним језиком. Како ћете подесити претрагу?</p>
+
+    </p></div></div>
+</div>
+<div class="section" id="id8">
+<h2>Веб сервиси<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+<p>Већ смо навели да је „веб” интернет сервис. Шта мислиш, шта би онда могли да буду „веб сервиси”?
+Веб сервиси су разноврсне услуге које се могу добит путем интернета. Из свог досадашњег искуства, знате да имате релативно „обичне” сајтове, који садрже основне информације, на пример ветеринарска амбуланта, зубарска ординација, школски сајт, аутомеханичарски сервис… Такви сајтови најчешће имају неке основне текстове и слике, адресу и мејл адресу или контакт форму. Мало сложенији сајтови имају и блог, галерију слика, везу са страницом на друштвеној мрежи. Међутим, осим оваквих сајтова, много чешће путем веба користимо сајтове на којима постоје разноврсне „услуге” које називамо веб-сервисима. Поменућемо само неке за које верујемо да су ти познати:</p>
+<ul class="simple">
+<li><p>Гугл-мапа  <a class="reference external" href="http://maps.google.com/">maps.google.com</a> -  мапа терена и путева на целој планети (мада није у свим земљама исти „ниво детаља” који се може видети, провери!)</p></li>
+<li><p>Јутјуб  <a class="reference external" href="https://www.youtube.com/">youtube.com</a> - сервис за отпремање и прегледање видео материјала.</p></li>
+<li><p>Електронска трговина, онлајн продавнице - мноштво сајтова на којима је могуће купити и електронски платити робу.</p></li>
+<li><p>Електронско банкарство - данас свака банка има могућност да клијенти онлајн виде стање на рачуну и врше плаћање путем интернета.</p></li>
+<li><p>Друштвене мреже: <a class="reference external" href="https://www.facebook.com/">facebook.com</a>,  <a class="reference external" href="https://www.instagram.com/">instagram.com</a>, <a class="reference external" href="https://twitter.com/">twitter.com</a> и многе друге - сервиси путем којих људи остварују контакте и размењују слике, поруке… Сервиси за својеврсно „дружење” преко интернета.</p></li>
+<li><p>Платформе за учење на даљину путем интернета (енгл. e-learning) - овај net.kabinet, сајтови засновани на различитом софтверу и сервисима Google Classroom, Moodle…</p></li>
+<li><p>Онлајн енциклопедије и библиотеке.</p></li>
+</ul>
+<p>И многи други, подсећања ради погледај у првој лекцији списак области развоја информационог друштва у Србији - то је управо списак веб-сервиса који се развијају код нас.</p>
+</div>
+<div class="section" id="id9">
+<h2>Преузимање садржаја са веба<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h2>
+<p>Претрага и прегледање веба врло често се завршава тако што пронађени садржај желимо да сачувамо да би нам био „при руци” кад нам затреба. Можеш само да ископираш део текста или слику у постојећи документ на твом рачунару или да преузмеш целу веб страницу. Осим тога, на вебу често постоје датотеке (фајлови) који су постављени да би се преузели комплетно. Кликом на линк за преузимање (енгл. download) документ ће бити преузет. Обрати пажњу при преузимању да ли је у питању безбедан извор, преузимање са непоузданих сајтова неретко се заврши тиме што се преузме неки малициозни софтвер који вам може направити штету (о малициозном софтверу и заштити биће речи касније).
+овде видео како се копирају текст, слика, цела веб страница и како се преузима фајл путем линка или преузиманјем отвореног документа</p>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>Преузми са ових страница „Петничке онлајн ресурсе” и дело „Доротеј”</p>
+<p><a class="reference external" href="http://petnica.rs/petnicki-online-resursi/">http://petnica.rs/petnicki-online-resursi/</a></p>
+<p><a class="reference external" href="http://www.antologijasrpskeknjizevnosti.rs/ASK_SR_AzbucnikDela.aspx">http://www.antologijasrpskeknjizevnosti.rs/ASK_SR_AzbucnikDela.aspx</a></p>
+
+    </p></div></div>
+</div>
+</div>
+
+
+  
+      <div class="col-md-12">
+<ul class="pager">
+    <li id="relations-prev" title='Previous chapter - Садржај лекције 3' data-toggle="tooltip"><a href="uvod_lekcija_3.html"><i class="fas fa-arrow-left"></i></a></li>
+    
+        <li id="relations-next" title='Next chapter - Начини и правила комуникације и лепог понашања на интернету' data-toggle="tooltip"><a href="komunikacija_na_internetu_lekcija_3.html"><i class="fas fa-arrow-right"></i></a></li>
+</ul>
+
+<!-- <ul class="pager"> -->
+    <!-- -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Садржај лекције 3' data-toggle="tooltip"><a href="uvod_lekcija_3.html">Претходно поглавље</a></li> -->
+    <!--  -->
+    <!-- -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Начини и правила комуникације и лепог понашања на интернету' data-toggle="tooltip"><a href="komunikacija_na_internetu_lekcija_3.html">Следеће поглавље</a></li> -->
+    <!-- -->
+<!-- </ul> -->
+
+<script type="text/javascript">
+
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+
+</script>
+</div>
+  
+</div>
+<footer class="footer col-md-12">
+    <div class="container">
+        <div class="text-center">
+            <hr>
+            <p class="text-muted">
+                <span class="pull-left">&copy; 2019 Petlja (Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>)</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32029811-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+  </body>
+</html>

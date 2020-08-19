@@ -1,0 +1,8 @@
+======
+Тема 1
+======
+
+.. toctree:: 
+    :maxdepth: 1
+
+    tekst_tema_1.rst

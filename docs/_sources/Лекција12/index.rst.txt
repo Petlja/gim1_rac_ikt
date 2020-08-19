@@ -1,10 +1,11 @@
-==========
-Лекција_12
-==========
+======================================
+12 Архивирање, слање, чување, заштита.
+======================================
 
 .. toctree:: 
     :maxdepth: 1
 
     uvod_lekcija_12.rst
-    tekst_lekcija_12.rst
+    arhiviranje_slanje_lekcija_12.rst
+    zastita_lekcija_12.rst
     zkviz_12.rst

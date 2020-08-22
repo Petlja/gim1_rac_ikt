@@ -1,10 +1,11 @@
-=========
-Лекција_5
-=========
+============
+5 Развој ИКТ
+============
 
 .. toctree:: 
     :maxdepth: 1
 
     uvod_lekcija_5.rst
-    razvoj_lekcija_5.rst
+    istorijski_razvoj_lekcija_5.rst
+    generacije_elektronskih_lekcija_5.rst
     zkviz_5.rst

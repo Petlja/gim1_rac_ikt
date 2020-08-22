@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Хардвер &#8212; 1_razred_IKT_DigitalnaPismenost</title>
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/clike.js"></script>
+    <script type="text/javascript" src="../_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/mchoice.js"></script>
+    <script type="text/javascript" src="../_static/timedmc.js"></script>
+    <script type="text/javascript" src="../_static/timed.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/clickable.js"></script>
+    <script type="text/javascript" src="../_static/timedclickable.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/datafile.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop.js"></script>
+    <script type="text/javascript" src="../_static/timeddnd.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/fitb.js"></script>
+    <script type="text/javascript" src="../_static/timedfitb.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/matrixeq.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/timedparsons.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script type="text/javascript" src="../_static/reveal.js"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/showEval.js"></script>
+    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="../_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="../_static/webglinteractive.js"></script>
+    <script type="text/javascript" src="../_static/FileSaver.min.js"></script>
+    <script type="text/javascript" src="../_static/Blob.js"></script>
+    <script type="text/javascript" src="../_static/karelCorner.js"></script>
+    <script type="text/javascript" src="../_static/karelRobot.js"></script>
+    <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="../_static/karelUI.js"></script>
+    <script type="text/javascript" src="../_static/karel.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/notes.js"></script>
+    <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
+    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Квиз 8" href="zkviz_8.html" />
+    <link rel="prev" title="Садржај лекције 8" href="uvod_lekcija_8.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+
+<script type="text/javascript">
+  eBookConfig = {};
+  eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+  eBookConfig.app = eBookConfig.host+'/runestone';
+  eBookConfig.ajaxURL = eBookConfig.app+'/ajax/';
+  eBookConfig.course = '1_razred_IKT_DigitalnaPismenost';
+  eBookConfig.logLevel = 0;
+  eBookConfig.loginRequired = false;
+  eBookConfig.build_info = "";
+  eBookConfig.isLoggedIn = false;
+  eBookConfig.useRunestoneServices = false;
+  eBookConfig.python3 = true;
+  eBookConfig.basecourse = 'Primer_kurs';
+  eBookConfig.runestone_version = '3.1.1';
+  eBookConfig.imagesDir = '../_images/';
+  eBookConfig.staticDir = '../_static/';
+  if(typeof(Sk) != "undefined")
+      Sk.imgPath = eBookConfig.imagesDir;
+</script>
+
+<div id="fb-root"></div>
+
+
+
+  </head><body>
+
+
+<!-- Begin navbar -->
+
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <img src="../_static/img/logo.png" style="width:80px; height: 80px;"> 
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 10px; margin-left: 25px;">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../">1_razred_IKT_DigitalnaPismenost</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="margin-left: 50%;margin-top: 5%;font-size: 20px;">
+  
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+    <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../аТекстПре/index.html">Текст пре приступа курсу - не знам где да га ставим</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../аТекстПре/tekst_pre.html">Настава рачунарства и информатике за први разред гимназије</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../аУвод/index.html">Увод</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../аУвод/uvodni_tekst.html">Пар савета пре почетка</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Тема1/index.html">Тема 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Тема1/tekst_tema_1.html">Информационо-комуникационе технологије у савременом друштву</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција1/index.html">1 Информационо-комуникационе технологије</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција1/uvod_lekcija_1.html">Садржај лекције 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција1/IKT_lekcija_1.html">ИКТ у савременом друштву</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција1/zkviz_1.html">Квиз 1</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција2/index.html">2 Рачунарске мреже и интернет</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција2/uvod_lekcija_2.html">Садржај лекције 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција2/mreze_lekcija_2.html">Рачунарске мреже и интернет</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција2/zkviz_2.html">Квиз 2</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција3/index.html">3 Коришћење интернета</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција3/uvod_lekcija_3.html">Садржај лекције 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција3/internet_servisi_lekcija_3.html">Интернет сервиси</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција3/komunikacija_na_internetu_lekcija_3.html">Начини и правила комуникације и лепог понашања на интернету</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција3/zkviz_3.html">Квиз 3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција4/index.html">4 Ауторска права, веродостојност информација, заштита и безбедност</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/uvod_lekcija_4.html">Садржај лекције 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/prava_verodostojnost_lekcija_4.html">Ауторска права и веродостојност информација</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/zastita_bezbednost_lekcija_4.html">Заштита и безбедност на мрежи</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/uticaji_lekcija_4.html">Утицаји ИКТ на здравље и околину</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/sve_boje_lekcija_4.html">Све боје интернета</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција4/zkviz_4.html">Квиз 4</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција5/index.html">5 Развој ИКТ</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција5/uvod_lekcija_5.html">Садржај лекције 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција5/istorijski_razvoj_lekcija_5.html">Историјски развој информационо-комуникационих технологија</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција5/generacije_elektronskih_lekcija_5.html">Генерације електронских рачунара</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција5/zkviz_5.html">Квиз 5</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Тема2/index.html">Тема 2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Тема2/tekst_tema_2.html">Рачунарство</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција6/index.html">6 Принципи рада рачунара</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција6/uvod_lekcija_6.html">Садржај лекције 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција6/kako_rade_računari_lekcija_6.html">Како раде рачунари?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција6/predstavljanje_podataka_lekcija_6.html">Представљање података у рачунару</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција6/zkviz_6.html">Квиз 6</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција7/index.html">7 Представљање бројева и рачунање са различитим основама</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција7/uvod_lekcija_7.html">Садржај лекције 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција7/predstavljanje_racunanje_lekcija_7.html">Представљање бројева и рачунање са различитим основама</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција7/zkviz_7.html">Квиз 7</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">8 Хардверске компоненте рачунарских система</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="uvod_lekcija_8.html">Садржај лекције 8</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Хардвер</a></li>
+<li class="toctree-l2"><a class="reference internal" href="zkviz_8.html">Квиз 8</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција9/index.html">9 Софтверске компоненте рачунарских система</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција9/uvod_lekcija_9.html">Садржај лекције 9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција9/softver_lekcija_9.html">Софтверске компоненте рачунарских система</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција9/zkviz_9.html">Квиз 9</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Тема3/index.html">Тема 3</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Тема3/tekst_tema_3.html">Организација података и прилагођавање радног окружења</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција10/index.html">10 Графички кориснички интерфејс</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција10/uvod_lekcija_10.html">Садржај лекције 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција10/gki_lekcija_10.html">Графички кориснички интерфејс</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција10/zkviz_10.html">Квиз 10</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција11/index.html">11 Рад са документима и системом датотека</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција11/uvod_lekcija_11.html">Садржај лекције 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција11/dokumenti_lekcija_11.html">Рад са документима и системом датотека</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција11/zkviz_11.html">Квиз 11</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Лекција12/index.html">12 Архивирање, слање, чување, заштита.</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција12/uvod_lekcija_12.html">Садржај лекције 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција12/arhiviranje_slanje_lekcija_12.html">Архивирање, слање и чување датотека</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција12/zastita_lekcija_12.html">Средства и методе заштите рачунара и информација</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Лекција12/zkviz_12.html">Квиз 12</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Тема4/index.html">Тема 4</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Тема4/tekst_tema_4.html">Креирање и уређивање дигиталних докумената</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../ЛекцијаХ/index.html">Лекција_Х</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ЛекцијаХ/uvod_lekcija_Х.html">Садржај лекције X</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ЛекцијаХ/tekst_lekcija_Х.html">Наслов</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ЛекцијаХ/zkviz_Х.html">Тест</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Пример_лекција1/index.html">Наслов_1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Пример_лекција1/primer_1.html">Пример пројекта</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Пример_лекција1/Пример pdf фајла.html">Пример pdf фајла</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Пример_лекција1/Пример видеа.html">Пример видеа</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../Пример_лекција1/primer_test_1.html">Квиз уз лекцију 1</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../Пример_лекција2/index.html">Naslov_2</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Пример_лекција2/primer_2.html">Oво је пример друге лекције</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+
+        </div>
+      </div>
+  </div>
+<div class="container col-md-12" id="continue-reading"></div>
+
+<div class="container col-md-10 col-md-offset-2" id="main-content" style="margin-top: 70px;">
+  
+  <div class="section" id="id1">
+<h1>Хардвер<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>Реч „хардвер” ти је сигурно позната. Хардвер је физички део рачунара. То су сва она електронска кола, чипови, каблови, кућишта, екрани и тастатуре…
+Када смо говорили о развоју ИКТ-а поменули смо Фон Нојманов концепт рачунара. Можеш ли да се сетиш како изгледа?
+Нацртаћемо га опет, али мало измењеног, са још неким елементима:</p>
+<a class="reference internal image-reference" href="../_images/8_nojman_koncept.png"><img alt="../_images/8_nojman_koncept.png" class="align-center" src="../_images/8_nojman_koncept.png" style="width: 720px;" /></a>
+<p><strong>Слика: слику урадити поново ћирилично</strong></p>
+<p>У литератури и на интернету ћеш наићи на различите шеме. Потражи их и упореди!</p>
+<p>Да ли уочаваш нешто заједничко за све те шеме? У чему је разлика?</p>
+<p>Можемо да кажемо да су <strong>основне компоненте хардвера</strong> (скоро) сваког рачунара:</p>
+<ul class="simple">
+<li><p>централна јединица,</p></li>
+<li><p>улазне јединице,</p></li>
+<li><p>излазне јединице,</p></li>
+<li><p>спољашње меморије и</p></li>
+<li><p>комуникациони уређаји.</p></li>
+</ul>
+<p>То су делови неопходни за рад дигиталног уређаја. Неки од њих су смештени у кутији - кућишту (процесор, радна меморија, меморија за чување података, матична плоча, графичка и звучна картица), док су други видљиви (монитор, миш, тастатура, звучници). Постоји и велики број додатних уређаја (скенер, штампач, волан, џојстик).</p>
+<p><strong>снимити видео попут овога
+https://youtu.be/4eNTlwnnhss
+rastaviti jedan desktop i pokazati sve bitne hardverske delove</strong></p>
+<p>Један целокупан рачунарски систем може да изгледа овако:</p>
+<a class="reference internal image-reference" href="../_images/8_racunarski_sistem.png"><img alt="../_images/8_racunarski_sistem.png" class="align-center" src="../_images/8_racunarski_sistem.png" style="width: 720px;" /></a>
+<p>Слика: 1-скенер, 2- процесор, 3- радна меморија, 4- картице за проширење, 5- напајање, 6 – оптички диск, 7 – тврди диск, 8 – матична плоча, 9 – звучник, 10 – монитор, 11 – системски програм, 12 –кориснички програм, 13 – тастатура, 14 – миш, 15 – спољни тврди диск, 16 - штампач. Најважнији делови дигиталних уређаја смештени у кућиште. Кућиште је кутија направљена од челика или алуминијума, чија је улога да штити садржај од прашине и температуре, као и од случајног контакта са течношћу.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="id2">
+<h2>Централна јединица<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p><strong>Централна јединица</strong> „десктоп” рачунара састоји се од кућишта у којем се налазе:</p>
+<ul class="simple">
+<li><p>матична плоча (system board, motherboard),</p></li>
+<li><p>контролери,</p></li>
+<li><p>портови,</p></li>
+<li><p>дискете и дискови,</p></li>
+<li><p>графичка картица и</p></li>
+<li><p>извор напајања.</p></li>
+</ul>
+<a class="reference internal image-reference" href="../_images/biće_slika6.png"><img alt="../_images/biće_slika6.png" class="align-center" src="../_images/biće_slika6.png" style="width: 720px;" /></a>
+<p><strong>Слика: ovde slika matične ploče sa označenim važnim delovima</strong></p>
+<p><strong>Матична плоча</strong> је основна компонента сваког рачунара. Централну улогу на њој (и у рачунару уопште) има <strong>процесор</strong>.</p>
+<p>Процесор је уређај у којем се извршавају наредбе корисника и обрађују подаци, прецизиније, у њему се извршавају рачунске и логичке операције, као и инструкције које су задате програмом.</p>
+<p>У свакодневном говору често се процесор назива CPU (енгл. central processing unit). Основне карактеристике сваког процесора су његова брзина и радни такт. Брзина представља број задатка (операција) које процесор може да обради у једној секунди и изражава се у милионима операција  – мипсовима (енгл. MIPS, Million Instruction Per Second) или мфлопсовима (енгл. MFLOPS, Million Floating Point Per Second). Радни такт је „ритам” по коме ради процесор и изражава се у херцима (Hz). У данашњим дигиталним уређајима радни такт процесора изражава се у GHz. Тако да је: 1GHz = 1.000.000.000 операција у секунди. ­</p>
+<p>Операције у процесору извршавају се тако што у процесору специјално електронско коло, сат (енгл. clock) генерише електричне импулсе који пролазе кроз електронска кола.   Учесталост ових импулса је „ритам” по коме ради процесор и назива се радни такт, а изражава се у херцима (Hz). У данашњим дигиталним уређајима радни такт процесора изражава се у GHz, при чему 1GHz = 1.000.000.000 операција у секунди.</p>
+<p>Дужина процесорске речи је број битова који се једновремено преноси и обрађује унутар процесора.</p>
+
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p>Карактеристике процесора су:</p>
+<ul class="simple">
+<li><p>брзина процесора,</p></li>
+<li><p>дужина процесорске речи,</p></li>
+<li><p>радни такт и</p></li>
+<li><p>интерни кеш.</p></li>
+</ul>
+
+    </p></div></div>
+<p>На основној плочи се налазе конектори за прикључивање процесора. Процесор се при раду доста загрева па се на њега монтира додатни вентилатор („кулер”, енгл. cooler) који га хлади.</p>
+<p>Још једна компонента која битно одређује могућности конкретног рачунара је <strong>унутрашња меморија</strong> или <strong>радна меморија</strong> - она се налази такође на матичној плочи.</p>
+<p>Постоји три типа унутрашње меморије:</p>
+<ul class="simple">
+<li><p>кеш,</p></li>
+<li><p>РОМ</p></li>
+<li><p>РАМ.</p></li>
+</ul>
+<p>Капацитет меморије изражава се бројем бајтова, углавном килобајтима и мегабајтима.</p>
+<p><strong>Кеш меморија</strong> је врло брза меморија која се налази у самом процесору и у њој држе подаци који се често користе тако да им процесор приступа много брже него да су у некој другој меморији.</p>
+<p><strong>РОМ</strong> (енгл. ROM, Read Only Memory) је статички део меморије који може само да се чита. Њен садржај се не губи по искључењу рачунара. Користи се за складиштење програма и података који су често потребни, на пример, за инструкције за покретање рачунара при укључивању.</p>
+<p><strong>РАМ</strong> (енгл. RAM, Random Access Memory) је највећи део меморије и у њу се током рада рачунара врши и уписивање и читање. У РАМ су смештени програм и подаци са којима рачунар ради. По искључењу рачунара садржај ове меморије се брише. РАМ меморија није саставни део основне плоче, него се на основној плочи налазе конектори (слотови) на које се она прикључује.</p>
+<p>Још једна врста РАМ меморије је привремена меморија, „бафер”, где подаци „чекају” на обраду или, на пример, ако штампач на може довољно брзо да одштампа податке, они се шаљу у бафер, где чекају у реду за штампу.</p>
+
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p>Радна меморија је уређај који чува податке и програме са којима процесор ради. Она омогућује процесору да брзо приступа потребним подацима и програмима. Када се рачунар искључи, процесор престаје са радом, а из радне меморије све се брише.</p>
+
+    </p></div></div>
+<p>На матичној плочи постоји сет чипова који чине <strong>контролну јединицу</strong>. Она управља целокупним радом рачунара, одређује која је наредба следећа на реду за извршавање, узима је из меморије, интерпретира, и издаје одговарајуће наредбе процесору и контролише њихово извршење.</p>
+<p>Информације међу компонентама размењују се путем <strong>магистрале</strong>, а према намени могу бити:</p>
+<ul class="simple">
+<li><p>магистрала података (енгл.data bus) – комуникација између процесора и меморијских локација,</p></li>
+<li><p>адресна магистрала (енгл.address bus) – преноси адресе на које се уписују или са којих се читају подаци који се обрађују,</p></li>
+<li><p>контролна магистрала (енгл.control bus) – преноси управљачке и контролне сигнале на релацији процесор -  компоненте и обрнуто.</p></li>
+</ul>
+<p>Додатни уређаји прикључују се путем <strong>слотова</strong>. Преко њих се прикључују картице - контролери различитих јединица или саме јединице.</p>
+<p>Периферни уређаји који имају стандардизоване прикључке повезују се са рачунаром путем <strong>портова</strong>. Раније је стандардно постојао велики број различитих врста портова, за тастатуру, миша, штампаче, палице за игру итд. Последњих пар година рачунари углавном имају портове у-ес-бе (енгл. USB, универзални серијски порт за разноврсне уређаје), ха-де-ем-и (енгл. HDMI) за монитор или пројектор, мрежни прикључак ар-џej 45 (engl. РЈ-45) и порт за слушалице и микрофон (енгл. 3.5mm jack).</p>
+<a class="reference internal image-reference" href="../_images/biće_slika6.png"><img alt="../_images/biće_slika6.png" class="align-center" src="../_images/biće_slika6.png" style="width: 720px;" /></a>
+<p><strong>Слика: слика и називи портова - стари и нови</strong></p>
+<p><strong>Графичка картица</strong> је уређај који служи за приказивање слике на екрану дигиталних уређаја. У новијим рачунарима често се уграђује графичка картица која поседује свој процесор. За такве графичке картице се користи енглеска скраћеница GPU (енгл. graphic processing unit), и своју радну меморију. ­</p>
+<p>Погледај још једном прву лекцију ове теме, део о представљању слике у рачунару и растерској графици, то ће ти помоћи да разумеш шта графичка картица заправо ради. Да се при генерисању слике не би додатно заузимала меморија рачунара, графичка картица има сопствену меморију. Што је већа резолуција екрана (број пиксела) и број боја које се користе, потребно је више ове „графичке„ меморије да би се слика довољно брзо генерисала.</p>
+<p><strong>Звучна картица</strong> је уређај који служи да дигиталне податке претвори у аналогне (континуалне) сигнале који се у звучницима трансформишу у звук.</p>
+<p>Све компоненте у рачунару раде на једносмерну струју од 5,5V и 12V. Да ли знаш каква је струја која долази до рачунара из зидне утичнице?</p>
+
+    <div data-component="reveal" id="struja"   data-showtitle="Помоћ" data-hidetitle="Сакриј прозор">
+    
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p>Ако је твој одговор није био:  „Наизменична струја, 220V„, преслишај се лекција физике из основне школе у вези са електричном струјом, или поразговарај са старијим укућанима. Јако је важно да разликујеш појмове везане за врсту струје и напон, због своје безбедности и због одржавања  исправности уређаја које користиш.</p>
+
+    </p></div></div>
+
+    </div>
+    <p>Наизменична струја се трансформише у једносмерну одговарајуће јачине у јединици која се зове <strong>извор напајања</strong>. Ова јединица треба да има довољан број прикључака и снагу за снабдевање свих компоненти унутар рачунара.</p>
+
+    <div class="course-box course-box-info">
+        <div class="course-content">
+            <p>
+<p>Ра резимирамо, матична плоча је основа дигиталног уређаја. Све компоненте: графичка и звучна картица, хард диск, процесораи РАМ меморија се прикључују на њу чиме су они повезани у складну целину. На матичној плочи неки елементи омогућују прикључење осталих елемената и то су разни конектори, портови, слотови и џампери, итд.</p>
+
+    </p></div></div>
+<p>Вратимо се шеми са почетка лекције. Централној јединици са шеме одговарају управо описане функционалности процесора, унутрашње меморије и контролне јединице. Стрелицама на шеми одговарају магистрале, слотови и портови.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>Улазне јединице<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>Улазне јединице (улазни уређаји) омогућују унос података из „спољашњег света” у рачунар (тастатура, миш, микрофон, камера, фотоапарат, тачпед, џојстик, графичка табла, скенер, разни сензори итд.).</p>
+<p>Тастатура је основни уређај за уношење података у рачунар. Тастери су груписани по својој функцији: алфанумерички, нумерички, тастери за померање курсора, функционални и контролни тастери (Esc, Ctrl, Shift, Tab). Неке тастатуре имају и специфичне тастере карактеристичне за конкретан оперативни систем. Зависно од модела тастатуре имају од 80 па до преко 100 тастера. Детаљније ћемо се бавити тастатуром у теми посвећеној обради текста.</p>
+<p>Миш је уређај чије кретање по подлози прати показивач на екрану, а тастерима миша задају се команде. Са доње стране се налази сензор за детектовање померања по подлози, а са горње стране се налазе командни тастери.</p>
+<p>Улазне величине као што су  звук, слика, покрет, температура, уносе се помоћу микрофона, камере, скенера и разних сензора. Ове физичке величине се конвертују у податке који се даље обрађују и складиште у рачунару.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>Излазне јединице<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>Излазне јединице (излазни уређаји) служе да се подаци из рачунара прикажу у облику разумљивом човеку. То су данас монитори, штампачи, 3-де штампачи, звучници, плотери, „наочаре” за виртуелну реалност.</p>
+<p>Без обзира да ли говоримо о <strong>монитору</strong> као самосталном уређају или <strong>екрану</strong> као делу неког уређаја - лапотпа, таблета, телефона, то је компонента која приказује слику.</p>
+<p>Можда сте негде видели старији тип монитора, који попут старих телевизора приказују слику путем катодне цеви (енгл. <strong>CRT</strong>, Catode Ray Tube), али они се због тога што су гломазни и емитују штетно зрачење повлаче из употребе. Сада су у употреби такoзвани „равни” или „танки” монитори. Израђују се у три различите технологије: <strong>LCD</strong> (Liquid Crystal Display), монитори се течним кристалом <strong>LED</strong> (Light Emitting Diode) и <strong>GPD</strong> (Gas Plasma Display).
+Слика на мониторима се састоји из тачака, пиксела, чија боја зависи од интензитета три светлосне компоненте: црвене, зелене и плаве. (Погледај поново део лекције у којем смо говорили о начину представљања слике у рачунару).
+<strong>Резолуција</strong> екрана обично се изражава у броју тачака (пиксела) по ширини и дужини, на пример 800х600, 1024х768, 1920х1080 и сл.
+Ако приђеш довољно близу монитору, ове тачке (нарочито код јако великих екрана) можеш видети и голим оком или уз помоћ лупе.
+Осим резолуције важне карактеристике монитора су и његова величина и број боја које може да прикаже. Она се означава дужином дијагонале (опет најчешће израженој у инчима  14’’, 17’’, 19’’, 21’’, 27’’, 34’’.. ) као и размером, односно односом ширине и дужине екрана на на пример 4:3, 16:9 итд.</p>
+<p>Штампачи, првенствено намењени за приказ излазних података на папиру, мада постоје и штампачи који се могу користити за штампу на текстилу, керамици, па чак и у прехрамбене сврхе.
+Израђују се у некој од три технологије: матрични, ласерски и штампачи са млазницама (инк-џет).</p>
+<p>За коришћење штампача важно је да знаш у којој технологији ради јер од тога зависи и врста папира коју смеш да користиш, као и начин замене тонера (мастила којим штампач оставља траг на папиру).</p>
+<p><strong>Матрични штампачи</strong> имају главу састављену од игала које ударају у папир преко траке натопљене мастилом и тако остављају траг. Овакви штампачи углавном штампају само једном бојом.</p>
+<a class="reference internal image-reference" href="../_images/biće_slika6.png"><img alt="../_images/biće_slika6.png" class="align-center" src="../_images/biće_slika6.png" style="width: 720px;" /></a>
+<p><strong>Слика: slika matrice</strong></p>
+<p><strong>Ласерски штампачи</strong> раде слично фотокопир-машинама, имају тонер у праху који се захваљујући статичком електрицитету „лепи” за папир, па се онда врелим ваљком учврсти. Овако штампачи се израђују у две варијанте: они који штампају само црном бојом и они који штампају у боји. Папир који се користи у оваквим штампачима мора да буде термостабилан - да може да подноси високу температуру ваљка иначе ће се залепити за њега и штампач ће морати на поправку. Ако из неког разлога ваљак који учвршћује боју не ради, и из штампача изађе папир са прахом који отпада или је касета са тонером неисправна па се прах просипа, немојте га дирати руком или случајно удахнути јер је штетан по здравље. Ласерске штампаче карактерише добар квалитет слике и велика брзина штампања.</p>
+<a class="reference internal image-reference" href="../_images/biće_slika6.png"><img alt="../_images/biće_slika6.png" class="align-center" src="../_images/biće_slika6.png" style="width: 720px;" /></a>
+<p><strong>Слика: слика механизма са ваљцима</strong></p>
+<p><strong>Штампачи са млазницама (инк-џет штампачи)</strong> имају течно мастило и штампају тако што главе за штампање распрскавају ситне капљице мастила. Ови штампачи се најчешће праве за штампу у боји. Ови штампачи су нешто спорији али дају квалитетне слике и знатно су јефтинији од ласерских штампача у боји.</p>
+<a class="reference internal image-reference" href="../_images/biće_slika6.png"><img alt="../_images/biće_slika6.png" class="align-center" src="../_images/biće_slika6.png" style="width: 720px;" /></a>
+<p><strong>Слика: слика механизма инкџет</strong></p>
+<p><strong>3-де штампач (енгл. 3D printer)</strong> је излазни уређај који формира тродимензионалне објекте тако што глава топи пластику и истискује је пратећи програмске инструкције тако да формира тродимензионални објекат. Постоје и варијанте већих размера које се користе у грађевинарству - уместо пластике истискују цементну смешу и тиме граде зидове грађевина.</p>
+<a class="reference internal image-reference" href="../_images/biće_slika6.png"><img alt="../_images/biće_slika6.png" class="align-center" src="../_images/biće_slika6.png" style="width: 720px;" /></a>
+<p><strong>Слика: слика 3д штампач</strong></p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="id5">
+<h2>Улазно-излазне јединице<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p><strong>Екран осетљив на додир</strong>, какав се користи за „паметне” телефоне, таблете и неке рачунаре, је истовремено и улазни и излазни уређај. Израђују се у различитим технологијама, а рад са њима заснива се на томе да могу да детектују додир и изврше радњу налик ситуацији када се на рачунару постави курсор миша на одређено место и кликне на тастер.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="id6">
+<h2>Спољашње меморије<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
+<p>Већ смо описали унутрашњу меморију рачунара и нагласили да  она чува податке само док је под напоном. Када се рачунар искључи њен садржај се брише. Да би рачунар морао да ради потребно је да се подаци чувају на неком трајном медијум, који памти податке и кад се искључи рачунар и таква меморија се зове „спољашња меморија”.</p>
+<p>Иако се у пракси користи израз <strong>хард диск</strong> (чврсти диск, тврди диск) постоје два типа основне спољне меорије: <strong>хард диск</strong> (енгл. <strong>HDD</strong>, Hard Disc Drive) и <strong>полупроводнички „диск”</strong> (енгл. <strong>SSD</strong>, Solid State Drive).  HDD се састоји од магнетних дискова који се окрећу и главе која врши упис и читање, дакле има механичке делове. SSD нема механичке делове (дакле, нема „диск”), већ се састоји од полупроводничких интегрисаних кола. Раније су се користили искључиво HDD, а последњих неколико година сер све масовније користе SSD.</p>
+<a class="reference internal image-reference" href="../_images/8_hdd_ssd.png"><img alt="../_images/8_hdd_ssd.png" class="align-center" src="../_images/8_hdd_ssd.png" style="width: 550px;" /></a>
+<p>Због наведених карактеристика, SSD се обично користи за системски диск, а HDD за складиштење велике количине података.</p>
+<p>Хард диск се може сместити у кућиште које се каблом повезује са рачунаром и у том случају, назива се <strong>екстерни хард диск</strong>.</p>
+<p>Спољашња меморија је и <strong>флеш-меморија</strong>. Често се каже и у-ес-бе флеш меморија, енгл. USB flash, због назива порта путем којег се прикључује на рачунар.</p>
+<p>Све ређе се користи, али на старијим рачунарима се може видети и оптички медијум <strong>компакт-диск (енгл. CD)</strong>. До пре неколико година су се користили и магнетни медијуми - дискете од којих је данас остао само симбол - изглед иконице за снимање датотека.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="id7">
+<h2>Комуникационе јединице<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p>Периферни уређаји у рачунару који служе за повезивање рачунара у мрежу и комуникацију са другим рачунаром су <strong>мрежна картица</strong> (за „жичану” мрежу), <strong>бежична мрежна карта</strong> (вајфај, енгл. WiFi), <strong>блутут</strong> (енгл. Bluetooth), <strong>3g/4g модем</strong> (за конекцију са мрежом мобилне телефоније).</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>Врати се сада на лекцију Рачунарске мреже и интернет и у њој прочитај поново део Прикључење на интернет. Који се појмови појављују и тамо и у претходном пасусу? У ком својству се спомињу у свакој од ове две лекције? Покушај да објасниш везу између ова два аспекта и да је представиш цртежом.</p>
+
+    </p></div></div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>На  слици су бројевима од 1 до 5 означени делови дигиталних уређаја. На основу ње реши слагалицу која следи.</p>
+<a class="reference internal image-reference" href="../_images/8_L2S18.png"><img alt="../_images/8_L2S18.png" class="align-center" src="../_images/8_L2S18.png" style="width: 700px;" /></a>
+
+    </p></div></div>
+
+<div class="course-box course-box-problem course-content">
+<ul data-component="dragndrop" id="harlek1">
+    <span data-component="question">Q-35: Споји одговарајуће појмове са бројевима од 1 до 5.</span>
+	<span data-component=feedback>Tвој одговор није тачан. Покушај поново!</span>
+
+    <li data-component="draggable" id="harlek1_drag1">Графичка картица</li>
+    <li data-component="dropzone" for="harlek1_drag1">1</li>
+
+    <li data-component="draggable" id="harlek1_drag2">Хард диск</li>
+    <li data-component="dropzone" for="harlek1_drag2">2</li>
+
+    <li data-component="draggable" id="harlek1_drag3">Матична плоча</li>
+    <li data-component="dropzone" for="harlek1_drag3">3</li>
+
+    <li data-component="draggable" id="harlek1_drag4">Процесор</li>
+    <li data-component="dropzone" for="harlek1_drag4">4</li>
+
+    <li data-component="draggable" id="harlek1_drag5">РАМ</li>
+    <li data-component="dropzone" for="harlek1_drag5">5</li>
+</ul></div>
+    <div class="course-box course-box-special">
+        <div class="course-content">
+            <h4 class="carbox-title">
+                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
+            </h4>
+            <p>
+<p>На  слици су бројевима од 1 до 8 означени делови рачунарског система. На основу ње реши слагалицу која следи.</p>
+<a class="reference internal image-reference" href="../_images/8_L2S17.png"><img alt="../_images/8_L2S17.png" class="align-center" src="../_images/8_L2S17.png" style="width: 700px;" /></a>
+
+    </p></div></div>
+
+<div class="course-box course-box-problem course-content">
+<ul data-component="dragndrop" id="harlek2">
+    <span data-component="question">Q-36: Споји одговарајуће појмове са бројевима од 1 до 8.</span>
+	<span data-component=feedback>Tвој одговор није тачан. Покушај поново!</span>
+
+    <li data-component="draggable" id="harlek2_drag1">Монитор</li>
+    <li data-component="dropzone" for="harlek2_drag1">1</li>
+
+    <li data-component="draggable" id="harlek2_drag2">Миш</li>
+    <li data-component="dropzone" for="harlek2_drag2">2</li>
+
+    <li data-component="draggable" id="harlek2_drag3">Лаптоп рачунар</li>
+    <li data-component="dropzone" for="harlek2_drag3">3</li>
+
+    <li data-component="draggable" id="harlek2_drag4">Штампач</li>
+    <li data-component="dropzone" for="harlek2_drag4">4</li>
+
+    <li data-component="draggable" id="harlek2_drag5">Тастатура</li>
+    <li data-component="dropzone" for="harlek2_drag5">5</li>
+
+    <li data-component="draggable" id="harlek2_drag6">Кућиште</li>
+    <li data-component="dropzone" for="harlek2_drag6">6</li>
+
+    <li data-component="draggable" id="harlek2_drag7">Веб-камера</li>
+    <li data-component="dropzone" for="harlek2_drag7">7</li>
+
+    <li data-component="draggable" id="harlek2_drag8">Звучници</li>
+    <li data-component="dropzone" for="harlek2_drag8">8</li>
+</ul></div><p><strong>за вежбање прилагодити питања из мог квизлета
+https://quizlet.com/_5fii97
+за сваки појам дугме које кад се отвори прикаже слику и опис</strong></p>
+</div>
+</div>
+
+
+  
+      <div class="col-md-12">
+<ul class="pager">
+    <li id="relations-prev" title='Previous chapter - Садржај лекције 8' data-toggle="tooltip"><a href="uvod_lekcija_8.html"><i class="fas fa-arrow-left"></i></a></li>
+    
+        <li id="relations-next" title='Next chapter - Квиз 8' data-toggle="tooltip"><a href="zkviz_8.html"><i class="fas fa-arrow-right"></i></a></li>
+</ul>
+
+<!-- <ul class="pager"> -->
+    <!-- -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Садржај лекције 8' data-toggle="tooltip"><a href="uvod_lekcija_8.html">Претходно поглавље</a></li> -->
+    <!--  -->
+    <!-- -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Квиз 8' data-toggle="tooltip"><a href="zkviz_8.html">Следеће поглавље</a></li> -->
+    <!-- -->
+<!-- </ul> -->
+
+<script type="text/javascript">
+
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+
+</script>
+</div>
+  
+</div>
+<footer class="footer col-md-12">
+    <div class="container">
+        <div class="text-center">
+            <hr>
+            <p class="text-muted">
+                <span class="pull-left">&copy; 2019 Petlja (Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>)</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32029811-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+  </body>
+</html>

@@ -1,10 +1,13 @@
-=========
-Лекција 4
-=========
+==================================================================
+4 Ауторска права, веродостојност информација, заштита и безбедност
+==================================================================
 
 .. toctree:: 
     :maxdepth: 1
 
     uvod_lekcija_4.rst
-    prava_bezbednost_lekcija_4.rst
+    prava_verodostojnost_lekcija_4.rst
+    zastita_bezbednost_lekcija_4.rst
+    uticaji_lekcija_4.rst
+    sve_boje_lekcija_4.rst
     zkviz_4.rst

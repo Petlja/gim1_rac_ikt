@@ -17,7 +17,7 @@
 
 
 
-.. image:: ../../_images/5_fon_nojman_koncept.png
+.. image:: ../../_images/5_fon_nojman.png
    :width: 500px   
    :align: center
 

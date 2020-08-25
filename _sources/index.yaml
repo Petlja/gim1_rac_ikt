@@ -385,10 +385,10 @@ lessons:
         file: zkviz_w1.rst
         description: ...
         guid: 1776c676-25d8-47cf-8e3b-fab71fa9ee3f     
-  - title: 4.2 Посебни елементи у тексту
+  - title: 4.2 Форматирање параграфа
     folder: ЛекцијаW2
     guid: 50e119a1-c326-41d5-8ab9-420a82bda921
-    description: Посебни елементи у тексту
+    description: Форматирање параграфа
     activities:
       - type: reading
         title: Садржај лекције 4.2
@@ -396,7 +396,7 @@ lessons:
         description: # opciono
         guid: b928157d-0787-4ec6-9d6e-a241d0cf6a60
       - type: reading
-        title: Посебни елементи у тексту
+        title: Форматирање параграфа
         file: tekst_lekcija_w2.rst
         description: #opciono
         guid: 5bc538cb-bf9c-4791-ab8a-f9a68bc60b5f
@@ -405,10 +405,10 @@ lessons:
         file: zkviz_w2.rst
         description: ...
         guid: 2dc1e8e3-366b-4900-925f-563c25ef195f     
-  - title: 4.3 Логичка структура текстуалног документа
+  - title: 4.3 Посебни елементи у тексту
     folder: ЛекцијаW3
     guid: 4aae80a6-b99c-4986-8f31-87526f087925
-    description: Логичка структура текстуалног документа
+    description:  Посебни елементи у тексту
     activities:
       - type: reading
         title: Садржај лекције 4.3
@@ -416,7 +416,7 @@ lessons:
         description: # opciono
         guid: d6da9563-f16c-4ecf-8bc8-fcd15bde8fe4
       - type: reading
-        title: Логичка структура текстуалног документа
+        title:  Посебни елементи у тексту
         file: tekst_lekcija_w3.rst
         description: #opciono
         guid: f52ddab5-1a0f-4233-a1ca-b79ddbbf3c79
@@ -425,10 +425,10 @@ lessons:
         file: zkviz_w3.rst
         description: ...
         guid: 1f226e1d-4f4e-46ec-b554-ecb9827e7594 
-  - title: 4.4 Обнављање
+  - title: 4.4 Логичка структура текстуалног документа
     folder: ЛекцијаW4
     guid: 12ee63be-b3b9-401b-bd6a-96d59b01b9cc
-    description: Обнављање
+    description: Логичка структура текстуалног документа
     activities:
       - type: reading
         title: Садржај лекције 4.4
@@ -436,7 +436,7 @@ lessons:
         description: # opciono
         guid: 0b891901-d5e9-4c69-9864-be7e34b7e1db
       - type: reading
-        title: Обнављање
+        title: Логичка структура текстуалног документа
         file: tekst_lekcija_w4.rst
         description: #opciono
         guid: 42817fae-af70-457d-9ffd-9a580a5c2e43
@@ -445,10 +445,10 @@ lessons:
         file: zkviz_w4.rst
         description: ...
         guid: 1345a5b9-6d28-472a-bf17-cc18e66cc5fa 
-  - title: 4.5 Утврђивање
+  - title: 4.5 Обликовање документа, штампање
     folder: ЛекцијаW5
     guid: e9866c07-672c-431e-a09e-e1278d0dc002
-    description: Утврђивање
+    description: Обликовање документа, штампање
     activities:
       - type: reading
         title: Садржај лекције 4.5
@@ -456,7 +456,7 @@ lessons:
         description: # opciono
         guid: 60b759e3-ee84-47fa-a975-55bf63dd42df
       - type: reading
-        title: Утврђивање
+        title: Обликовање документа, штампање
         file: tekst_lekcija_w5.rst
         description: #opciono
         guid: ebaa1359-d204-4179-ab41-7e0b263d98bc

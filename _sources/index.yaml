@@ -66,7 +66,7 @@ lessons:
     description: ИКТ у савременом друштву
     activities:
       - type: reading
-        title: Увод и лекцију 1.1
+        title: Садржај лекције 1.1
         file: uvod_lekcija_1.rst
         description: # opciono
         guid: 6d18e8cc-0252-4b79-9c5a-1243c7991bfa
@@ -76,7 +76,7 @@ lessons:
         description: # opciono
         guid: da740fcc-c855-45d8-a7ad-8972d9fb70f2
       - type: quiz
-        title: 1.1 Квиз
+        title: Квиз 1.1
         file: zkviz_1.rst
         description: ...
         guid: 6d812450-9512-4f42-90d3-196f59f729d0
@@ -86,7 +86,7 @@ lessons:
     description: О рачунарским мрежама и интернету
     activities:
       - type: reading
-        title: Увод и лекцију 2
+        title: Садржај лекције 1.2
         file: uvod_lekcija_2.rst
         description: # opciono
         guid: 58573f72-0aa0-4e35-916f-c6a2e3c65cc4
@@ -96,7 +96,7 @@ lessons:
         description: #opciono
         guid: c2548baa-8fde-409b-b67f-55db2e5e8395
       - type: quiz
-        title: Квиз 2
+        title: Квиз 1.2
         file: zkviz_2.rst
         description: ...
         guid: 26fc85ba-76a3-4efb-9059-d9a8a04f50d6
@@ -106,7 +106,7 @@ lessons:
     description: Коришћење интернета
     activities:
       - type: reading
-        title: Увод и лекцију 3
+        title: Садржај лекције 1.3
         file: uvod_lekcija_3.rst
         description: # opciono
         guid: c2a89c0b-345d-41ad-9636-e449c8425717
@@ -121,7 +121,7 @@ lessons:
         description: #opciono
         guid: 27a9e1e0-a0b0-4c6a-953b-3290fe71a854
       - type: quiz
-        title: Провери своје знање 3
+        title: Квиз 1.3
         file: zkviz_3.rst
         description: ...
         guid: 69a4141b-ee38-4ba5-8432-18139c271bf5
@@ -131,7 +131,7 @@ lessons:
     description: Права, заштита, безбедност, утицаји...
     activities:
       - type: reading
-        title: Увод и лекцију 4
+        title: Садржај лекције 1.4
         file: uvod_lekcija_4.rst
         description: # opciono
         guid: e276fc55-640f-49b1-a508-d723839d7be7
@@ -156,7 +156,7 @@ lessons:
         description: #opciono
         guid: 0cb2721a-0611-415e-bb5c-b1148463e979
       - type: quiz
-        title: Провери своје знање 4
+        title: Квиз 1.4
         file: zkviz_4.rst
         description: ...
         guid: a06a7e71-e223-4019-9b1d-9b373128ec97
@@ -166,7 +166,7 @@ lessons:
     description: Развој ИКТ
     activities:
       - type: reading
-        title: Увод и лекцију 5
+        title: Садржај лекције 1.5
         file: uvod_lekcija_5.rst
         description: # opciono
         guid: ca4afa47-ddd5-4c4c-8a65-001e165b7245
@@ -181,7 +181,7 @@ lessons:
         description: #opciono
         guid: fa934240-e98f-4916-a371-a1180b9f66d5
       - type: quiz
-        title: Пример testa
+        title: Квиз 1.5
         file: zkviz_5.rst
         description: ...
         guid: ca156437-a2f3-42f9-8a6b-eea04c551fc8          
@@ -201,7 +201,7 @@ lessons:
     description: Принципи рада рачунара
     activities:
       - type: reading
-        title: Увод и лекцију 6
+        title: Садржај лекције 2.1
         file: uvod_lekcija_6.rst
         description: # opciono
         guid: 264f642d-7e5d-453d-89f8-b59cd193ddf0
@@ -216,7 +216,7 @@ lessons:
         description: #opciono
         guid: 39579792-f886-44af-b14e-562e1dc135d1
       - type: quiz
-        title: Пример testa
+        title: Квиз 2.1
         file: zkviz_6.rst
         description: ...
         guid: 1537cd77-ec1e-4143-8a0a-851115b399cc       
@@ -226,7 +226,7 @@ lessons:
     description: Представљање бројева и рачунање са различитим основама
     activities:
       - type: reading
-        title: Увод и лекцију 7
+        title: Садржај лекције 2.2
         file: uvod_lekcija_7.rst
         description: # opciono
         guid: 9a15dd17-9ba7-4c69-9c2a-02eb9391ccb7
@@ -236,7 +236,7 @@ lessons:
         description: #opciono
         guid: aa9288f9-7380-43bd-8d8f-3bebe3a2f9fb
       - type: quiz
-        title: Пример testa
+        title: Квиз 2.2
         file: zkviz_7.rst
         description: ...
         guid: 5a3fd35c-48b7-469c-8529-96d8abaa1dc7      
@@ -246,7 +246,7 @@ lessons:
     description: Хардверске компоненте рачунарских система
     activities:
       - type: reading
-        title: Увод и лекцију 8
+        title: Садржај лекције 2.3
         file: uvod_lekcija_8.rst
         description: # opciono
         guid: 01bc36c2-b212-4fe2-aa8f-647558069909
@@ -256,7 +256,7 @@ lessons:
         description: #opciono
         guid: bd8e445e-7671-4b67-8faf-0f665c17fb1e
       - type: quiz
-        title: Пример testa
+        title: Квиз 2.3
         file: zkviz_8.rst
         description: ...
         guid: e5a6d67c-01bd-44fb-ae40-703abbc34f56       
@@ -266,7 +266,7 @@ lessons:
     description: Софтверске компоненте рачунарских система
     activities:
       - type: reading
-        title: Увод и лекцију 9
+        title: Садржај лекције 2.4
         file: uvod_lekcija_9.rst
         description: # opciono
         guid: 08d7cedb-245c-4c8e-bd98-27cafda6cba2
@@ -276,7 +276,7 @@ lessons:
         description: #opciono
         guid: a3a57f05-69a8-4d8a-818e-6c735e167354
       - type: quiz
-        title: Пример testa
+        title: Квиз 2.4
         file: zkviz_9.rst
         description: ...
         guid: 8332a80c-a923-4969-b604-b525184c3f94      
@@ -296,7 +296,7 @@ lessons:
     description: Графички кориснички интерфејс
     activities:
       - type: reading
-        title: Увод и лекцију 10
+        title: Садржај лекције 3.1
         file: uvod_lekcija_10.rst
         description: # opciono
         guid: 0523654a-cd2c-49f9-a272-2199c736018e
@@ -306,7 +306,7 @@ lessons:
         description: #opciono
         guid: e1715b0c-40d4-46df-b619-d8f09753cf90
       - type: quiz
-        title: Пример testa
+        title: Квиз 3.1
         file: zkviz_10.rst
         description: ...
         guid: 133fc124-488a-4d9b-8e7e-756d5aefb7df       
@@ -316,7 +316,7 @@ lessons:
     description: Рад са документима и системом датотека
     activities:
       - type: reading
-        title: Увод и лекцију 11
+        title: Садржај лекције 3.2
         file: uvod_lekcija_11.rst
         description: # opciono
         guid: 780cf9b0-2a76-475d-8d62-941905e93603
@@ -326,7 +326,7 @@ lessons:
         description: #opciono
         guid: 002d4c9f-948c-4e5a-a5ff-2623c740be43
       - type: quiz
-        title: Пример testa
+        title: Квиз 3.2
         file: zkviz_11.rst
         description: ...
         guid: 00fe81a3-f870-444b-afb3-8e1302341398  
@@ -336,7 +336,7 @@ lessons:
     description: Развој ИКТ
     activities:
       - type: reading
-        title: Увод и лекцију 12
+        title: Садржај лекције 3.3
         file: uvod_lekcija_12.rst
         description: # opciono
         guid: 80636c48-cbae-4cb3-8dca-29165f54c774
@@ -351,7 +351,7 @@ lessons:
         description: #opciono
         guid: 9b1c06c7-048d-41a9-9dec-3b2e765e9454
       - type: quiz
-        title: Пример testa
+        title: Квиз 3.3
         file: zkviz_12.rst
         description: ...
         guid: 86a80b73-a74e-4153-9267-925107cf8ede      
@@ -365,13 +365,13 @@ lessons:
         file: tekst_tema_4.rst
         description: # opciono
         guid: f3125c1f-f448-40e9-aa4d-e867a3bda0e8
-  - title: Лекција_W1
+  - title: 4.1 Креирање, уређивање и форматирање дигиталних текстова
     folder: ЛекцијаW1
     guid: 5a4938c8-dec2-4f7c-a8e7-69c4f4c3c587
     description: Х
     activities:
       - type: reading
-        title: Увод и лекцију Х
+        title: Садржај лекције 4.1
         file: uvod_lekcija_Х.rst
         description: # opciono
         guid: 3c77fb05-a5d0-4f34-bb37-01783fa2275c
@@ -380,18 +380,18 @@ lessons:
         file: tekst_lekcija_Х.rst
         description: #opciono
         guid: 4c951c97-4166-4280-a7da-adfdc2e1f595
-      - type: quiz
-        title: Пример testa
+      - type: reading
+        title: Задаци 4.1
         file: zkviz_Х.rst
         description: ...
         guid: 1776c676-25d8-47cf-8e3b-fab71fa9ee3f     
-  - title: Лекција_W2
+  - title: 4.2 Посебни елементи у тексту
     folder: ЛекцијаW2
     guid: 50e119a1-c326-41d5-8ab9-420a82bda921
     description: Х
     activities:
       - type: reading
-        title: Увод и лекцију Х
+        title: Садржај лекције 4.2
         file: uvod_lekcija_Х.rst
         description: # opciono
         guid: b928157d-0787-4ec6-9d6e-a241d0cf6a60
@@ -400,18 +400,18 @@ lessons:
         file: tekst_lekcija_Х.rst
         description: #opciono
         guid: 5bc538cb-bf9c-4791-ab8a-f9a68bc60b5f
-      - type: quiz
-        title: Пример testa
+      - type: reading
+        title: Задаци 4.2
         file: zkviz_Х.rst
         description: ...
         guid: 2dc1e8e3-366b-4900-925f-563c25ef195f     
-  - title: Лекција_W3
+  - title: 4.3	Логичка структура текстуалног документа
     folder: ЛекцијаW3
     guid: 4aae80a6-b99c-4986-8f31-87526f087925
     description: Х
     activities:
       - type: reading
-        title: Увод и лекцију Х
+        title: Садржај лекције 4.3
         file: uvod_lekcija_Х.rst
         description: # opciono
         guid: d6da9563-f16c-4ecf-8bc8-fcd15bde8fe4
@@ -420,18 +420,18 @@ lessons:
         file: tekst_lekcija_Х.rst
         description: #opciono
         guid: f52ddab5-1a0f-4233-a1ca-b79ddbbf3c79
-      - type: quiz
-        title: Пример testa
+      - type: reading
+        title: Задаци 4.3
         file: zkviz_Х.rst
         description: ...
         guid: 1f226e1d-4f4e-46ec-b554-ecb9827e7594 
-  - title: Лекција_W4
+  - title: 4.4	Обнављање
     folder: ЛекцијаW4
     guid: 12ee63be-b3b9-401b-bd6a-96d59b01b9cc
     description: Х
     activities:
       - type: reading
-        title: Увод и лекцију Х
+        title: Садржај лекције 4.4
         file: uvod_lekcija_Х.rst
         description: # opciono
         guid: 0b891901-d5e9-4c69-9864-be7e34b7e1db
@@ -440,18 +440,18 @@ lessons:
         file: tekst_lekcija_Х.rst
         description: #opciono
         guid: 42817fae-af70-457d-9ffd-9a580a5c2e43
-      - type: quiz
-        title: Пример testa
+      - type: reading
+        title: Задаци 4.4
         file: zkviz_Х.rst
         description: ...
         guid: 1345a5b9-6d28-472a-bf17-cc18e66cc5fa 
-  - title: Лекција_W5
+  - title: 5.5	Утврђивање
     folder: ЛекцијаW1
     guid: e9866c07-672c-431e-a09e-e1278d0dc002
     description: Х
     activities:
       - type: reading
-        title: Увод и лекцију Х
+        title: Садржај лекције 5.5
         file: uvod_lekcija_Х.rst
         description: # opciono
         guid: 60b759e3-ee84-47fa-a975-55bf63dd42df
@@ -460,18 +460,18 @@ lessons:
         file: tekst_lekcija_Х.rst
         description: #opciono
         guid: ebaa1359-d204-4179-ab41-7e0b263d98bc
-      - type: quiz
-        title: Пример testa
+      - type: reading
+        title: Задаци 5.5
         file: zkviz_Х.rst
         description: ...
         guid: fd6faaaf-13f7-4922-b1c0-448cadfd6786  
-  - title: Лекција_W6
+  - title: 5.6	Рад у дељеном текстуалном документу
     folder: ЛекцијаW6
     guid: d6294063-ee1c-48cb-9dc6-141efc58927d
     description: Х
     activities:
       - type: reading
-        title: Увод и лекцију Х
+        title: Садржај лекције 5.6
         file: uvod_lekcija_Х.rst
         description: # opciono
         guid: 916d4666-a16c-48fd-b6f5-13d45b37a1a6
@@ -480,18 +480,18 @@ lessons:
         file: tekst_lekcija_Х.rst
         description: #opciono
         guid: ee681b1c-7cf4-4203-8af0-28336afb9b89
-      - type: quiz
-        title: Пример testa
+      - type: reading
+        title: Задаци 5.6
         file: zkviz_Х.rst
         description: ...
         guid: 9a5880db-e453-4d76-a882-554152980ef2
-  - title: Лекција_W7
+  - title: 5.7	Слајд - презентације у дељеном документу
     folder: ЛекцијаW7
     guid: 74f587fa-c85e-4ac8-b850-13859a94170f
     description: Х
     activities:
       - type: reading
-        title: Увод и лекцију Х
+        title: Садржај лекције 5.7
         file: uvod_lekcija_Х.rst
         description: # opciono
         guid: cd432d4b-9261-4ad9-9c49-53448f857579
@@ -500,18 +500,18 @@ lessons:
         file: tekst_lekcija_Х.rst
         description: #opciono
         guid: 1cba964a-7d9d-43e6-80b5-b3ffcdc911ec
-      - type: quiz
-        title: Пример testa
+      - type: reading
+        title: Задаци 5.7
         file: zkviz_Х.rst
         description: ...
         guid: 06eb73fc-561c-4a77-a76a-ba840469993a   
-  - title: Лекција_W8
+  - title: 5.8	Израда слајд презентације у Пауерпоинту
     folder: ЛекцијаW8
     guid: fef69ba1-cea2-4452-8fd5-298d9a1d61c0
     description: Х
     activities:
       - type: reading
-        title: Увод и лекцију Х
+        title: Садржај лекције 5.8
         file: uvod_lekcija_Х.rst
         description: # opciono
         guid: 0aa269f1-59ee-4de3-959f-d6eaeab4337d
@@ -520,18 +520,18 @@ lessons:
         file: tekst_lekcija_Х.rst
         description: #opciono
         guid: d56ff2e5-08bd-45ab-b978-6f0bcae64be5
-      - type: quiz
-        title: Пример testa
+      - type: reading
+        title: Задаци 5.8
         file: zkviz_Х.rst
         description: ...
         guid: 35e8c6de-15d2-4f29-874b-b7b88eb8abc8 
-  - title: Лекција_W9
+  - title: 5.9	Напредне технике израде слајд презентација
     folder: ЛекцијаW9
     guid: 986ed257-ca87-431d-bfe7-7a0a30f244af
     description: Х
     activities:
       - type: reading
-        title: Увод и лекцију Х
+        title: Садржај лекције 5.9
         file: uvod_lekcija_Х.rst
         description: # opciono
         guid: 10675d39-5f9a-46c3-9471-fd30ff740e9d
@@ -540,18 +540,18 @@ lessons:
         file: tekst_lekcija_Х.rst
         description: #opciono
         guid: f71bbd48-f9bd-4895-bf36-96db171ac30b
-      - type: quiz
-        title: Пример testa
+      - type: reading
+        title: Задаци 5.9
         file: zkviz_Х.rst
         description: ...
         guid: 5776a054-e1f2-4feb-80a6-73459a055c56
-  - title: Лекција_W10
+  - title: 5.10	Уређивање текста применом нотација за обележавање
     folder: ЛекцијаW10
     guid: c36cf8cb-d1cb-4075-9027-ef42e4818fa1
     description: Х
     activities:
       - type: reading
-        title: Увод и лекцију Х
+        title: Садржај лекције 5.10	
         file: uvod_lekcija_Х.rst
         description: # opciono
         guid: 029738a1-1763-4aae-80dc-30ddd5f96aed
@@ -560,8 +560,8 @@ lessons:
         file: tekst_lekcija_Х.rst
         description: #opciono
         guid: 7fbc0834-5f96-4fcf-b3fb-8b070a793cfe
-      - type: quiz
-        title: Пример testa
+      - type: reading
+        title: Задаци 5.10	
         file: zkviz_Х.rst
         description: ...
         guid: 76bbed70-d621-4109-9ba9-1dddaaff9621 

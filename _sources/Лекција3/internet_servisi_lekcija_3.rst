@@ -129,7 +129,7 @@
 
 Погледај видео у којем је детаљно објашњен поступак претраживања интернета:
 
-.. ytpopup:: https://youtu.be/Wry89XdTjuI
+.. ytpopup:: Wry89XdTjuI
     :width: 735
     :height: 415
     :align: center     

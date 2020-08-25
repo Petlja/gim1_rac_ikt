@@ -107,12 +107,13 @@
 
 - Ово је пример једног таквог домаћег сајта: `fakenews.rs <https://fakenews.rs/>`_.
 
-- Ово су два инострана сајта са примерима вести које су  „кружиле” и код нас по друштвеним мрежама:
+Ово су два инострана сајта са примерима вести које су  „кружиле” и код нас по друштвеним мрежама:
 
 - О тобожњим капсулама вируса које су бацане из авиона `syyhoaxanalyzer.com <https://www.syyhoaxanalyzer.com/?p=1629&fbclid=IwAR0kb6x0iHRFYl2_gIH6rq-VvUe3X0b9EShCCdzUosp1LB_LE_2ElIuY-sM>`_.
 
 - О такозваним „кемтрељсима” - једној од омиљених тема „теоретичара завере” (поред тврдње да је Земља равна плоча, да од 5Г мреже „падају птице са неба” и да су у вакцинама чипови који нам читају мисли…) `hoax-net.be <https://hoax-net.be/non-lus-army-na-pas-largue-des-capsules-de-covid-19-sur-litalie-la-france-et-le-groenland/>`_.
 
+|
 
 .. reveal:: tz
    :showtitle: Шта је „теорија завере”
@@ -124,6 +125,14 @@
 
                  Ако те интересује да сазнаш више о овом социолошком феномену који је узео маха на интернету, више можеш да прочиташ овде  `О теоријама завере <https://sr.wikipedia.org/sr-el/Teorija_zavere>`_.
 
+
+.. image:: ../../_images/4_zavere.png
+   :width: 720px   
+   :align: center
+
+|
+
+Ако ти је ово занимљива тема, погледај `Водич за борбу против лажних вести <https://issuu.com/novinarska-skola/docs/fake_news_vodic>`_.
 
 |
 

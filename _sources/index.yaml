@@ -368,201 +368,201 @@ lessons:
   - title: 4.1 Креирање, уређивање и форматирање дигиталних текстова
     folder: ЛекцијаW1
     guid: 5a4938c8-dec2-4f7c-a8e7-69c4f4c3c587
-    description: Х
+    description: Креирање, уређивање и форматирање дигиталних текстова
     activities:
       - type: reading
         title: Садржај лекције 4.1
-        file: uvod_lekcija_Х.rst
+        file: uvod_lekcija_w1.rst
         description: # opciono
         guid: 3c77fb05-a5d0-4f34-bb37-01783fa2275c
       - type: reading
-        title: Х
-        file: tekst_lekcija_Х.rst
+        title: Креирање, уређивање и форматирање дигиталних текстова
+        file: tekst_lekcija_w1.rst
         description: #opciono
         guid: 4c951c97-4166-4280-a7da-adfdc2e1f595
       - type: reading
         title: Задаци 4.1
-        file: zkviz_Х.rst
+        file: zkviz_w1.rst
         description: ...
         guid: 1776c676-25d8-47cf-8e3b-fab71fa9ee3f     
   - title: 4.2 Посебни елементи у тексту
     folder: ЛекцијаW2
     guid: 50e119a1-c326-41d5-8ab9-420a82bda921
-    description: Х
+    description: Посебни елементи у тексту
     activities:
       - type: reading
         title: Садржај лекције 4.2
-        file: uvod_lekcija_Х.rst
+        file: uvod_lekcija_w2.rst
         description: # opciono
         guid: b928157d-0787-4ec6-9d6e-a241d0cf6a60
       - type: reading
-        title: Х
-        file: tekst_lekcija_Х.rst
+        title: Посебни елементи у тексту
+        file: tekst_lekcija_w2.rst
         description: #opciono
         guid: 5bc538cb-bf9c-4791-ab8a-f9a68bc60b5f
       - type: reading
         title: Задаци 4.2
-        file: zkviz_Х.rst
+        file: zkviz_w2.rst
         description: ...
         guid: 2dc1e8e3-366b-4900-925f-563c25ef195f     
-  - title: 4.3	Логичка структура текстуалног документа
+  - title: 4.3 Логичка структура текстуалног документа
     folder: ЛекцијаW3
     guid: 4aae80a6-b99c-4986-8f31-87526f087925
-    description: Х
+    description: Логичка структура текстуалног документа
     activities:
       - type: reading
         title: Садржај лекције 4.3
-        file: uvod_lekcija_Х.rst
+        file: uvod_lekcija_w3.rst
         description: # opciono
         guid: d6da9563-f16c-4ecf-8bc8-fcd15bde8fe4
       - type: reading
-        title: Х
-        file: tekst_lekcija_Х.rst
+        title: Логичка структура текстуалног документа
+        file: tekst_lekcija_w3.rst
         description: #opciono
         guid: f52ddab5-1a0f-4233-a1ca-b79ddbbf3c79
       - type: reading
         title: Задаци 4.3
-        file: zkviz_Х.rst
+        file: zkviz_w3.rst
         description: ...
         guid: 1f226e1d-4f4e-46ec-b554-ecb9827e7594 
-  - title: 4.4	Обнављање
+  - title: 4.4 Обнављање
     folder: ЛекцијаW4
     guid: 12ee63be-b3b9-401b-bd6a-96d59b01b9cc
-    description: Х
+    description: Обнављање
     activities:
       - type: reading
         title: Садржај лекције 4.4
-        file: uvod_lekcija_Х.rst
+        file: uvod_lekcija_w4.rst
         description: # opciono
         guid: 0b891901-d5e9-4c69-9864-be7e34b7e1db
       - type: reading
-        title: Х
-        file: tekst_lekcija_Х.rst
+        title: Обнављање
+        file: tekst_lekcija_w4.rst
         description: #opciono
         guid: 42817fae-af70-457d-9ffd-9a580a5c2e43
       - type: reading
         title: Задаци 4.4
-        file: zkviz_Х.rst
+        file: zkviz_w4.rst
         description: ...
         guid: 1345a5b9-6d28-472a-bf17-cc18e66cc5fa 
-  - title: 5.5	Утврђивање
-    folder: ЛекцијаW1
+  - title: 4.5 Утврђивање
+    folder: ЛекцијаW5
     guid: e9866c07-672c-431e-a09e-e1278d0dc002
-    description: Х
+    description: Утврђивање
     activities:
       - type: reading
-        title: Садржај лекције 5.5
-        file: uvod_lekcija_Х.rst
+        title: Садржај лекције 4.5
+        file: uvod_lekcija_w5.rst
         description: # opciono
         guid: 60b759e3-ee84-47fa-a975-55bf63dd42df
       - type: reading
-        title: Х
-        file: tekst_lekcija_Х.rst
+        title: Утврђивање
+        file: tekst_lekcija_w5.rst
         description: #opciono
         guid: ebaa1359-d204-4179-ab41-7e0b263d98bc
       - type: reading
-        title: Задаци 5.5
-        file: zkviz_Х.rst
+        title: Задаци 4.5
+        file: zkviz_w5.rst
         description: ...
         guid: fd6faaaf-13f7-4922-b1c0-448cadfd6786  
-  - title: 5.6	Рад у дељеном текстуалном документу
+  - title: 4.6 Рад у дељеном текстуалном документу
     folder: ЛекцијаW6
     guid: d6294063-ee1c-48cb-9dc6-141efc58927d
-    description: Х
+    description: Рад у дељеном текстуалном документу
     activities:
       - type: reading
-        title: Садржај лекције 5.6
-        file: uvod_lekcija_Х.rst
+        title: Садржај лекције 4.6
+        file: uvod_lekcija_w6.rst
         description: # opciono
         guid: 916d4666-a16c-48fd-b6f5-13d45b37a1a6
       - type: reading
-        title: Х
-        file: tekst_lekcija_Х.rst
+        title: Рад у дељеном текстуалном документу
+        file: tekst_lekcija_w6.rst
         description: #opciono
         guid: ee681b1c-7cf4-4203-8af0-28336afb9b89
       - type: reading
-        title: Задаци 5.6
-        file: zkviz_Х.rst
+        title: Задаци 4.6
+        file: zkviz_w6.rst
         description: ...
         guid: 9a5880db-e453-4d76-a882-554152980ef2
-  - title: 5.7	Слајд - презентације у дељеном документу
+  - title: 4.7 Слајд - презентације у дељеном документу
     folder: ЛекцијаW7
     guid: 74f587fa-c85e-4ac8-b850-13859a94170f
-    description: Х
+    description: Слајд - презентације у дељеном документу
     activities:
       - type: reading
-        title: Садржај лекције 5.7
-        file: uvod_lekcija_Х.rst
+        title: Садржај лекције 4.7
+        file: uvod_lekcija_w7.rst
         description: # opciono
         guid: cd432d4b-9261-4ad9-9c49-53448f857579
       - type: reading
-        title: Х
-        file: tekst_lekcija_Х.rst
+        title: Слајд - презентације у дељеном документу
+        file: tekst_lekcija_w7.rst
         description: #opciono
         guid: 1cba964a-7d9d-43e6-80b5-b3ffcdc911ec
       - type: reading
-        title: Задаци 5.7
-        file: zkviz_Х.rst
+        title: Задаци 4.7
+        file: zkviz_w7.rst
         description: ...
         guid: 06eb73fc-561c-4a77-a76a-ba840469993a   
-  - title: 5.8	Израда слајд презентације у Пауерпоинту
+  - title: 4.8 Израда слајд презентације у Пауерпоинту
     folder: ЛекцијаW8
     guid: fef69ba1-cea2-4452-8fd5-298d9a1d61c0
-    description: Х
+    description: Израда слајд презентације у Пауерпоинту
     activities:
       - type: reading
-        title: Садржај лекције 5.8
-        file: uvod_lekcija_Х.rst
+        title: Садржај лекције 4.8
+        file: uvod_lekcija_w8.rst
         description: # opciono
         guid: 0aa269f1-59ee-4de3-959f-d6eaeab4337d
       - type: reading
-        title: Х
-        file: tekst_lekcija_Х.rst
+        title: Израда слајд презентације у Пауерпоинту
+        file: tekst_lekcija_w8.rst
         description: #opciono
         guid: d56ff2e5-08bd-45ab-b978-6f0bcae64be5
       - type: reading
-        title: Задаци 5.8
-        file: zkviz_Х.rst
+        title: Задаци 4.8
+        file: zkviz_w8.rst
         description: ...
         guid: 35e8c6de-15d2-4f29-874b-b7b88eb8abc8 
-  - title: 5.9	Напредне технике израде слајд презентација
+  - title: 4.9 Напредне технике израде слајд презентација
     folder: ЛекцијаW9
     guid: 986ed257-ca87-431d-bfe7-7a0a30f244af
-    description: Х
+    description: Напредне технике израде слајд презентација
     activities:
       - type: reading
-        title: Садржај лекције 5.9
-        file: uvod_lekcija_Х.rst
+        title: Садржај лекције 4.9
+        file: uvod_lekcija_w9.rst
         description: # opciono
         guid: 10675d39-5f9a-46c3-9471-fd30ff740e9d
       - type: reading
-        title: Х
-        file: tekst_lekcija_Х.rst
+        title: Напредне технике израде слајд презентација
+        file: tekst_lekcija_w9.rst
         description: #opciono
         guid: f71bbd48-f9bd-4895-bf36-96db171ac30b
       - type: reading
-        title: Задаци 5.9
-        file: zkviz_Х.rst
+        title: Задаци 4.9
+        file: zkviz_w9.rst
         description: ...
         guid: 5776a054-e1f2-4feb-80a6-73459a055c56
-  - title: 5.10	Уређивање текста применом нотација за обележавање
+  - title: 4.10 Уређивање текста применом нотација за обележавање
     folder: ЛекцијаW10
     guid: c36cf8cb-d1cb-4075-9027-ef42e4818fa1
-    description: Х
+    description: Уређивање текста применом нотација за обележавање
     activities:
       - type: reading
-        title: Садржај лекције 5.10	
-        file: uvod_lekcija_Х.rst
+        title: Садржај лекције 4.10
+        file: uvod_lekcija_w10.rst
         description: # opciono
         guid: 029738a1-1763-4aae-80dc-30ddd5f96aed
       - type: reading
-        title: Х
-        file: tekst_lekcija_Х.rst
+        title: Уређивање текста применом нотација за обележавање
+        file: tekst_lekcija_w10.rst
         description: #opciono
         guid: 7fbc0834-5f96-4fcf-b3fb-8b070a793cfe
       - type: reading
-        title: Задаци 5.10	
-        file: zkviz_Х.rst
+        title: Задаци 4.10
+        file: zkviz_w10.rst
         description: ...
         guid: 76bbed70-d621-4109-9ba9-1dddaaff9621 
 archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid

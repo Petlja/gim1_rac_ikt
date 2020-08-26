@@ -301,10 +301,15 @@ lessons:
         description: # opciono
         guid: 0523654a-cd2c-49f9-a272-2199c736018e
       - type: reading
-        title: Графички кориснички интерфејс
+        title: Графички кориснички интерфејс - основни елементи
         file: gki_lekcija_10.rst
         description: #opciono
         guid: e1715b0c-40d4-46df-b619-d8f09753cf90
+      - type: reading
+        title: Графички кориснички интерфејс - основна подешавања
+        file: gki_podešavanja_lekcija_10.rst
+        description: #opciono
+        guid: 8f0a2f9e-bc3a-4711-b006-76ba3325f0d7
       - type: quiz
         title: Квиз 3.1
         file: zkviz_10.rst
@@ -325,6 +330,11 @@ lessons:
         file: dokumenti_lekcija_11.rst
         description: #opciono
         guid: 002d4c9f-948c-4e5a-a5ff-2623c740be43
+      - type: reading
+        title: Рад са документима и системом датотека „у облаку”
+        file: dokumenti_oblak_lekcija_11.rst
+        description: #opciono
+        guid: 04168f96-5835-4d04-a2bc-1bf8006f1b46
       - type: quiz
         title: Квиз 3.2
         file: zkviz_11.rst

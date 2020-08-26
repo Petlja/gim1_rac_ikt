@@ -66,13 +66,13 @@
 
 .. mchoice:: radsadok5
     :multiple_answers:
-    :answer_a: Paint
-    :feedback_a: Нетачно    
+    :answer_a: Одсечак и скица
+    :feedback_a: Тачно    
     :answer_b: Snipping Tool
     :feedback_b: Тачно    
     :answer_c: Crop
     :feedback_c: Нетачно
-    :answer_d: Алатка за исецање
+    :answer_d: Snip and Sketch
     :feedback_d: Тачно
     :answer_e: Скенер
     :feedback_e: Нетачно

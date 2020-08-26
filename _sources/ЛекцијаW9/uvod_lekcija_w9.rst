@@ -13,6 +13,9 @@
 
 
 
-.. image:: ../../_images/w9_undraw_youtube_tutorial_2gn3.png
+.. image:: ../../_images/w9_online_presentation.png
    :width: 300px   
    :align: center
+
+
+   

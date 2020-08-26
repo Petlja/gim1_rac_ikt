@@ -16,4 +16,6 @@
 
 
 
-
+.. image:: ../../_images/2_undraw_connected_world_wuay.png
+   :width: 300px   
+   :align: center

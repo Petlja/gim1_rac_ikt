@@ -330,11 +330,6 @@ lessons:
         file: dokumenti_lekcija_11.rst
         description: #opciono
         guid: 002d4c9f-948c-4e5a-a5ff-2623c740be43
-      - type: reading
-        title: Рад са документима и системом датотека „у облаку”
-        file: dokumenti_oblak_lekcija_11.rst
-        description: #opciono
-        guid: 04168f96-5835-4d04-a2bc-1bf8006f1b46
       - type: quiz
         title: Квиз 3.2
         file: zkviz_11.rst
@@ -355,6 +350,11 @@ lessons:
         file: arhiviranje_slanje_lekcija_12.rst
         description: #opciono
         guid: 7a84c612-25db-470f-bc19-9077bec5158b
+      - type: reading
+        title: Рад са документима и системом датотека „у облаку”
+        file: dokumenti_oblak_lekcija_12.rst
+        description: #opciono
+        guid: 04168f96-5835-4d04-a2bc-1bf8006f1b46
       - type: reading
         title: Средства и методе заштите рачунара и информација
         file: zastita_lekcija_12.rst

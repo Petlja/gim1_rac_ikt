@@ -69,6 +69,3 @@
 - norton.com
 
 
-
-
-**zadatak**

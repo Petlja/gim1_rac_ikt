@@ -20,3 +20,13 @@
     :width: 735
     :height: 415
     :align: center
+
+
+Форматирање у Гугл-документу
+----------------------------
+.. ytpopup:: GTt0bjarp7g
+    :width: 735
+    :height: 415
+    :align: center
+
+

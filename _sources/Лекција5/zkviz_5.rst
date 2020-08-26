@@ -5,18 +5,6 @@
 Питање 1.
 ~~~~~~~~~
 
-.. clickablearea:: razvoj1
-   :question: Означи периоде у развоју инфомрационо-комуникационих технологија
-   :iscode:
-
-    :click-correct:Механички период:endclick:
-    :click-incorrect:Древномеханички период:endclick:
-    :click-correct:Предмеханички период:endclick:
-    :click-correct:Електронски рачунари:endclick:
-    :click-incorrect:Период бушених картица:endclick:
-    :click-incorrect:Период вештачке интелигенције:endclick:
-    :click-correct:Електромеханички период:endclick:
-   
 
 
 Питање 2.

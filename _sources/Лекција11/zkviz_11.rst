@@ -20,16 +20,6 @@
 Питање 2.
 ~~~~~~~~~
 
-.. parsonsprob:: radsadok2
-
-   Поређај ознаке спољашњих меморија једног рачунара онако како се приказују у пroграму „истраживач датотека” (Windows Explorer)
-   -----
-   A
-   C
-   D
-   E
-
-
 
 
 Питање 3.
@@ -48,17 +38,6 @@
 Питање 4.
 ~~~~~~~~~
 
-.. clickablearea:: radsadok4
-   :question: Означи сервисе „у облаку”
-   :iscode:
-
-    :click-correct:One Drive:endclick:
-    :click-incorrect:Internet Explorer:endclick:
-    :click-correct:Google Drive:endclick:
-    :click-correct:Dropbox :endclick:
-    :click-incorrect:Google Chrome:endclick:
-    :click-incorrect:Mozzila Firefox:endclick:
-    
 
 
 Питање 5.

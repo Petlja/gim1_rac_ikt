@@ -31,16 +31,6 @@
 - Фокусирати се пре свега на важне послове и не замењивати их краћим, пријатнијим а мање важним којима одлажете завршавање приоритетних послова (на пример пречесто проверавање шта се „догађа” на друштвеним мрежама, проверавање поште, играње игрица у време када смо фокусирани на рад и слично). Ова психолошка појава се зове прокрастринација.
 
 
-.. image:: ../../_images/4_ergonomic_shutter.png
-   :width: 600px   
-   :align: center
-
-**Слика: овде иде слика која приказује правилан ергономски положај при седењу за рачунаром. превести и пролагодити ову слику
-https://commons.wikimedia.org/wiki/File:Computer_Workstation_Variables_cleanup.png
-ili ovu https://www.shutterstock.com/image-vector/correct-sitting-desk-posture-ergonomics-office-623858081
-ili proveriti prava za ovako nešto (mislim da je to najprimerenije deci u odnosu na one sa uglovima i brojevima)
-https://99designs.no/illustrations/contests/creative-illustration-computer-ergonomics-216095**
-
 |
 
 **Али и позитиван:**

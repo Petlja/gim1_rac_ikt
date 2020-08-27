@@ -12,7 +12,7 @@
 Уколико сте имаш "разгранату" презентацију а не желиш да се на неке слајдове дође линеарним проласком кроз презентацију, потребно је да такве слајдове "сакријеш" - hide slide
 
 .. image:: ../../_images/w9_hide.png
-   :width: 720px   
+   :width: 250px   
    :align: center
 
 
@@ -20,7 +20,7 @@
 
 Уметање звука у слајд може да буде додавање уграђених ефеката или уградња звучне датотеке.
 
-Посебно је интересантно како активирати ефекат анимације помоћу "Окидача" (Trigger). Погледај упутство `на овом линку <https://support.microsoft.com/sr-latn-rs/office/aktiviranje-efekta-animacije-651726d6-9454-4bfd-b8e5-11d84767a6da?ui=sr-latn-rs&rs=sr-latn-rs&ad=rs>`_. 
+Посебно је интересантно како активирати ефекат анимације помоћу "Окидача" (Trigger). Погледај упутство `за уптребу окидача у анимацијама <https://support.microsoft.com/sr-latn-rs/office/aktiviranje-efekta-animacije-651726d6-9454-4bfd-b8e5-11d84767a6da?ui=sr-latn-rs&rs=sr-latn-rs&ad=rs>`_. 
 
 
 

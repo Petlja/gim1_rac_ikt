@@ -124,7 +124,7 @@
    
    .. infonote::
    
-    Посети `овај линк <http://www.istokpavlovic.com/blog/digitalni-pravopis/ >`_. 
+    Посети `овај линк <http://www.istokpavlovic.com/blog/digitalni-pravopis/>`_. 
 
 |
 

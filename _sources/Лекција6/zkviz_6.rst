@@ -13,7 +13,7 @@
 
     Одговор: |blank|
 
-    - :хардвер: Тачно
+    - :^хардвер$: Тачно
       :x: Одговор није тачан.
 
 
@@ -41,20 +41,18 @@
 
 .. mchoice:: kakorade4
     :multiple_answers:
-    :answer_a: позициони
-    :feedback_a: Нетачно    
-    :answer_b: октални (основа 8)
-    :feedback_b: Тачно    
-    :answer_c: непозициони
-    :feedback_c: Нетачно
-    :answer_d: хексадекадни (основа 16)
-    :feedback_d: Тачно
-    :answer_e: децимални
-    :feedback_e: Нетачно
-    :correct: b,d
+    :answer_a: октални (основа 8)
+    :feedback_a: Тачно
+    :answer_b: непозициони
+    :feedback_b: Нетачно
+    :answer_c: хексадекадни (основа 16)
+    :feedback_c: Тачно
+    :answer_d: децимални
+    :feedback_d: Нетачно
+    :correct: a,c
 
 
-    Који се још системи осим  декадних и бинарних користе у рачунарству?
+    Који се још системи осим декадног и бинарног користе у рачунарству?
 
 
 
@@ -75,16 +73,16 @@
 
 .. mchoice:: kakorade6
     :multiple_answers:
-    :answer_a: растерске
+    :answer_a: Као растерске слике
     :feedback_a: Тачно    
-    :answer_b: пикселске
+    :answer_b: Као пикселске слике
     :feedback_b: Нетачно    
-    :answer_c: векторске
+    :answer_c: Као векторске слике
     :feedback_c: Тачно
-    :answer_d: помоћу резолуције
+    :answer_d: Помоћу резолуције
     :feedback_d: Нетачно
     :correct: a,c
 
-    Како се у меморији рачунара памте слике?
+    На које све начине се у меморији рачунара памте слике?
 
 

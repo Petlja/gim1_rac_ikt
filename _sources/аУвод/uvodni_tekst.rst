@@ -58,6 +58,9 @@
    :answer_a: Жуте
    :answer_b: Љубичасте
    :answer_c: Црвене
+   :feedback_a: Не.
+   :feedback_b: Тачно!
+   :feedback_c: Не.
    :correct: b
 
    Које је боје љубичица?

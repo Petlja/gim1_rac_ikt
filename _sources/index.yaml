@@ -427,10 +427,20 @@ lessons:
         description: # opciono
         guid: d6da9563-f16c-4ecf-8bc8-fcd15bde8fe4
       - type: reading
-        title:  Посебни елементи у тексту
-        file: tekst_lekcija_w3.rst
+        title:  Уметање слика и облика
+        file: tekst_lekcija_slike_w3.rst
         description: #opciono
         guid: f52ddab5-1a0f-4233-a1ca-b79ddbbf3c79
+      - type: reading
+        title:  Уметање табела
+        file: tekst_lekcija_tabele_w3.rst
+        description: #opciono
+        guid: 07832b3a-7837-40c3-917a-cd80e0b7248f
+      - type: reading
+        title:  Уметање симбола и формула
+        file: tekst_lekcija_formule_w3.rst
+        description: #opciono
+        guid: 68ab1013-82f5-4671-a4da-e23f7c0c5629
       - type: reading
         title: Задаци 4.3
         file: zkviz_w3.rst

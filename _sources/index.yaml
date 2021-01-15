@@ -535,12 +535,17 @@ lessons:
         title: Садржај лекције 4.8
         file: uvod_lekcija_w8.rst
         description: # opciono
-        guid: 0aa269f1-59ee-4de3-959f-d6eaeab4337d
+        guid: 04bb4251-17fc-4772-b269-ae7007d05d2f
       - type: reading
-        title: Израда слајд презентације у Пауерпоинту
+        title: Рад у Пауерпоинту - подсетник
+        file: podsećanje_lekcija_w8.rst
+        description: #opciono
+        guid: c6ea1f9d-e00e-49e8-8d09-96b61a498d53
+      - type: reading
+        title: Презентације и њихова примена
         file: tekst_lekcija_w8.rst
         description: #opciono
-        guid: d56ff2e5-08bd-45ab-b978-6f0bcae64be5
+        guid: 8535139c-0240-40cc-b337-1d2234f8eae2
       - type: reading
         title: Задаци 4.8
         file: zkviz_w8.rst

@@ -1,8 +1,0 @@
-======
-Тема 3
-======
-
-.. toctree:: 
-    :maxdepth: 1
-
-    tekst_tema_3.rst

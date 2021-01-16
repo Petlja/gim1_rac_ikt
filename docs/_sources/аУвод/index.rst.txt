@@ -1,8 +1,0 @@
-====
-Увод
-====
-
-.. toctree:: 
-    :maxdepth: 1
-
-    uvodni_tekst.rst

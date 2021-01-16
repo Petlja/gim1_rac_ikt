@@ -1,0 +1,650 @@
+archived-lessons:
+- guid: 3ced8ac6-8be7-4921-bea7-dccf89a7cc79
+- guid: 29a3a23a-0cdb-4a2b-ad6b-611d36c39db5
+courseId: kurs-prvi-ikt
+description:
+  externalLinks:
+  - href: https://office.com
+    text: Мајкрософт платформа
+  - href: https://google.com
+    text: Гугл платформа
+  longDescription: '<div class="document">
+
+    <p>Овај курс је намењен ученицима 1. разреда гимназије за предмет Рачунарство
+    и информатика у току првог полугодишта.
+
+    У оквиру овог курса детаљно су  обрађене четири наставне теме ИКТ, Рачунарство,
+    Организација података као и
+
+    Креирање и уређивање дигиталних докумената.  Курс у потпуности прати план наставе
+    и учења за овај предмет.
+
+    Курс је организован по двочасима. Материјал намењен за један двочас се састоји
+    од лекције, дела са питалицама,
+
+    којима се ученицима скреће пажња на најбитније делове из садржаја лекције и кратких
+    квизова,
+
+    који имају за циљ проверу усвојеног градива.</p>
+
+    <p>Поред рада у школи, курс се може пролазити и самостално.</p>
+
+    </div>
+
+    '
+  requirements:
+  - Приступ интернету
+  - Инсталиран графички оперативни систем
+  - Инсталирани програми за обраду текста и израду слајд-презентација
+  - Отворен налог на бар једном од сервиса office.com или  gmail.com (можеш да га
+    искористиш и за пријављивање овде, на „Петљу”)
+  shortDescription: ИКТ, Рачунарство и Организација података
+  toc:
+  - Информационо - комуникационе технологије у савременом друштву.
+  - Рачунарство.
+  - Организација података и прилагођавање радног окружења.
+  - Креирање и уређивање дигиталних докумената.
+  willlearn:
+  - каква је улога информационо-комуникационих технологија (ИКТ) у свакодневном окружењу,
+  - који су кључни догађаји у развоју ИКТ-а,
+  - који су друштвени аспекти ИКТ-а,
+  - како се безбедно користи интернет и која су правила лепог понашања на интернету,
+  - који су основни принципи и начин рада рачунара,
+  - како се врше основна подешавањима графичког оперативног система, програма, датотека,
+  - како се примењују средства и методе заштите рачунара и информација,
+  - како се организацију подаци и прилагођава радно окружење,
+  - како се креирају и уређују дигитални докуменати - текстови и слајд-презентације.
+lessons:
+- activites:
+  - description: ''
+    file: uvodni_tekst.rst
+    guid: b2876810-ce7f-42d7-a572-1ea40d690ff5
+    title: Увод у курс
+    type: reading
+  archived-activities: []
+  description: Увод у курс
+  folder: аУвод
+  guid: be157944-5c4e-4703-bdd2-137ca969183f
+  title: Увод
+- activites:
+  - description: ''
+    file: tekst_tema_1.rst
+    guid: b5fb2bb4-1b4d-4cc1-aff2-7cddf40d71b4
+    title: Садржај теме 1
+    type: reading
+  archived-activities: []
+  description: Увод у тему 1
+  folder: Тема1
+  guid: 975d3768-191d-47c2-8a9d-0a223a9f7b2d
+  title: 1. Информационо - комуникационе технологије у савременом друштву
+- activites:
+  - description: ''
+    file: uvod_lekcija_1.rst
+    guid: 6d18e8cc-0252-4b79-9c5a-1243c7991bfa
+    title: Садржај лекције 1.1
+    type: reading
+  - description: ''
+    file: IKT_lekcija_1.rst
+    guid: da740fcc-c855-45d8-a7ad-8972d9fb70f2
+    title: 1.1 ИКТ у савременом друштву
+    type: reading
+  - description: '...'
+    file: zkviz_1.rst
+    guid: 6d812450-9512-4f42-90d3-196f59f729d0
+    title: Квиз 1.1
+    type: quiz
+  archived-activities: []
+  description: ИКТ у савременом друштву
+  folder: Лекција1
+  guid: 9b1adadd-424d-4abe-be7b-4c113d793557
+  title: 1.1 Информационо-комуникационе технологије
+- activites:
+  - description: ''
+    file: uvod_lekcija_2.rst
+    guid: 58573f72-0aa0-4e35-916f-c6a2e3c65cc4
+    title: Садржај лекције 1.2
+    type: reading
+  - description: ''
+    file: mreze_lekcija_2.rst
+    guid: c2548baa-8fde-409b-b67f-55db2e5e8395
+    title: Рачунарске мреже и интернет
+    type: reading
+  - description: '...'
+    file: zkviz_2.rst
+    guid: 26fc85ba-76a3-4efb-9059-d9a8a04f50d6
+    title: Квиз 1.2
+    type: quiz
+  archived-activities: []
+  description: О рачунарским мрежама и интернету
+  folder: Лекција2
+  guid: edce90bd-1925-4332-a116-84818f17b179
+  title: 1.2 Рачунарске мреже и интернет
+- activites:
+  - description: ''
+    file: uvod_lekcija_3.rst
+    guid: c2a89c0b-345d-41ad-9636-e449c8425717
+    title: Садржај лекције 1.3
+    type: reading
+  - description: ''
+    file: internet_servisi_lekcija_3.rst
+    guid: c8884c71-28eb-4832-8936-f242001344d3
+    title: Интернет сервиси
+    type: reading
+  - description: ''
+    file: komunikacija_na_internetu_lekcija_3.rst
+    guid: 27a9e1e0-a0b0-4c6a-953b-3290fe71a854
+    title: Начини и правила комуникације и лепог понашања на интернету
+    type: reading
+  - description: '...'
+    file: zkviz_3.rst
+    guid: 69a4141b-ee38-4ba5-8432-18139c271bf5
+    title: Квиз 1.3
+    type: quiz
+  archived-activities: []
+  description: Коришћење интернета
+  folder: Лекција3
+  guid: 00fc122b-9480-4f8d-ab99-c3b3f449c2f6
+  title: 1.3 Коришћење интернета
+- activites:
+  - description: ''
+    file: uvod_lekcija_4.rst
+    guid: e276fc55-640f-49b1-a508-d723839d7be7
+    title: Садржај лекције 1.4
+    type: reading
+  - description: ''
+    file: prava_verodostojnost_lekcija_4.rst
+    guid: 89345fb9-4ff7-4182-9182-570ccc360c56
+    title: Ауторска права и веродостојност информација
+    type: reading
+  - description: ''
+    file: zastita_bezbednost_lekcija_4.rst
+    guid: d1fd4e54-b807-4098-9a62-22d24209a0c3
+    title: Заштита личних података и приватност
+    type: reading
+  - description: ''
+    file: uticaji_lekcija_4.rst
+    guid: 98bacd31-7647-4a6f-b1d5-60a9d6d289c2
+    title: Утицаји ИКТ на здравље и околину
+    type: reading
+  - description: ''
+    file: sve_boje_lekcija_4.rst
+    guid: 0cb2721a-0611-415e-bb5c-b1148463e979
+    title: Све боје интернета
+    type: reading
+  - description: '...'
+    file: zkviz_4.rst
+    guid: a06a7e71-e223-4019-9b1d-9b373128ec97
+    title: Квиз 1.4
+    type: quiz
+  archived-activities: []
+  description: Права, заштита, безбедност, утицаји...
+  folder: Лекција4
+  guid: 71b11e1b-6174-4e5a-8845-cd82fec6ca6d
+  title: 1.4 Ауторска права, веродостојност информација, заштита и безбедност
+- activites:
+  - description: ''
+    file: uvod_lekcija_5.rst
+    guid: ca4afa47-ddd5-4c4c-8a65-001e165b7245
+    title: Садржај лекције 1.5
+    type: reading
+  - description: ''
+    file: istorijski_razvoj_lekcija_5.rst
+    guid: f1ba7c7d-922e-42ab-a18d-ed0bb04d3ecf
+    title: Историјски развој ИКТ
+    type: reading
+  - description: ''
+    file: generacije_elektronskih_lekcija_5.rst
+    guid: fa934240-e98f-4916-a371-a1180b9f66d5
+    title: Генерације електронских рачунара
+    type: reading
+  - description: '...'
+    file: zkviz_5.rst
+    guid: ca156437-a2f3-42f9-8a6b-eea04c551fc8
+    title: Квиз 1.5
+    type: quiz
+  archived-activities: []
+  description: Развој ИКТ
+  folder: Лекција5
+  guid: 4674d7f2-2930-46a5-b1e9-97cf5b269981
+  title: 1.5 Развој ИКТ
+- activites:
+  - description: ''
+    file: tekst_tema_2.rst
+    guid: 032f5c92-1f68-41be-a9c6-bb774c610151
+    title: Садржај теме 2
+    type: reading
+  archived-activities: []
+  description: Увод у тему 2
+  folder: Тема2
+  guid: 14a2bc25-1759-406e-9fd7-96c79f5b4188
+  title: 2. Рачунарство
+- activites:
+  - description: ''
+    file: uvod_lekcija_6.rst
+    guid: 264f642d-7e5d-453d-89f8-b59cd193ddf0
+    title: Садржај лекције 2.1
+    type: reading
+  - description: ''
+    file: kako_rade_računari_lekcija_6.rst
+    guid: 01835234-57be-4d0e-b32c-635d8daa538d
+    title: Како раде рачунари
+    type: reading
+  - description: ''
+    file: predstavljanje_podataka_lekcija_6.rst
+    guid: 39579792-f886-44af-b14e-562e1dc135d1
+    title: Представљање података у рачунару
+    type: reading
+  - description: '...'
+    file: zkviz_6.rst
+    guid: 1537cd77-ec1e-4143-8a0a-851115b399cc
+    title: Квиз 2.1
+    type: quiz
+  archived-activities: []
+  description: Принципи рада рачунара
+  folder: Лекција6
+  guid: 943aed70-54b5-4ae0-871f-6b20fd3940cf
+  title: 2.1 Принципи рада рачунара
+- activites:
+  - description: ''
+    file: uvod_lekcija_7.rst
+    guid: 9a15dd17-9ba7-4c69-9c2a-02eb9391ccb7
+    title: Садржај лекције 2.2
+    type: reading
+  - description: ''
+    file: predstavljanje_racunanje_lekcija_7.rst
+    guid: aa9288f9-7380-43bd-8d8f-3bebe3a2f9fb
+    title: Представљање бројева и рачунање са различитим основама
+    type: reading
+  - description: '...'
+    file: zkviz_7.rst
+    guid: 5a3fd35c-48b7-469c-8529-96d8abaa1dc7
+    title: Квиз 2.2
+    type: quiz
+  archived-activities: []
+  description: Представљање бројева и рачунање са различитим основама
+  folder: Лекција7
+  guid: 3df3c8b4-3cf9-4276-94d6-26cf02883de8
+  title: 2.2 Представљање бројева и рачунање са различитим основама
+- activites:
+  - description: ''
+    file: uvod_lekcija_8.rst
+    guid: 01bc36c2-b212-4fe2-aa8f-647558069909
+    title: Садржај лекције 2.3
+    type: reading
+  - description: ''
+    file: hardver_lekcija_8.rst
+    guid: bd8e445e-7671-4b67-8faf-0f665c17fb1e
+    title: Хардвер
+    type: reading
+  - description: '...'
+    file: zkviz_8.rst
+    guid: e5a6d67c-01bd-44fb-ae40-703abbc34f56
+    title: Квиз 2.3
+    type: quiz
+  archived-activities: []
+  description: Хардверске компоненте рачунарских система
+  folder: Лекција8
+  guid: 456681ba-0325-4a9b-a93d-fd5d0959f361
+  title: 2.3 Хардверске компоненте рачунарских система
+- activites:
+  - description: ''
+    file: uvod_lekcija_9.rst
+    guid: 08d7cedb-245c-4c8e-bd98-27cafda6cba2
+    title: Садржај лекције 2.4
+    type: reading
+  - description: ''
+    file: softver_lekcija_9.rst
+    guid: a3a57f05-69a8-4d8a-818e-6c735e167354
+    title: Софтвер
+    type: reading
+  - description: '...'
+    file: zkviz_9.rst
+    guid: 8332a80c-a923-4969-b604-b525184c3f94
+    title: Квиз 2.4
+    type: quiz
+  archived-activities: []
+  description: Софтверске компоненте рачунарских система
+  folder: Лекција9
+  guid: 3a0a7621-7caa-430d-840a-bbfea5fbea9a
+  title: 2.4 Софтверске компоненте рачунарских система
+- activites:
+  - description: ''
+    file: tekst_tema_3.rst
+    guid: 71b4b30c-beaf-434e-b405-eb52227b1af6
+    title: Садржај теме 3
+    type: reading
+  archived-activities: []
+  description: Увод у тему 3
+  folder: Тема3
+  guid: b044f839-cacb-4579-a947-3aa20aa474e8
+  title: 3. Организација података и прилагођавање радног окружења
+- activites:
+  - description: ''
+    file: uvod_lekcija_10.rst
+    guid: 0523654a-cd2c-49f9-a272-2199c736018e
+    title: Садржај лекције 3.1
+    type: reading
+  - description: ''
+    file: gki_lekcija_10.rst
+    guid: e1715b0c-40d4-46df-b619-d8f09753cf90
+    title: Графички кориснички интерфејс - основни елементи
+    type: reading
+  - description: ''
+    file: gki_podešavanja_lekcija_10.rst
+    guid: 8f0a2f9e-bc3a-4711-b006-76ba3325f0d7
+    title: Графички кориснички интерфејс - основна подешавања
+    type: reading
+  - description: '...'
+    file: zkviz_10.rst
+    guid: 133fc124-488a-4d9b-8e7e-756d5aefb7df
+    title: Квиз 3.1
+    type: quiz
+  archived-activities: []
+  description: Графички кориснички интерфејс
+  folder: Лекција10
+  guid: 922b9bfd-6bb2-44b1-8f38-ae13c243cce1
+  title: 3.1 Графички кориснички интерфејс
+- activites:
+  - description: ''
+    file: uvod_lekcija_11.rst
+    guid: 780cf9b0-2a76-475d-8d62-941905e93603
+    title: Садржај лекције 3.2
+    type: reading
+  - description: ''
+    file: dokumenti_lekcija_11.rst
+    guid: 002d4c9f-948c-4e5a-a5ff-2623c740be43
+    title: Рад са документима и системом датотека
+    type: reading
+  - description: '...'
+    file: zkviz_11.rst
+    guid: 00fe81a3-f870-444b-afb3-8e1302341398
+    title: Квиз 3.2
+    type: quiz
+  archived-activities: []
+  description: Рад са документима и системом датотека
+  folder: Лекција11
+  guid: 55e8eef2-71ba-4cda-8273-ad510449dec3
+  title: 3.2 Рад са документима и системом датотека
+- activites:
+  - description: ''
+    file: uvod_lekcija_12.rst
+    guid: 80636c48-cbae-4cb3-8dca-29165f54c774
+    title: Садржај лекције 3.3
+    type: reading
+  - description: ''
+    file: arhiviranje_slanje_lekcija_12.rst
+    guid: 7a84c612-25db-470f-bc19-9077bec5158b
+    title: Архивирање, слање и чување датотека.
+    type: reading
+  - description: ''
+    file: dokumenti_oblak_lekcija_12.rst
+    guid: 04168f96-5835-4d04-a2bc-1bf8006f1b46
+    title: Рад са документима и системом датотека „у облаку”
+    type: reading
+  - description: ''
+    file: zastita_lekcija_12.rst
+    guid: 9b1c06c7-048d-41a9-9dec-3b2e765e9454
+    title: Средства и методе заштите рачунара и информација
+    type: reading
+  - description: '...'
+    file: zkviz_12.rst
+    guid: 86a80b73-a74e-4153-9267-925107cf8ede
+    title: Квиз 3.3
+    type: quiz
+  archived-activities: []
+  description: Развој ИКТ
+  folder: Лекција12
+  guid: b6271aef-7e95-4386-ab19-b9704502d10f
+  title: 3.3 Архивирање, слање, чување, заштита.
+- activites:
+  - description: ''
+    file: tekst_tema_4.rst
+    guid: f3125c1f-f448-40e9-aa4d-e867a3bda0e8
+    title: Садржај теме 4
+    type: reading
+  archived-activities: []
+  description: Увод у тему 4
+  folder: Тема4
+  guid: c62d8768-efca-447e-901a-c9bdc63d1b08
+  title: 4. Креирање и уређевање дигиталних докумената
+- activites:
+  - description: ''
+    file: uvod_lekcija_w1.rst
+    guid: 3c77fb05-a5d0-4f34-bb37-01783fa2275c
+    title: Садржај лекције 4.1
+    type: reading
+  - description: ''
+    file: tekst_lekcija_w1.rst
+    guid: 4c951c97-4166-4280-a7da-adfdc2e1f595
+    title: Креирање, уређивање и форматирање дигиталних текстова
+    type: reading
+  - description: '...'
+    file: zkviz_w1.rst
+    guid: 1776c676-25d8-47cf-8e3b-fab71fa9ee3f
+    title: Задаци 4.1
+    type: reading
+  archived-activities: []
+  description: Креирање, уређивање и форматирање дигиталних текстова
+  folder: ЛекцијаW1
+  guid: 5a4938c8-dec2-4f7c-a8e7-69c4f4c3c587
+  title: 4.1 Креирање, уређивање и форматирање дигиталних текстова
+- activites:
+  - description: ''
+    file: uvod_lekcija_w2.rst
+    guid: b928157d-0787-4ec6-9d6e-a241d0cf6a60
+    title: Садржај лекције 4.2
+    type: reading
+  - description: ''
+    file: tekst_lekcija_w2.rst
+    guid: 5bc538cb-bf9c-4791-ab8a-f9a68bc60b5f
+    title: Форматирање параграфа
+    type: reading
+  - description: '...'
+    file: zkviz_w2.rst
+    guid: 2dc1e8e3-366b-4900-925f-563c25ef195f
+    title: Задаци 4.2
+    type: reading
+  archived-activities: []
+  description: Форматирање параграфа
+  folder: ЛекцијаW2
+  guid: 50e119a1-c326-41d5-8ab9-420a82bda921
+  title: 4.2 Форматирање параграфа
+- activites:
+  - description: ''
+    file: uvod_lekcija_w3.rst
+    guid: d6da9563-f16c-4ecf-8bc8-fcd15bde8fe4
+    title: Садржај лекције 4.3
+    type: reading
+  - description: ''
+    file: tekst_lekcija_slike_w3.rst
+    guid: f52ddab5-1a0f-4233-a1ca-b79ddbbf3c79
+    title: Уметање слика и облика
+    type: reading
+  - description: ''
+    file: tekst_lekcija_tabele_w3.rst
+    guid: 07832b3a-7837-40c3-917a-cd80e0b7248f
+    title: Уметање табела
+    type: reading
+  - description: ''
+    file: tekst_lekcija_formule_w3.rst
+    guid: 68ab1013-82f5-4671-a4da-e23f7c0c5629
+    title: Уметање симбола и формула
+    type: reading
+  - description: '...'
+    file: zkviz_w3.rst
+    guid: 1f226e1d-4f4e-46ec-b554-ecb9827e7594
+    title: Задаци 4.3
+    type: reading
+  archived-activities: []
+  description: Посебни елементи у тексту
+  folder: ЛекцијаW3
+  guid: 4aae80a6-b99c-4986-8f31-87526f087925
+  title: 4.3 Посебни елементи у тексту
+- activites:
+  - description: ''
+    file: uvod_lekcija_w4.rst
+    guid: 0b891901-d5e9-4c69-9864-be7e34b7e1db
+    title: Садржај лекције 4.4
+    type: reading
+  - description: ''
+    file: tekst_lekcija_w4.rst
+    guid: 42817fae-af70-457d-9ffd-9a580a5c2e43
+    title: Логичка структура текстуалног документа
+    type: reading
+  - description: '...'
+    file: zkviz_w4.rst
+    guid: 1345a5b9-6d28-472a-bf17-cc18e66cc5fa
+    title: Задаци 4.4
+    type: reading
+  archived-activities: []
+  description: Логичка структура текстуалног документа
+  folder: ЛекцијаW4
+  guid: 12ee63be-b3b9-401b-bd6a-96d59b01b9cc
+  title: 4.4 Логичка структура текстуалног документа
+- activites:
+  - description: ''
+    file: uvod_lekcija_w5.rst
+    guid: 60b759e3-ee84-47fa-a975-55bf63dd42df
+    title: Садржај лекције 4.5
+    type: reading
+  - description: ''
+    file: tekst_lekcija_w5.rst
+    guid: ebaa1359-d204-4179-ab41-7e0b263d98bc
+    title: Обликовање документа, штампање
+    type: reading
+  - description: '...'
+    file: zkviz_w5.rst
+    guid: fd6faaaf-13f7-4922-b1c0-448cadfd6786
+    title: Задаци 4.5
+    type: reading
+  archived-activities: []
+  description: Обликовање документа, штампање
+  folder: ЛекцијаW5
+  guid: e9866c07-672c-431e-a09e-e1278d0dc002
+  title: 4.5 Обликовање документа, штампање
+- activites:
+  - description: ''
+    file: uvod_lekcija_w6.rst
+    guid: 916d4666-a16c-48fd-b6f5-13d45b37a1a6
+    title: Садржај лекције 4.6
+    type: reading
+  - description: ''
+    file: tekst_lekcija_w6.rst
+    guid: ee681b1c-7cf4-4203-8af0-28336afb9b89
+    title: Рад у дељеном текстуалном документу
+    type: reading
+  - description: '...'
+    file: zkviz_w6.rst
+    guid: 9a5880db-e453-4d76-a882-554152980ef2
+    title: Задаци 4.6
+    type: reading
+  archived-activities: []
+  description: Рад у дељеном текстуалном документу
+  folder: ЛекцијаW6
+  guid: d6294063-ee1c-48cb-9dc6-141efc58927d
+  title: 4.6 Рад у дељеном текстуалном документу
+- activites:
+  - description: ''
+    file: uvod_lekcija_w7.rst
+    guid: cd432d4b-9261-4ad9-9c49-53448f857579
+    title: Садржај лекције 4.7
+    type: reading
+  - description: ''
+    file: tekst_lekcija_w7.rst
+    guid: 1cba964a-7d9d-43e6-80b5-b3ffcdc911ec
+    title: Слајд - презентације у дељеном документу
+    type: reading
+  - description: '...'
+    file: zkviz_w7.rst
+    guid: 06eb73fc-561c-4a77-a76a-ba840469993a
+    title: Задаци 4.7
+    type: reading
+  archived-activities: []
+  description: Слајд - презентације у дељеном документу
+  folder: ЛекцијаW7
+  guid: 74f587fa-c85e-4ac8-b850-13859a94170f
+  title: 4.7 Слајд - презентације у дељеном документу
+- activites:
+  - description: ''
+    file: uvod_lekcija_w8.rst
+    guid: 0aa269f1-59ee-4de3-959f-d6eaeab4337d
+    title: Садржај лекције 4.8
+    type: reading
+  - description: ''
+    file: podsećanje_lekcija_w8.rst
+    guid: d56ff2e5-08bd-45ab-b978-6f0bcae64be5
+    title: Рад у Пауерпоинту - подсетник
+    type: reading
+  - description: ''
+    file: tekst_lekcija_w8.rst
+    guid: 8535139c-0240-40cc-b337-1d2234f8eae2
+    title: Презентације и њихова примена
+    type: reading
+  - description: '...'
+    file: zkviz_w8.rst
+    guid: 35e8c6de-15d2-4f29-874b-b7b88eb8abc8
+    title: Задаци 4.8
+    type: reading
+  archived-activities: []
+  description: Израда слајд презентације у Пауерпоинту
+  folder: ЛекцијаW8
+  guid: fef69ba1-cea2-4452-8fd5-298d9a1d61c0
+  title: 4.8 Израда слајд презентације у Пауерпоинту
+- activites:
+  - description: ''
+    file: uvod_lekcija_w9.rst
+    guid: 10675d39-5f9a-46c3-9471-fd30ff740e9d
+    title: Садржај лекције 4.9
+    type: reading
+  - description: ''
+    file: tekst_lekcija_w9.rst
+    guid: f71bbd48-f9bd-4895-bf36-96db171ac30b
+    title: Напредне технике израде слајд презентација
+    type: reading
+  - description: '...'
+    file: zkviz_w9.rst
+    guid: 5776a054-e1f2-4feb-80a6-73459a055c56
+    title: Задаци 4.9
+    type: reading
+  archived-activities: []
+  description: Напредне технике израде слајд презентација
+  folder: ЛекцијаW9
+  guid: 986ed257-ca87-431d-bfe7-7a0a30f244af
+  title: 4.9 Напредне технике израде слајд презентација
+- activites:
+  - description: ''
+    file: uvod_lekcija_w10.rst
+    guid: 029738a1-1763-4aae-80dc-30ddd5f96aed
+    title: Садржај лекције 4.10
+    type: reading
+  - description: ''
+    file: tekst_lekcija_w10.rst
+    guid: 7fbc0834-5f96-4fcf-b3fb-8b070a793cfe
+    title: Уређивање текста применом нотација за обележавање
+    type: reading
+  - description: ''
+    file: html_lekcija_w10.rst
+    guid: 24c7eae2-c302-4317-9503-12d8a1d6cc35
+    title: HTML
+    type: reading
+  - description: ''
+    file: mark_lekcija_w10.rst
+    guid: fcefebeb-a85e-487f-9e45-65a7c68be89b
+    title: Markdown
+    type: reading
+  - description: ''
+    file: wiki_lekcija_w10.rst
+    guid: 164be98c-4196-4d63-813e-ce2f6dfa5671
+    title: Wiki
+    type: reading
+  - description: '...'
+    file: zkviz_w10.rst
+    guid: 76bbed70-d621-4109-9ba9-1dddaaff9621
+    title: Задаци 4.10
+    type: reading
+  archived-activities: []
+  description: Уређивање текста применом нотација за обележавање
+  folder: ЛекцијаW10
+  guid: c36cf8cb-d1cb-4075-9027-ef42e4818fa1
+  title: 4.10 Уређивање текста применом нотација за обележавање
+title: ИКТ, Рачунарство и Организација података за први разред гимназије

@@ -587,6 +587,21 @@ lessons:
         description: #opciono
         guid: 7fbc0834-5f96-4fcf-b3fb-8b070a793cfe
       - type: reading
+        title: HTML
+        file: html_lekcija_w10.rst
+        description: #opciono
+        guid: 24c7eae2-c302-4317-9503-12d8a1d6cc35
+      - type: reading
+        title: Markdown
+        file: mark_lekcija_w10.rst
+        description: #opciono
+        guid: fcefebeb-a85e-487f-9e45-65a7c68be89b
+      - type: reading
+        title: Wiki
+        file: wiki_lekcija_w10.rst
+        description: #opciono
+        guid: 164be98c-4196-4d63-813e-ce2f6dfa5671
+      - type: reading
         title: Задаци 4.10
         file: zkviz_w10.rst
         description: ...

@@ -387,10 +387,15 @@ lessons:
         description: # opciono
         guid: 3c77fb05-a5d0-4f34-bb37-01783fa2275c
       - type: reading
-        title: Креирање, уређивање и форматирање дигиталних текстова
+        title: Креирање и уређивање дигиталних текстова
         file: tekst_lekcija_w1.rst
         description: #opciono
         guid: 4c951c97-4166-4280-a7da-adfdc2e1f595
+      - type: reading
+        title: Форматирање дигиталних текстова
+        file: formatiranje_lekcija_w1.rst
+        description: #opciono
+        guid: 5878b65e-5138-4d23-8585-bb08a14ceeb2
       - type: reading
         title: Задаци 4.1
         file: zkviz_w1.rst

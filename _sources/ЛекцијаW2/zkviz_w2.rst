@@ -13,12 +13,5 @@
    :width: 720px   
    :align: center
 
-|
 
-Решење задатка погледај овде:
-
-.. ytpopup:: kDD1F0UJYF8
-    :width: 735
-    :height: 415
-    :align: center
 

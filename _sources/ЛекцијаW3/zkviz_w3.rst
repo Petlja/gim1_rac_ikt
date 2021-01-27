@@ -29,3 +29,12 @@
 .. image:: ../../_images/L66S6.PNG
     :width: 500px
     :align: center
+
+|
+
+Решење 1. задатка погледај овде:
+
+.. ytpopup:: kDD1F0UJYF8
+    :width: 735
+    :height: 415
+    :align: center

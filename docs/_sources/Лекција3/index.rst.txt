@@ -1,0 +1,11 @@
+=====================
+3 Коришћење интернета
+=====================
+
+.. toctree:: 
+    :maxdepth: 1
+
+    uvod_lekcija_3.rst
+    internet_servisi_lekcija_3.rst
+    komunikacija_na_internetu_lekcija_3.rst
+    zkviz_3.rst

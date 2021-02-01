@@ -14,4 +14,11 @@
    :align: center
 
 
+2. задатак
+----------
 
+Креирај у Ворду листу као на слици:
+
+.. image:: ../../_images/w2_lista3.png
+   :width: 400px   
+   :align: center

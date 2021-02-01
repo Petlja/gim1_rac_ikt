@@ -442,7 +442,7 @@ lessons:
         description: #opciono
         guid: 07832b3a-7837-40c3-917a-cd80e0b7248f
       - type: reading
-        title:  Уметање симбола и формула
+        title:  Уметање хиперлинкова, симбола и формула
         file: tekst_lekcija_formule_w3.rst
         description: #opciono
         guid: 68ab1013-82f5-4671-a4da-e23f7c0c5629

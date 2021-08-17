@@ -1,51 +1,41 @@
 Квиз 1.1
 ========
 
+.. comment
 
-Питање 1.
-~~~~~~~~~
+    .. mchoice:: ИКТ1
+        :multiple_answers:
+        :answer_a: 19
+        :feedback_a: Тачно    
+        :answer_b: Плаво
+        :feedback_b: Тачно    
+        :answer_c: Цвет је бео
+        :feedback_c: Нетачно
+        :answer_d: Београд
+        :feedback_d: Тачно
+        :correct: a,b,d
 
-.. mchoice:: ИКТ1
-    :multiple_answers:
-    :answer_a: 19
-    :feedback_a: Тачно    
-    :answer_b: Плаво
-    :feedback_b: Тачно    
-    :answer_c: Цвет је бео
-    :feedback_c: Нетачно
-    :answer_d: Београд
-    :feedback_d: Тачно
-    :correct: a,b,d
+        Означи шта је све „податак“
+        
 
-
-    Означи шта је све „податак“
-
-
-Питање 2.
-~~~~~~~~~
 
 .. mchoice:: ИКТ2
-    :multiple_answers:
-    :answer_a: датотека
-    :feedback_a: Тачно    
+    :answer_a: податак
+    :feedback_a: Нетачно
     :answer_b: база података
-    :feedback_b: Нетачно    
+    :feedback_b: Нетачно
     :answer_c: фајл
     :feedback_c: Тачно
-    :answer_d: документ
-    :feedback_d: Тачно
+    :answer_d: директоријум
+    :feedback_d: Нетачно
     :answer_e: информација
     :feedback_e: Нетачно 
-    :correct: a,c,d
+    :correct: c
 
-
-    Означи синониме
-
+    Како још називамо датотеку?
 
 
 
-Питање 3.
-~~~~~~~~~
 
 .. fillintheblank:: ikt3
 
@@ -53,13 +43,10 @@
 
     Одговор: |blank|
 
-   - :^ИКТ$: Тачно
+   - :^ИКТ|[Ии]кт$: Тачно
      :x: Одговор није тачан.
 
 
-
-Питање 4.
-~~~~~~~~~
 
 .. mchoice:: икт4
    :answer_a: прве индустријске револуције
@@ -73,8 +60,16 @@
 
 
 
-Питање 5.
-~~~~~~~~~
+.. mchoice:: икт-карактеристика
+   :answer_a: прелазак са папирног на електронско пословање
+   :answer_b: преузимање готових информација уместо њиховог креирања
+   :answer_c: информисање на друштвеним мрежама
+   :answer_d: рад од куће
+   :correct: a
+
+   Једна од значајних карактеристика информационог друштва је
+
+
 
 .. mchoice:: ИКТ5
     :multiple_answers:
@@ -82,7 +77,7 @@
     :feedback_a: Тачно
     :answer_b: Електронска трговина (е-трговина)
     :feedback_b: Тачно
-    :answer_c: Електронска индустрија
+    :answer_c: Електронско грађевинарство
     :feedback_c: Нетачно
     :answer_d: Електронске комуникације
     :feedback_d: Тачно 

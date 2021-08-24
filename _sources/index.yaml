@@ -611,9 +611,6 @@ lessons:
         file: zkviz_w10.rst
         description: ...
         guid: 76bbed70-d621-4109-9ba9-1dddaaff9621 
-archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
-  - guid: 3ced8ac6-8be7-4921-bea7-dccf89a7cc79
-  - guid: 29a3a23a-0cdb-4a2b-ad6b-611d36c39db5
 
 
 

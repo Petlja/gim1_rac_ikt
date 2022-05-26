@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl"></html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1.4 Ауторска права, веродостојност информација, заштита и безбедност &#8212; 1_razred_IKT_DigitalnaPismenost</title>
-    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <title>1.4 Ауторска права, веродостојност информација, заштита и безбедност</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
@@ -26,13 +24,26 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/nimgame.css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" type="text/css" />
     <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
-    <link rel="stylesheet" href="../_static/petlja.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja-course.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nbstyle.css" type="text/css" />
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
     <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
     <script type="text/javascript" src="../_static/jquery.js"></script>
     <script type="text/javascript" src="../_static/underscore.js"></script>
     <script type="text/javascript" src="../_static/doctools.js"></script>
@@ -54,8 +65,7 @@
     <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
     <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
     <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
-    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/activecode.js"></script>
     <script type="text/javascript" src="../_static/clike.js"></script>
     <script type="text/javascript" src="../_static/timed_activecode.js"></script>
@@ -64,6 +74,7 @@
     <script type="text/javascript" src="../_static/timedmc.js"></script>
     <script type="text/javascript" src="../_static/timed.js"></script>
     <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/clickable.js"></script>
     <script type="text/javascript" src="../_static/timedclickable.js"></script>
     <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
@@ -71,18 +82,23 @@
     <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
     <script type="text/javascript" src="../_static/pytutor.js"></script>
     <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
     <script type="text/javascript" src="../_static/datafile.js"></script>
     <script type="text/javascript" src="../_static/dragndrop.js"></script>
     <script type="text/javascript" src="../_static/timeddnd.js"></script>
     <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/fitb.js"></script>
     <script type="text/javascript" src="../_static/timedfitb.js"></script>
     <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/matrixeq.js"></script>
     <script type="text/javascript" src="../_static/lib/prettify.js"></script>
     <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
     <script type="text/javascript" src="../_static/parsons.js"></script>
     <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/timedparsons.js"></script>
     <script type="text/javascript" src="../_static/poll.js"></script>
     <script type="text/javascript" src="../_static/reveal.js"></script>
@@ -101,6 +117,7 @@
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
     <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
     <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
@@ -129,23 +146,25 @@
     <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
     <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
     <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
+    <script type="text/javascript" src="../_static/simanim.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
+    <script type="text/javascript" src="../_static/pycode.js"></script>
+    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
+    <script type="text/javascript" src="../_static/p5js.js"></script>
+    <script type="text/javascript" src="../_static/gallery.js"></script>
+    <script type="text/javascript" src="../_static/dbDirective.js"></script>
+    <script type="text/javascript" src="../_static/sql.js"></script>
+    <script type="text/javascript" src="../_static/associations.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/regex-check.js"></script>
+    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/nimgame.js"></script>
+    <script type="text/javascript" src="../_static/nimgame-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/nimgame-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/mchoice-i18n.sr.js"></script>
-    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Latn.js"></script>
-    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/dragndrop-i18n.sr.js"></script>
-    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Latn.js"></script>
-    <script type="text/javascript" src="../_static/fitb-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/fitb-i18n.sr.js"></script>
-    <script type="text/javascript" src="../_static/fitb-i18n.sr-Latn.js"></script>
-    <script type="text/javascript" src="../_static/parsons-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/parsons-i18n.sr.js"></script>
-    <script type="text/javascript" src="../_static/parsons-i18n.sr-Latn.js"></script>
-    <script type="text/javascript" src="../_static/activecode-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/activecode-i18n.sr.js"></script>
-    <script type="text/javascript" src="../_static/activecode-i18n.sr-Latn.js"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
     <script type="text/javascript" src="../_static/jquery-fix.js"></script>
     <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
@@ -162,1334 +181,429 @@
     <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="../_static/course-errors.js"></script>
     <script type="text/javascript" src="../_static/petlja.js"></script>
-    <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Садржај лекције 1.4" href="uvod_lekcija_4.html" />
-    <link rel="prev" title="Квиз 1.3" href="../Лекција3/zkviz_3.html" />
-<meta charset='utf-8'>
-<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
-<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-<link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
-<script type="text/javascript">
-  eBookConfig = {};
-  eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
-  eBookConfig.app = eBookConfig.host + '/runestone';
-  eBookConfig.ajaxURL = eBookConfig.app + '/ajax/';
-  eBookConfig.course = '1_razred_IKT_DigitalnaPismenost';
-  eBookConfig.logLevel = '0';
-  eBookConfig.loginRequired = 'false';
-  eBookConfig.build_info = "";
-  eBookConfig.isLoggedIn = false;
-  eBookConfig.useRunestoneServices = 'false';
-  eBookConfig.python3 = 'true';
-  eBookConfig.basecourse = 'Primer_kurs';
-  eBookConfig.runestone_version = '';
-  eBookConfig.imagesDir = '../_images/';
-  eBookConfig.staticDir = '../_static/';
-  if (typeof (Sk) != "undefined")
-    Sk.imgPath = eBookConfig.imagesDir;
-</script>
+    <script type="text/javascript" src="../_static/require.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+    <script type="text/javascript">
+      eBookConfig = {};
+      eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+      eBookConfig.app = eBookConfig.host + '/runestone';
+      eBookConfig.ajaxURL = eBookConfig.app + '/ajax/';
+      eBookConfig.course = '1_razred_IKT_DigitalnaPismenost';
+      eBookConfig.logLevel = '0';
+      eBookConfig.loginRequired = 'false';
+      eBookConfig.build_info = "";
+      eBookConfig.isLoggedIn = false;
+      eBookConfig.useRunestoneServices = false;
+      eBookConfig.python3 = true;
+      eBookConfig.basecourse = 'Primer_kurs';
+      eBookConfig.runestone_version = '';
+      eBookConfig.imagesDir = '../_images/';
+      eBookConfig.staticDir = '../_static/';
+      if (typeof (Sk) != "undefined")
+        Sk.imgPath = eBookConfig.imagesDir;
+    </script>
 
-<div id="fb-root"></div>
+  </head>
 
+  <body>
 
 
-  </head><body>
 
-
-<!-- Begin navbar -->
-
-<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
-
-  <a href="https://petlja.org"><img src="../_static/img/petlja-logo-wt.svg"
-      style="width:80px; float: left;"> </a>
-  <a href="https://petlja.org/net.kabinet"><img src="../_static/img/netkabinet-logo-strelica-wt.svg"
-      style="width: 30px; margin-left: 15px; float: left;"> </a>
-  <div class="container">
-
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-        data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
+<div id="navbar" class="content-header">
+  <div class="right-side-nav">
+    
+    <div id="usefulLinksToggle" class="useful-links-toggle">
+        <a class="dropdown-toggle dropdown-toggle-burger" role="button" href="#" id="usefulLinksDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars fa-2x"></i>
+        </a>
+        <div class="dropdown-menu dropdown-nav-links shadow-lg" aria-labelledby="usefulLinksDropdown" x-placement="bottom-start" style="position: absolute; transform: translate3d(-55px, 32px, 0px); top: 0px; left: 0px; will-change: transform;">
+          <div class="links-title"> Корисни линкови</div>
+          <div class="useful-link">
+            <a href="https://office.com" target="_blank">Мајкрософт платформа</a></div>
+          <div class="useful-link">
+            <a href="https://google.com" target="_blank">Гугл платформа</a></div>
+          
+        </div>
     </div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"
-      style="margin-left: 25px; text-align: center;">
-      <ul class="nav navbar-nav">
-        <li class="active"><a
-            href="../">1_razred_IKT_DigitalnaPismenost</a>
-        </li>
-      </ul>
-    </div>
+    
+</div>
+
+<div class="left-side-nav">
+  <div class="course-logo-nav">
+      <a target="_blank" href="https://petlja.org">
+          <img src="../_static/img/petlja-logo-wt.svg" alt="petlja.org" id="lightPetljaLogo">
+      </a>
   </div>
-</nav>
-
-<div style="margin-top: 65px;font-size: 20px; width: 20%; float: left; height: calc(100vh - 115px);">
-  
-      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
-        <div class="sphinxsidebarwrapper"><ul>
-    
-    <div class="lecture-div" id=lecture-аУвод>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>Увод</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../аУвод/uvodni_tekst.html>
-        
-        <div class="activity-div" id=activity-uvodni_tekst>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Увод у курс
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Тема1>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>1. Информационо - комуникационе технологије у савременом друштву</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Тема1/tekst_tema_1.html>
-        
-        <div class="activity-div" id=activity-tekst_tema_1>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај теме 1
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција1>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>1.1 Информационо-комуникационе технологије</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција1/uvod_lekcija_1.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_1>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 1.1
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција1/IKT_lekcija_1.html>
-        
-        <div class="activity-div" id=activity-IKT_lekcija_1>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            1.1 ИКТ у савременом друштву
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција1/zkviz_1.html>
-        
-        <div class="activity-div" id=activity-zkviz_1>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 1.1
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција2>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>1.2 Рачунарске мреже и интернет</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција2/uvod_lekcija_2.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_2>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 1.2
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција2/mreze_lekcija_2.html>
-        
-        <div class="activity-div" id=activity-mreze_lekcija_2>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Рачунарске мреже и интернет
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција2/zkviz_2.html>
-        
-        <div class="activity-div" id=activity-zkviz_2>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 1.2
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција3>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>1.3 Коришћење интернета</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција3/uvod_lekcija_3.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_3>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 1.3
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција3/internet_servisi_lekcija_3.html>
-        
-        <div class="activity-div" id=activity-internet_servisi_lekcija_3>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Интернет сервиси
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција3/komunikacija_na_internetu_lekcija_3.html>
-        
-        <div class="activity-div" id=activity-komunikacija_na_internetu_lekcija_3>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Начини и правила комуникације и лепог понашања на интернету
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција3/zkviz_3.html>
-        
-        <div class="activity-div" id=activity-zkviz_3>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 1.3
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција4>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>1.4 Ауторска права, веродостојност информација, заштита и безбедност</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција4/uvod_lekcija_4.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_4>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 1.4
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција4/prava_verodostojnost_lekcija_4.html>
-        
-        <div class="activity-div" id=activity-prava_verodostojnost_lekcija_4>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Ауторска права и веродостојност информација
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција4/zastita_bezbednost_lekcija_4.html>
-        
-        <div class="activity-div" id=activity-zastita_bezbednost_lekcija_4>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Заштита личних података и приватност
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција4/uticaji_lekcija_4.html>
-        
-        <div class="activity-div" id=activity-uticaji_lekcija_4>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Утицаји ИКТ на здравље и околину
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција4/sve_boje_lekcija_4.html>
-        
-        <div class="activity-div" id=activity-sve_boje_lekcija_4>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Све боје интернета
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција4/zkviz_4.html>
-        
-        <div class="activity-div" id=activity-zkviz_4>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 1.4
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција5>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>1.5 Развој ИКТ</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција5/uvod_lekcija_5.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_5>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 1.5
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција5/istorijski_razvoj_lekcija_5.html>
-        
-        <div class="activity-div" id=activity-istorijski_razvoj_lekcija_5>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Историјски развој ИКТ
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција5/generacije_elektronskih_lekcija_5.html>
-        
-        <div class="activity-div" id=activity-generacije_elektronskih_lekcija_5>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Генерације електронских рачунара
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција5/zkviz_5.html>
-        
-        <div class="activity-div" id=activity-zkviz_5>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 1.5
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Тема2>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>2. Рачунарство</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Тема2/tekst_tema_2.html>
-        
-        <div class="activity-div" id=activity-tekst_tema_2>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај теме 2
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција6>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>2.1 Принципи рада рачунара</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција6/uvod_lekcija_6.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_6>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 2.1
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција6/kako_rade_računari_lekcija_6.html>
-        
-        <div class="activity-div" id=activity-kako_rade_računari_lekcija_6>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Како раде рачунари
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција6/predstavljanje_podataka_lekcija_6.html>
-        
-        <div class="activity-div" id=activity-predstavljanje_podataka_lekcija_6>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Представљање података у рачунару
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција6/zkviz_6.html>
-        
-        <div class="activity-div" id=activity-zkviz_6>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 2.1
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција7>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>2.2 Представљање бројева и рачунање са различитим основама</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција7/uvod_lekcija_7.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_7>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 2.2
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција7/predstavljanje_racunanje_lekcija_7.html>
-        
-        <div class="activity-div" id=activity-predstavljanje_racunanje_lekcija_7>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Представљање бројева и рачунање са различитим основама
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција7/zkviz_7.html>
-        
-        <div class="activity-div" id=activity-zkviz_7>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 2.2
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција8>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>2.3 Хардверске компоненте рачунарских система</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција8/uvod_lekcija_8.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_8>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 2.3
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција8/hardver_lekcija_8.html>
-        
-        <div class="activity-div" id=activity-hardver_lekcija_8>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Хардвер
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција8/zkviz_8.html>
-        
-        <div class="activity-div" id=activity-zkviz_8>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 2.3
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција9>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>2.4 Софтверске компоненте рачунарских система</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција9/uvod_lekcija_9.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_9>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 2.4
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција9/softver_lekcija_9.html>
-        
-        <div class="activity-div" id=activity-softver_lekcija_9>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Софтвер
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција9/zkviz_9.html>
-        
-        <div class="activity-div" id=activity-zkviz_9>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 2.4
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Тема3>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>3. Организација података и прилагођавање радног окружења</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Тема3/tekst_tema_3.html>
-        
-        <div class="activity-div" id=activity-tekst_tema_3>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај теме 3
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција10>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>3.1 Графички кориснички интерфејс</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција10/uvod_lekcija_10.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_10>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 3.1
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција10/gki_lekcija_10.html>
-        
-        <div class="activity-div" id=activity-gki_lekcija_10>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Графички кориснички интерфејс - основни елементи
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција10/gki_podešavanja_lekcija_10.html>
-        
-        <div class="activity-div" id=activity-gki_podešavanja_lekcija_10>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Графички кориснички интерфејс - основна подешавања
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција10/zkviz_10.html>
-        
-        <div class="activity-div" id=activity-zkviz_10>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 3.1
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција11>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>3.2 Рад са документима и системом датотека</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција11/uvod_lekcija_11.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_11>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 3.2
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција11/dokumenti_lekcija_11.html>
-        
-        <div class="activity-div" id=activity-dokumenti_lekcija_11>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Рад са документима и системом датотека
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција11/zkviz_11.html>
-        
-        <div class="activity-div" id=activity-zkviz_11>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 3.2
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Лекција12>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>3.3 Архивирање, слање, чување, заштита.</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Лекција12/uvod_lekcija_12.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_12>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 3.3
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција12/arhiviranje_slanje_lekcija_12.html>
-        
-        <div class="activity-div" id=activity-arhiviranje_slanje_lekcija_12>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Архивирање, слање и чување датотека.
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција12/dokumenti_oblak_lekcija_12.html>
-        
-        <div class="activity-div" id=activity-dokumenti_oblak_lekcija_12>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Рад са документима и системом датотека „у облаку”
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција12/zastita_lekcija_12.html>
-        
-        <div class="activity-div" id=activity-zastita_lekcija_12>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Средства и методе заштите рачунара и информација
-        </div>
-    </a>
-    
-        
-        <a href=../Лекција12/zkviz_12.html>
-        
-        <div class="activity-div" id=activity-zkviz_12>
-            
-            <i class="far fa-question-circle activity-icon"></i>
-            
-            Квиз 3.3
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-Тема4>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>4. Креирање и уређевање дигиталних докумената</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../Тема4/tekst_tema_4.html>
-        
-        <div class="activity-div" id=activity-tekst_tema_4>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај теме 4
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-ЛекцијаW1>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>4.1 Креирање, уређивање и форматирање дигиталних текстова</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../ЛекцијаW1/uvod_lekcija_w1.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_w1>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 4.1
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW1/tekst_lekcija_w1.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_w1>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Креирање, уређивање и форматирање дигиталних текстова
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW1/zkviz_w1.html>
-        
-        <div class="activity-div" id=activity-zkviz_w1>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Задаци 4.1
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-ЛекцијаW2>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>4.2 Форматирање параграфа</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../ЛекцијаW2/uvod_lekcija_w2.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_w2>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 4.2
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW2/tekst_lekcija_w2.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_w2>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Форматирање параграфа
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW2/zkviz_w2.html>
-        
-        <div class="activity-div" id=activity-zkviz_w2>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Задаци 4.2
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-ЛекцијаW3>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>4.3 Посебни елементи у тексту</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../ЛекцијаW3/uvod_lekcija_w3.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_w3>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 4.3
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW3/tekst_lekcija_slike_w3.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_slike_w3>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Уметање слика и облика
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW3/tekst_lekcija_tabele_w3.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_tabele_w3>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Уметање табела
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW3/tekst_lekcija_formule_w3.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_formule_w3>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Уметање симбола и формула
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW3/zkviz_w3.html>
-        
-        <div class="activity-div" id=activity-zkviz_w3>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Задаци 4.3
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-ЛекцијаW4>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>4.4 Логичка структура текстуалног документа</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../ЛекцијаW4/uvod_lekcija_w4.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_w4>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 4.4
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW4/tekst_lekcija_w4.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_w4>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Логичка структура текстуалног документа
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW4/zkviz_w4.html>
-        
-        <div class="activity-div" id=activity-zkviz_w4>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Задаци 4.4
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-ЛекцијаW5>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>4.5 Обликовање документа, штампање</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../ЛекцијаW5/uvod_lekcija_w5.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_w5>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 4.5
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW5/tekst_lekcija_w5.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_w5>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Обликовање документа, штампање
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW5/zkviz_w5.html>
-        
-        <div class="activity-div" id=activity-zkviz_w5>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Задаци 4.5
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-ЛекцијаW6>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>4.6 Рад у дељеном текстуалном документу</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../ЛекцијаW6/uvod_lekcija_w6.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_w6>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 4.6
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW6/tekst_lekcija_w6.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_w6>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Рад у дељеном текстуалном документу
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW6/zkviz_w6.html>
-        
-        <div class="activity-div" id=activity-zkviz_w6>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Задаци 4.6
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-ЛекцијаW7>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>4.7 Слајд - презентације у дељеном документу</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../ЛекцијаW7/uvod_lekcija_w7.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_w7>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 4.7
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW7/tekst_lekcija_w7.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_w7>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Слајд - презентације у дељеном документу
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW7/zkviz_w7.html>
-        
-        <div class="activity-div" id=activity-zkviz_w7>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Задаци 4.7
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-ЛекцијаW8>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>4.8 Израда слајд презентације у Пауерпоинту</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../ЛекцијаW8/uvod_lekcija_w8.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_w8>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 4.8
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW8/podsećanje_lekcija_w8.html>
-        
-        <div class="activity-div" id=activity-podsećanje_lekcija_w8>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Рад у Пауерпоинту - подсетник
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW8/tekst_lekcija_w8.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_w8>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Презентације и њихова примена
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW8/zkviz_w8.html>
-        
-        <div class="activity-div" id=activity-zkviz_w8>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Задаци 4.8
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-ЛекцијаW9>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>4.9 Напредне технике израде слајд презентација</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../ЛекцијаW9/uvod_lekcija_w9.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_w9>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 4.9
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW9/tekst_lekcija_w9.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_w9>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Напредне технике израде слајд презентација
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW9/zkviz_w9.html>
-        
-        <div class="activity-div" id=activity-zkviz_w9>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Задаци 4.9
-        </div>
-    </a>
-    
-
-    </diV>
-    
-    <div class="lecture-div" id=lecture-ЛекцијаW10>
-        <i class="fas fa-caret-right caret-position"></i>
-        <i class="fas fa-caret-down caret-position d-none"></i>
-        <h5>4.10 Уређивање текста применом нотација за обележавање</h5>
-    </div>
-
-    <div class="d-none">
-        
-        
-        <a href=../ЛекцијаW10/uvod_lekcija_w10.html>
-        
-        <div class="activity-div" id=activity-uvod_lekcija_w10>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Садржај лекције 4.10
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW10/tekst_lekcija_w10.html>
-        
-        <div class="activity-div" id=activity-tekst_lekcija_w10>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Уређивање текста применом нотација за обележавање
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW10/html_lekcija_w10.html>
-        
-        <div class="activity-div" id=activity-html_lekcija_w10>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            HTML
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW10/mark_lekcija_w10.html>
-        
-        <div class="activity-div" id=activity-mark_lekcija_w10>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Markdown
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW10/wiki_lekcija_w10.html>
-        
-        <div class="activity-div" id=activity-wiki_lekcija_w10>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Wiki
-        </div>
-    </a>
-    
-        
-        <a href=../ЛекцијаW10/zkviz_w10.html>
-        
-        <div class="activity-div" id=activity-zkviz_w10>
-            
-            <i class="fas fa-file-alt activity-icon"></i>
-            
-            Задаци 4.10
-        </div>
-    </a>
-    
-
-    </diV>
-    
-</ul>
-        </div>
-      </div>
-
+  <div class="course-logo-nav-kabinet">
+      <a target="_blank" href="https://petlja.org/net.kabinet">
+          <img src="../_static/img/netkabinet-logo-strelica-wt.svg" alt="petlja.org" id="lightNetKabinetLogo">
+      </a>
+  </div>
 </div>
 
-<div class="container col-md-12" id="continue-reading"></div>
-<div class="container" id="main-content" style="float: left;  padding-left: 20px; height: calc(100vh - 115px);">
-<div id="errors">
+
+<div class="content-header-label" id = "content-header-label" href="../">ИКТ, Рачунарство и Организација података</div>
 
 </div>
 
 
+
+
+<div class="petljaCourseContainer">
+
+<div class="petljaCourseContent">
   
+           <div class="tableOfContent">
+            <h5> Садржај </h5>
+            </div>
+           <div>
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-аУвод>
+                    <h5>Увод</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../аУвод/uvodni_tekst.html><div class="studioLecture" id=activity-uvodni_tekst><i class="fas fa-file-alt activity-icon"></i>Увод у курс</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Тема1>
+                    <h5>1. Информационо - комуникационе технологије у савременом друштву</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Тема1/tekst_tema_1.html><div class="studioLecture" id=activity-tekst_tema_1><i class="fas fa-file-alt activity-icon"></i>Садржај теме 1</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција1>
+                    <h5>1.1 Информационо-комуникационе технологије</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција1/uvod_lekcija_1.html><div class="studioLecture" id=activity-uvod_lekcija_1><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 1.1</div></a>
+                <a href=../Лекција1/IKT_lekcija_1.html><div class="studioLecture" id=activity-IKT_lekcija_1><i class="fas fa-file-alt activity-icon"></i>1.1 ИКТ у савременом друштву</div></a>
+                <a href=../Лекција1/zkviz_1.html><div class="studioLecture" id=activity-zkviz_1><i class="far fa-question-circle activity-icon"></i>Квиз 1.1</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција2>
+                    <h5>1.2 Рачунарске мреже и интернет</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција2/uvod_lekcija_2.html><div class="studioLecture" id=activity-uvod_lekcija_2><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 1.2</div></a>
+                <a href=../Лекција2/mreze_lekcija_2.html><div class="studioLecture" id=activity-mreze_lekcija_2><i class="fas fa-file-alt activity-icon"></i>Рачунарске мреже и интернет</div></a>
+                <a href=../Лекција2/zkviz_2.html><div class="studioLecture" id=activity-zkviz_2><i class="far fa-question-circle activity-icon"></i>Квиз 1.2</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција3>
+                    <h5>1.3 Коришћење интернета</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција3/uvod_lekcija_3.html><div class="studioLecture" id=activity-uvod_lekcija_3><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 1.3</div></a>
+                <a href=../Лекција3/internet_servisi_lekcija_3.html><div class="studioLecture" id=activity-internet_servisi_lekcija_3><i class="fas fa-file-alt activity-icon"></i>Интернет сервиси</div></a>
+                <a href=../Лекција3/komunikacija_na_internetu_lekcija_3.html><div class="studioLecture" id=activity-komunikacija_na_internetu_lekcija_3><i class="fas fa-file-alt activity-icon"></i>Начини и правила комуникације и понашања на интернету</div></a>
+                <a href=../Лекција3/zkviz_3.html><div class="studioLecture" id=activity-zkviz_3><i class="far fa-question-circle activity-icon"></i>Квиз 1.3</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција4>
+                    <h5>1.4 Ауторска права, веродостојност информација, заштита и безбедност</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција4/uvod_lekcija_4.html><div class="studioLecture" id=activity-uvod_lekcija_4><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 1.4</div></a>
+                <a href=../Лекција4/prava_verodostojnost_lekcija_4.html><div class="studioLecture" id=activity-prava_verodostojnost_lekcija_4><i class="fas fa-file-alt activity-icon"></i>Ауторска права и веродостојност информација</div></a>
+                <a href=../Лекција4/zastita_bezbednost_lekcija_4.html><div class="studioLecture" id=activity-zastita_bezbednost_lekcija_4><i class="fas fa-file-alt activity-icon"></i>Заштита личних података и приватност</div></a>
+                <a href=../Лекција4/uticaji_lekcija_4.html><div class="studioLecture" id=activity-uticaji_lekcija_4><i class="fas fa-file-alt activity-icon"></i>Утицаји ИКТ на здравље и околину</div></a>
+                <a href=../Лекција4/sve_boje_lekcija_4.html><div class="studioLecture" id=activity-sve_boje_lekcija_4><i class="fas fa-file-alt activity-icon"></i>Све боје интернета</div></a>
+                <a href=../Лекција4/zkviz_4.html><div class="studioLecture" id=activity-zkviz_4><i class="far fa-question-circle activity-icon"></i>Квиз 1.4</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција5>
+                    <h5>1.5 Развој ИКТ</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција5/uvod_lekcija_5.html><div class="studioLecture" id=activity-uvod_lekcija_5><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 1.5</div></a>
+                <a href=../Лекција5/istorijski_razvoj_lekcija_5.html><div class="studioLecture" id=activity-istorijski_razvoj_lekcija_5><i class="fas fa-file-alt activity-icon"></i>Историјски развој ИКТ</div></a>
+                <a href=../Лекција5/generacije_elektronskih_lekcija_5.html><div class="studioLecture" id=activity-generacije_elektronskih_lekcija_5><i class="fas fa-file-alt activity-icon"></i>Генерације електронских рачунара</div></a>
+                <a href=../Лекција5/zkviz_5.html><div class="studioLecture" id=activity-zkviz_5><i class="far fa-question-circle activity-icon"></i>Квиз 1.5</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Тема2>
+                    <h5>2. Рачунарство</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Тема2/tekst_tema_2.html><div class="studioLecture" id=activity-tekst_tema_2><i class="fas fa-file-alt activity-icon"></i>Садржај теме 2</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција6>
+                    <h5>2.1 Принципи рада рачунара</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција6/uvod_lekcija_6.html><div class="studioLecture" id=activity-uvod_lekcija_6><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 2.1</div></a>
+                <a href=../Лекција6/kako_rade_računari_lekcija_6.html><div class="studioLecture" id=activity-kako_rade_računari_lekcija_6><i class="fas fa-file-alt activity-icon"></i>Како раде рачунари</div></a>
+                <a href=../Лекција6/predstavljanje_podataka_lekcija_6.html><div class="studioLecture" id=activity-predstavljanje_podataka_lekcija_6><i class="fas fa-file-alt activity-icon"></i>Представљање података у рачунару</div></a>
+                <a href=../Лекција6/zkviz_6.html><div class="studioLecture" id=activity-zkviz_6><i class="far fa-question-circle activity-icon"></i>Квиз 2.1</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција7>
+                    <h5>2.2 Представљање бројева и рачунање са различитим основама</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција7/uvod_lekcija_7.html><div class="studioLecture" id=activity-uvod_lekcija_7><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 2.2</div></a>
+                <a href=../Лекција7/predstavljanje_racunanje_lekcija_7.html><div class="studioLecture" id=activity-predstavljanje_racunanje_lekcija_7><i class="fas fa-file-alt activity-icon"></i>Представљање бројева и рачунање са различитим основама</div></a>
+                <a href=../Лекција7/zkviz_7.html><div class="studioLecture" id=activity-zkviz_7><i class="far fa-question-circle activity-icon"></i>Квиз 2.2</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција8>
+                    <h5>2.3 Хардверске компоненте рачунарских система</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција8/uvod_lekcija_8.html><div class="studioLecture" id=activity-uvod_lekcija_8><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 2.3</div></a>
+                <a href=../Лекција8/hardver_lekcija_8.html><div class="studioLecture" id=activity-hardver_lekcija_8><i class="fas fa-file-alt activity-icon"></i>Хардвер</div></a>
+                <a href=../Лекција8/zkviz_8.html><div class="studioLecture" id=activity-zkviz_8><i class="far fa-question-circle activity-icon"></i>Квиз 2.3</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција9>
+                    <h5>2.4 Софтверске компоненте рачунарских система</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција9/uvod_lekcija_9.html><div class="studioLecture" id=activity-uvod_lekcija_9><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 2.4</div></a>
+                <a href=../Лекција9/softver_lekcija_9.html><div class="studioLecture" id=activity-softver_lekcija_9><i class="fas fa-file-alt activity-icon"></i>Софтвер</div></a>
+                <a href=../Лекција9/zkviz_9.html><div class="studioLecture" id=activity-zkviz_9><i class="far fa-question-circle activity-icon"></i>Квиз 2.4</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Тема3>
+                    <h5>3. Организација података и прилагођавање радног окружења</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Тема3/tekst_tema_3.html><div class="studioLecture" id=activity-tekst_tema_3><i class="fas fa-file-alt activity-icon"></i>Садржај теме 3</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција10>
+                    <h5>3.1 Графички кориснички интерфејс</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција10/uvod_lekcija_10.html><div class="studioLecture" id=activity-uvod_lekcija_10><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 3.1</div></a>
+                <a href=../Лекција10/gki_lekcija_10.html><div class="studioLecture" id=activity-gki_lekcija_10><i class="fas fa-file-alt activity-icon"></i>Графички кориснички интерфејс - основни елементи</div></a>
+                <a href=../Лекција10/gki_podešavanja_lekcija_10.html><div class="studioLecture" id=activity-gki_podešavanja_lekcija_10><i class="fas fa-file-alt activity-icon"></i>Графички кориснички интерфејс - основна подешавања</div></a>
+                <a href=../Лекција10/zkviz_10.html><div class="studioLecture" id=activity-zkviz_10><i class="far fa-question-circle activity-icon"></i>Квиз 3.1</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција11>
+                    <h5>3.2 Рад са документима и системом датотека</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција11/uvod_lekcija_11.html><div class="studioLecture" id=activity-uvod_lekcija_11><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 3.2</div></a>
+                <a href=../Лекција11/dokumenti_lekcija_11.html><div class="studioLecture" id=activity-dokumenti_lekcija_11><i class="fas fa-file-alt activity-icon"></i>Рад са документима и системом датотека</div></a>
+                <a href=../Лекција11/zkviz_11.html><div class="studioLecture" id=activity-zkviz_11><i class="far fa-question-circle activity-icon"></i>Квиз 3.2</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Лекција12>
+                    <h5>3.3 Архивирање, слање, чување, заштита.</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Лекција12/uvod_lekcija_12.html><div class="studioLecture" id=activity-uvod_lekcija_12><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 3.3</div></a>
+                <a href=../Лекција12/arhiviranje_slanje_lekcija_12.html><div class="studioLecture" id=activity-arhiviranje_slanje_lekcija_12><i class="fas fa-file-alt activity-icon"></i>Архивирање, слање и чување датотека.</div></a>
+                <a href=../Лекција12/dokumenti_oblak_lekcija_12.html><div class="studioLecture" id=activity-dokumenti_oblak_lekcija_12><i class="fas fa-file-alt activity-icon"></i>Рад са документима и системом датотека „у облаку”</div></a>
+                <a href=../Лекција12/zastita_lekcija_12.html><div class="studioLecture" id=activity-zastita_lekcija_12><i class="fas fa-file-alt activity-icon"></i>Средства и методе заштите рачунара и информација</div></a>
+                <a href=../Лекција12/zkviz_12.html><div class="studioLecture" id=activity-zkviz_12><i class="far fa-question-circle activity-icon"></i>Квиз 3.3</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-Тема4>
+                    <h5>4. Креирање и уређевање дигиталних докумената</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../Тема4/tekst_tema_4.html><div class="studioLecture" id=activity-tekst_tema_4><i class="fas fa-file-alt activity-icon"></i>Садржај теме 4</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-ЛекцијаW1>
+                    <h5>4.1 Креирање, уређивање и форматирање дигиталних текстова</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../ЛекцијаW1/uvod_lekcija_w1.html><div class="studioLecture" id=activity-uvod_lekcija_w1><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 4.1</div></a>
+                <a href=../ЛекцијаW1/tekst_lekcija_w1.html><div class="studioLecture" id=activity-tekst_lekcija_w1><i class="fas fa-file-alt activity-icon"></i>Креирање и уређивање дигиталних текстова</div></a>
+                <a href=../ЛекцијаW1/formatiranje_lekcija_w1.html><div class="studioLecture" id=activity-formatiranje_lekcija_w1><i class="fas fa-file-alt activity-icon"></i>Форматирање дигиталних текстова</div></a>
+                <a href=../ЛекцијаW1/zkviz_w1.html><div class="studioLecture" id=activity-zkviz_w1><i class="fas fa-file-alt activity-icon"></i>Задаци 4.1</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-ЛекцијаW2>
+                    <h5>4.2 Форматирање параграфа</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../ЛекцијаW2/uvod_lekcija_w2.html><div class="studioLecture" id=activity-uvod_lekcija_w2><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 4.2</div></a>
+                <a href=../ЛекцијаW2/tekst_lekcija_w2.html><div class="studioLecture" id=activity-tekst_lekcija_w2><i class="fas fa-file-alt activity-icon"></i>Форматирање параграфа</div></a>
+                <a href=../ЛекцијаW2/zkviz_w2.html><div class="studioLecture" id=activity-zkviz_w2><i class="fas fa-file-alt activity-icon"></i>Задаци 4.2</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-ЛекцијаW3>
+                    <h5>4.3 Посебни елементи у тексту</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../ЛекцијаW3/uvod_lekcija_w3.html><div class="studioLecture" id=activity-uvod_lekcija_w3><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 4.3</div></a>
+                <a href=../ЛекцијаW3/tekst_lekcija_slike_w3.html><div class="studioLecture" id=activity-tekst_lekcija_slike_w3><i class="fas fa-file-alt activity-icon"></i>Уметање слика и облика</div></a>
+                <a href=../ЛекцијаW3/tekst_lekcija_tabele_w3.html><div class="studioLecture" id=activity-tekst_lekcija_tabele_w3><i class="fas fa-file-alt activity-icon"></i>Уметање табела</div></a>
+                <a href=../ЛекцијаW3/tekst_lekcija_formule_w3.html><div class="studioLecture" id=activity-tekst_lekcija_formule_w3><i class="fas fa-file-alt activity-icon"></i>Уметање хиперлинкова, симбола и формула</div></a>
+                <a href=../ЛекцијаW3/zkviz_w3.html><div class="studioLecture" id=activity-zkviz_w3><i class="fas fa-file-alt activity-icon"></i>Задаци 4.3</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-ЛекцијаW4>
+                    <h5>4.4 Логичка структура текстуалног документа</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../ЛекцијаW4/uvod_lekcija_w4.html><div class="studioLecture" id=activity-uvod_lekcija_w4><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 4.4</div></a>
+                <a href=../ЛекцијаW4/tekst_lekcija_w4.html><div class="studioLecture" id=activity-tekst_lekcija_w4><i class="fas fa-file-alt activity-icon"></i>Логичка структура текстуалног документа</div></a>
+                <a href=../ЛекцијаW4/zkviz_w4.html><div class="studioLecture" id=activity-zkviz_w4><i class="fas fa-file-alt activity-icon"></i>Задаци 4.4</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-ЛекцијаW5>
+                    <h5>4.5 Обликовање документа, штампање</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../ЛекцијаW5/uvod_lekcija_w5.html><div class="studioLecture" id=activity-uvod_lekcija_w5><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 4.5</div></a>
+                <a href=../ЛекцијаW5/tekst_lekcija_w5.html><div class="studioLecture" id=activity-tekst_lekcija_w5><i class="fas fa-file-alt activity-icon"></i>Обликовање документа, штампање</div></a>
+                <a href=../ЛекцијаW5/zkviz_w5.html><div class="studioLecture" id=activity-zkviz_w5><i class="fas fa-file-alt activity-icon"></i>Задаци 4.5</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-ЛекцијаW6>
+                    <h5>4.6 Рад у дељеном текстуалном документу</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../ЛекцијаW6/uvod_lekcija_w6.html><div class="studioLecture" id=activity-uvod_lekcija_w6><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 4.6</div></a>
+                <a href=../ЛекцијаW6/tekst_lekcija_w6.html><div class="studioLecture" id=activity-tekst_lekcija_w6><i class="fas fa-file-alt activity-icon"></i>Рад у дељеном текстуалном документу</div></a>
+                <a href=../ЛекцијаW6/zkviz_w6.html><div class="studioLecture" id=activity-zkviz_w6><i class="fas fa-file-alt activity-icon"></i>Задаци 4.6</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-ЛекцијаW7>
+                    <h5>4.7 Слајд - презентације у дељеном документу</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../ЛекцијаW7/uvod_lekcija_w7.html><div class="studioLecture" id=activity-uvod_lekcija_w7><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 4.7</div></a>
+                <a href=../ЛекцијаW7/tekst_lekcija_w7.html><div class="studioLecture" id=activity-tekst_lekcija_w7><i class="fas fa-file-alt activity-icon"></i>Слајд - презентације у дељеном документу</div></a>
+                <a href=../ЛекцијаW7/zkviz_w7.html><div class="studioLecture" id=activity-zkviz_w7><i class="fas fa-file-alt activity-icon"></i>Задаци 4.7</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-ЛекцијаW8>
+                    <h5>4.8 Израда слајд презентације у Пауерпоинту</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../ЛекцијаW8/uvod_lekcija_w8.html><div class="studioLecture" id=activity-uvod_lekcija_w8><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 4.8</div></a>
+                <a href=../ЛекцијаW8/podsećanje_lekcija_w8.html><div class="studioLecture" id=activity-podsećanje_lekcija_w8><i class="fas fa-file-alt activity-icon"></i>Рад у Пауерпоинту - подсетник</div></a>
+                <a href=../ЛекцијаW8/tekst_lekcija_w8.html><div class="studioLecture" id=activity-tekst_lekcija_w8><i class="fas fa-file-alt activity-icon"></i>Презентације и њихова примена</div></a>
+                <a href=../ЛекцијаW8/zkviz_w8.html><div class="studioLecture" id=activity-zkviz_w8><i class="fas fa-file-alt activity-icon"></i>Задаци 4.8</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-ЛекцијаW9>
+                    <h5>4.9 Напредне технике израде слајд презентација</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../ЛекцијаW9/uvod_lekcija_w9.html><div class="studioLecture" id=activity-uvod_lekcija_w9><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 4.9</div></a>
+                <a href=../ЛекцијаW9/tekst_lekcija_w9.html><div class="studioLecture" id=activity-tekst_lekcija_w9><i class="fas fa-file-alt activity-icon"></i>Напредне технике израде слајд презентација</div></a>
+                <a href=../ЛекцијаW9/zkviz_w9.html><div class="studioLecture" id=activity-zkviz_w9><i class="fas fa-file-alt activity-icon"></i>Задаци 4.9</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-ЛекцијаW10>
+                    <h5>4.10 Уређивање текста применом нотација за обележавање</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../ЛекцијаW10/uvod_lekcija_w10.html><div class="studioLecture" id=activity-uvod_lekcija_w10><i class="fas fa-file-alt activity-icon"></i>Садржај лекције 4.10</div></a>
+                <a href=../ЛекцијаW10/tekst_lekcija_w10.html><div class="studioLecture" id=activity-tekst_lekcija_w10><i class="fas fa-file-alt activity-icon"></i>Уређивање текста применом нотација за обележавање</div></a>
+                <a href=../ЛекцијаW10/html_lekcija_w10.html><div class="studioLecture" id=activity-html_lekcija_w10><i class="fas fa-file-alt activity-icon"></i>HTML</div></a>
+                <a href=../ЛекцијаW10/mark_lekcija_w10.html><div class="studioLecture" id=activity-mark_lekcija_w10><i class="fas fa-file-alt activity-icon"></i>Markdown</div></a>
+                <a href=../ЛекцијаW10/wiki_lekcija_w10.html><div class="studioLecture" id=activity-wiki_lekcija_w10><i class="fas fa-file-alt activity-icon"></i>Wiki markup</div></a>
+                <a href=../ЛекцијаW10/zkviz_w10.html><div class="studioLecture" id=activity-zkviz_w10><i class="fas fa-file-alt activity-icon"></i>Задаци 4.10</div></a>
+                </div>
+            </div>
+                </div>
+</div>
+
+
+
+<div class="lectureContent">
+
+  <div id="errors">
+  </div>
+  
+  <div class="lectureContentMaterial">
+  
+    <div id="main-content">
+    
   <div class="section" id="id1">
 <h1>1.4 Ауторска права, веродостојност информација, заштита и безбедност<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
@@ -1505,55 +619,44 @@
 </div>
 
 
-
+    </div>
+    
+    <div>
+<div class="lecture-prev-next-toggle">
+  <a  href="../Лекција3/zkviz_3.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  
+  <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
 </div>
 
-<div style="position: relative;">
-  
-  <div class="col-md-12 lecture-switcher">
-    <div class="petljadoc-resources">
-            <span class="pull-left">&copy; 2019 Petlja (Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>)</span>
-    </div>
-<ul class="pager">
-    <a href="../Лекција3/zkviz_3.html" id="prevLectureLink"><div id="prevLecture" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i></div></a>
-    
-       <a href="#" id="nextLectureLink"><div id="nextLecture" class="lecture-toggler-arrows lecture-toggler-arrows-next"> <i class="fas fa-arrow-right fa"></i></div></a>
-</ul>
-
-<!-- <ul class="pager"> -->
-    <!-- -->
-        <!-- <li id="relations-prev" title='Претходно поглавље - Квиз 1.3' data-toggle="tooltip"><a href="../Лекција3/zkviz_3.html">Претходно поглавље</a></li> -->
-    <!--  -->
-    <!-- -->
-        <!-- <li id="relations-next" title='Следеће поглавље - Садржај лекције 1.4' data-toggle="tooltip"><a href="uvod_lekcija_4.html">Следеће поглавље</a></li> -->
-    <!-- -->
-<!-- </ul> -->
-
 <script type="text/javascript">
-
   $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
   $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
-
 </script>
 </div>
-  
+
+    
+  </div>
+</div>
+
+<div class="petljadoc-resources">
+  <span class="pull-left">(Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>) <br> © 2022 Petlja</span>
 </div>
 
 
+<div class="lectureToolbox">
 
-<script type="text/javascript">
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-32029811-1']);
-  _gaq.push(['_trackPageview']);
+  <label class="font-size-toggle" id="fontSizeToggle">
 
-  (function () {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-</script>
+      <i class="fas fa-font"></i><label>Слова</label>
+  </label>
+  <div class="font-change d-none" id="fontChangeModal">
+      <span class="dec-letter-icon" id="decLetterIcon">A-</span>
+      <label id="currentFontSize">16</label>
+      <span class="inc-letter-icon" id="incLetterIcon">A+</span>
+  </div>
+</div>
 
-
+</div>
 
   </body>
 </html>

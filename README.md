@@ -1,16 +1,16 @@
-# Baze podataka za četvrti razred gimnazije društveni i opšti smer 
+# IKT, računarstvo i organizacija podataka za prvi razred gimnazije 
 
-Ovaj repozitorijum posvećen je kursu za Baze podataka za četvrti razred gimnazije društveni i opšti smer. 
+Ovaj repozitorijum posvećen je kursu za IKT, računarstvo i organizacija podataka za prvi razred gimnazije. 
 
-Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/kurs/4655/0](https://petlja.org/kurs/4655/)
+Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/kurs/490/0](https://petlja.org/kurs/490/)
 
-Kurs možete itegrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/gim4_rac_baze_d/releases
+Kurs možete itegrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/gim1_rac_ikt/releases
 
 ## Konverzija u *HTML*
 
 U ovom repozitorijumu se nalazi izvorna forma sadržaja koju pomoću alata [PetljaDoc](https://github.com/Petlja/PetljaDoc) možete konvertovati u skup *HTML* strana.
 
-Na https://petlja.github.io/gim4_rac_baze_d možete pregledati na taj način dobijene *HTML* strane.
+Na https://petlja.github.io/gim1_rac_ikt možete pregledati na taj način dobijene *HTML* strane.
 
 ## License
 

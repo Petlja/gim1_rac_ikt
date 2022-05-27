@@ -1,8 +1,0 @@
-======
-Тема 2
-======
-
-.. toctree:: 
-    :maxdepth: 1
-
-    tekst_tema_2.rst

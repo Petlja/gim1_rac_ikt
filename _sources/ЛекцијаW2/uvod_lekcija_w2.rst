@@ -28,10 +28,3 @@
 
 
 |
-|
-|
-|
-|
-
-
-Brought to you by `Designs.ai <https://>`_

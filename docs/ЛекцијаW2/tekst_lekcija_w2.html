@@ -6,6 +6,7 @@
     <title>Форматирање параграфа</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -24,14 +25,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/nimgame.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -113,6 +109,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -120,49 +117,14 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/nimgame.js"></script>
-    <script type="text/javascript" src="../_static/nimgame-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/nimgame-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -613,7 +575,7 @@
 <p>Текст откуцан између два знака <em>Ентер</em> назива се пасус или параграф. У овом тексту ћемо равноправно користити оба термина. Будући да тастер <em>Ентер</em> нема графичку репрезентацију, а често нам је важно да видимо где је откуцан <em>Ентер</em> а где је дошло до аутоматског прелома или прелома стране, могуће је укључити „невидљиве” симболе.</p>
 <a class="reference internal image-reference" href="../_images/w2_paragraf.png"><img alt="../_images/w2_paragraf.png" class="align-center" src="../_images/w2_paragraf.png" style="width: 200px;" /></a>
 <p>Укључи „невидљиве симболе” (параграф знак, „Пи знак”) на тексту са претходног часа и погледај шта се све појавило - тамо где је откуцан ентер, размак, табулатор…</p>
-<p>Ови симболи који су се појавили служе само да би смо на екрану видели где се налазе „невидљиви” симболи. Они се не виде при штампању.</p>
+<p>Ови симболи који су се појавили служе само да би се на екрану приказали „невидљиви” симболи. Они се не виде при штампању.</p>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -637,7 +599,7 @@
 <div class="line"><br /></div>
 </div>
 <p><strong>Поравнање текста - Alignment</strong></p>
-<p>Поравнање текста параграфа вам омогућава да подесите како желите да изгледају десна и лева ивица текста.</p>
+<p>Поравнање текста параграфа ти омогућава да подесиш како желиш да изгледају десна и лева ивица текста.</p>
 <p>Да би се променило поравнање потребно је кликнути на <em>Почетак</em> (Home) картицу, и одабрати одговарајуће дугме за поравнање параграфа у групи <em>Пасус</em> (Paragraph):</p>
 <ul class="simple">
 <li><p><em>Поравнај лево</em> (Align Text Left), текст је поравнат у односу на леву маргину;</p></li>
@@ -650,7 +612,7 @@
 <div class="line"><br /></div>
 </div>
 <p><strong>Увлачење параграфа - Indentation</strong></p>
-<p>Увлачење текста омогућава да подесите растојање ивице текста од маргина. Постоји неколико начина за увлачење:</p>
+<p>Увлачење текста омогућава да подесиш растојање ивице текста од маргина. Постоји неколико начина за увлачење:</p>
 <a class="reference internal image-reference" href="../_images/w2_par3.png"><img alt="../_images/w2_par3.png" class="align-center" src="../_images/w2_par3.png" style="width: 200px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -704,11 +666,11 @@
 </div>
 <p><strong>Oквири и сенчење</strong></p>
 <p>Параграф се може истаћи и повлачењем линија са леве и/или десне стране параграфа, прављењем оквира око параграфа и/или сенчењем позадине.</p>
-<p>Да бисте креирали оквире, урадите следеће:</p>
+<p>Да би се креирали оквири, уради следеће:</p>
 <ul class="simple">
-<li><p>Изаберите део текста где желите ивицу или сенчење;</p></li>
-<li><p>Кликните на стрелицу поред дугмета <em>Ивице</em> (Borders) у групи <em>Пасус</em> на картици <em>Почетак</em> (Home)</p></li>
-<li><p>Изаберите неки до понуђених оквира или изаберите <em>Ивице и сенчење</em> (Borders and Shading) ради додатних подешавања.</p></li>
+<li><p>Изаберите део текста где желиш ивицу или сенчење;</p></li>
+<li><p>Кликни на стрелицу поред дугмета <em>Ивице</em> (Borders) у групи <em>Пасус</em> на картици <em>Почетак</em> (Home)</p></li>
+<li><p>Изабери неки до понуђених оквира или изаберите <em>Ивице и сенчење</em> (Borders and Shading) ради додатних подешавања.</p></li>
 </ul>
 <p>Прозор <em>Ивице и сенчење</em> (Borders and Shading) садржи три картице:</p>
 <ul class="simple">
@@ -746,7 +708,7 @@
 </div>
 <div class="section" id="id3">
 <h2>Прелом реда и прелом стране<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
-<p>Разне операције форматирања параграфа се најчешће подносе на цео текући параграф у којем се налази курсор, на пример не морамо да селектујемо цео пасус да бисмо подесили поравнање.
+<p>Разне операције форматирања параграфа се најчешће примењују на цео текући параграф у којем се налази курсор, на пример не морамо да селектујемо цео пасус да бисмо подесили поравнање.
 Некада, међутим, имамо потребу да преломимо ред а да ипак останемо у истом пасусу - на пример ако куцамо поезију - стихови обично нису такви да заузму цео ред већ је потребно да ред преломимо раније, а опет више стихова чине строфу (као што у прози имамо пасус).</p>
 <p>Када преламамо ред, тако да и наредни остане у истом параграфу на крају реда куцам Shift + Enter, на пример на крају строфе. На крају стиха куцамо ентер и тиме завршавамо тај параграф и прелазимо у следећу строфу.
 Погледај како је преломљена ова песма Чика-Јове Змаја:</p>
@@ -767,7 +729,7 @@
 <p>Листе могу да буду:</p>
 <ul class="simple">
 <li><p>ненумерисане (енгл. Bulleted list) где на почетку сваког реда стоји неки симбол, најчешће црта, звездица или велика тачка;</p></li>
-<li><p>нумерисане (енгл. Numbered list) и тада редови започињу редним бројевима или словима из којих следи обично тачка или затворена заграда;</p></li>
+<li><p>нумерисане (енгл. Numbered list) код којих редови започињу редним бројевима или словима иза којих следи обично тачка или затворена заграда;</p></li>
 <li><p>са више нивоа (енгл. Multilevel list), најчешће је то комбинација нумерисаних листа са бројевима и словима (попут нумерације на пример у збирци задатака из математике, где су побројани задаци, а у сваком имамо варијанте под а, б, в, г…)</p></li>
 </ul>
 <p>Скуп алата за форматирање листа налазе се у групи алатки за форматирање параграфа:</p>

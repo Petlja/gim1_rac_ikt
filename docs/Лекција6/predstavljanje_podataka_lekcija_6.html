@@ -6,6 +6,7 @@
     <title>Представљање података у рачунару</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -24,14 +25,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/nimgame.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -113,6 +109,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -120,49 +117,14 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/nimgame.js"></script>
-    <script type="text/javascript" src="../_static/nimgame-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/nimgame-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -614,24 +576,24 @@
 </ul>
 <p>Одавде следи веома важан закључак:</p>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p>Да би рачунар могао да чува и преноси разноврсне податке, довољно је да за те податке представимо (кодирамо) помоћу низова нула и јединица, односно бинарних бројева. Подсетимо се, бинарни бројеви су бројеви записани у бинарном бројевном систему, тј. систему у коме се користе само две цифре - 0 и 1.</p>
 <p>Једна бинарна цифра је најмања количина информације којом оперишемо. Ту количину информације називамо <strong>један бит</strong>, скраћено од енглеског <strong>BI</strong>nary digi<strong>T</strong>, бинарна цифра.</p>
 
-    </p></div></div>
+    </div></div>
 <p>Користећи два бита, можемо да формирамо 4 различита записа: 00, 01, 10 и 11. То значи да са два бита можемо да кодирамо 4 различита податка. Кодови 00, 01, 10 и 11 могу да представљају бројеве 0, 1, 2 и 3, или слова A, B, C и D, или неке другачије податке.</p>
 
-    <div class="course-box course-box-special">
+    <div class="note-wrapper questionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/question-mark.png" class="note-image questionnote-image" /> 
         <div class="course-content">
-            <h4 class="carbox-title">
-                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
-            </h4>
-            <p>
 <p>Колико различитих података може да се кодира са три бита?</p>
 
-    </p></div></div>
+    </div></div>
 
     <div data-component="reveal" id="tribita"   data-showtitle="Размисли па погледај одговор" data-hidetitle="Сакриј прозор">
     <p>Може да се кодира осам различитих податка, а податке (шта год да су они) можемо да кодирамо записима 000, 001, 010, 011, 100, 101, 110, 111.</p>
@@ -640,12 +602,14 @@
     <p>Продужавајући низ бинарних цифара (битова) које користимо, добијамо све већи број различитих низова, тј све већи број кодова. Тако, на пример, низ од 8 битова даје <span class="math notranslate nohighlight">\(2^8 = 256\)</span> различитих кодова, који могу да представљају нпр. бројеве из интервала од 0 до 255.</p>
 <a class="reference internal image-reference" href="../_images/6_bajt.png"><img alt="../_images/6_bajt.png" class="align-center" src="../_images/6_bajt.png" style="width: 450px;" /></a>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
-<p>Низ од 8 бита називамо <strong>један бајт</strong>. Управо смо видели да је један бајт меморије довољан да се представи, тј. кодира било који од 256 различитих података. Другим речима, за памћење или пренос информације о којем од могућих 256 података је реч у неком контексту, довољан је један бајт меморије. Ознака за бајт је B.</p>
+            
+<p>Низ од 8 бита називамо <strong>један бајт</strong>. Управо смо видели да је један бајт меморије довољан да се представи, тј. кодира било који од 256 различитих података. Другим речима, за памћење или пренос информације о било којем од могућих 256 података је реч у неком контексту, довољан је један бајт меморије. Ознака за бајт је B.</p>
 
-    </p></div></div>
+    </div></div>
 <p><strong>Осим бита и бајта, које су остале јединице за мерење количине информација?</strong></p>
 <p>При мерењу физичких величина у међународном систему <em>SI</em>, следећа већа једиица се најчешће добија множењем претходне са 1000. На пример, за притисак је основна јединица паскал (Pa), 1000 паскала је килопаскал (KPa), а 1000 килопаскала је мегапаскал (MPa). Слично томе, основна јединица за снагу је ват (W), а веће су редом киловат (1 KW = 1000 W), мегават (1 MW = 1000 KW), гигават (1 GW = 1000 MW), терават (1 TW = 1000 GW).</p>
 <p>При изражавању количине информације (односно меморије довољне за памћење и саопштавање те информације), такође се користе префикси кило, мега, гига, тера итд, али правила су мало другачија.</p>
@@ -695,30 +659,32 @@
 
     <div data-component="reveal" id="kilo"   data-showtitle="Размисли, па упореди свој одговор" data-hidetitle="Сакриј прозор">
     
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p>Неке од ситуација када су ти потребне јединице за количину меморије су:</p>
 <p>Када желиш да пошаљеш некоме слику, када нешто снимаш на флеш-меморију, када нешто инсталираш на телефон, када желиш да креираш и пошаљеш (или да преузмеш) видео, када купујеш неки уређај са меморијом (екстерни диск, телефон, рачунар).</p>
 
-    </p></div></div>
+    </div></div>
 
     </div>
     
-    <div class="course-box course-box-special">
+    <div class="note-wrapper questionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/question-mark.png" class="note-image questionnote-image" /> 
         <div class="course-content">
-            <h4 class="carbox-title">
-                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
-            </h4>
-            <p>
 <p>Упореди по величини неколико текстуалних датотека, слика, аудио и видео записа које имаш на рачунару или телефону. У којим јединицама се типично изражавају величине ових датотека? Одговори за сваки тип датотеке посебно.</p>
-<p>У којим јединицама се обично изражава капацитет преносиве флеш меморије?</p>
-<p>Простор који имамо на располагању у електронском поштанском сандучету?</p>
-<p>Радна меморија (<em>RAM</em>) рачунара?</p>
-<p>Капацитет хард диска у телефону?</p>
-<p>А у рачунару?</p>
+<p>У којим јединицама се обично изражава:</p>
+<ul class="simple">
+<li><p>капацитет преносиве флеш меморије?</p></li>
+<li><p>простор који имамо на располагању у електронском поштанском сандучету?</p></li>
+<li><p>радна меморија (<em>RAM</em>) рачунара?</p></li>
+<li><p>капацитет хард диска у телефону? А у рачунару?</p></li>
+</ul>
 
-    </p></div></div>
+    </div></div>
 <div class="section" id="id3">
 <h2>Физичко представљање података у рачунару<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p>На почетку ове стране смо рекли да је за чување и пренос података у рачунару довољно да те податке умемо да представимо (кодирамо) помоћу низова нула и јединица, односно бинарних бројева. Размотримо шта то конкретно значи за разне врсте података.</p>
@@ -741,16 +707,18 @@
 
     <div data-component="reveal" id="baš_binarni"   data-showtitle="Знаш ли зашто баш бинарни а не неки други?" data-hidetitle="Сакриј прозор">
     
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <ul class="simple">
 <li><p>За памћење података је много лакше направити електронске склопове који имају два стабилна стања (и памте једну од две могуће вредности) него системе са, на пример, 10 различитих стабилних стања;</p></li>
 <li><p>Много је лакше проследити бинарну цифру (слањем или неслањем имплулса) него декадну цифру;</p></li>
 <li><p>Много је лакше направити електронско коло, које обавља неку операцију над „бинарним записима” (серијама импулса), него над „декадним записима” (за које није јасно ни како би изгледали).</p></li>
 </ul>
 
-    </p></div></div>
+    </div></div>
 
     </div>
     <p>Осим декадних и бинарних записа, у рачунарству се користе и хексадекадни (основа 16), а раније су се користили и октални (основа 8) записи, јер је запис већих бинарних бројева веома дугачак и непрегледан, а превођење из бинарног система у системе са основама 8 и 16 и обратно је врло једноставно. Захваљујући томе, хексадекадни запис може да се схвати као помоћни запис, који је нека врста скраћеног писања бинарних записа (исто је важило својевремено и за октални запис).</p>
@@ -770,25 +738,25 @@
 
     <div data-component="reveal" id="aski_kodovi"   data-showtitle="О ASCII кодовима, детаљније" data-hidetitle="Сакриј прозор">
     
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p><a class="reference external" href="https://sr.wikipedia.org/wiki/ASCII">ASCII — Википедија</a>,</p>
 
-    </p></div></div>
+    </div></div>
 
     </div>
     <p>Овде можеш да нађеш <a class="reference external" href="http://www.asciitable.com/">табелу ASCII симбола</a>  и њихових кодова у декадном, хексадекадном и окталном систему.</p>
 
-    <div class="course-box course-box-special">
+    <div class="note-wrapper questionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/question-mark.png" class="note-image questionnote-image" /> 
         <div class="course-content">
-            <h4 class="carbox-title">
-                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
-            </h4>
-            <p>
 <p>Искодирај бинарно, ASCII кодом своје име и презиме (за потребе израде овог задатка, занемари постојање дијакритичких знакова - čćšđž)</p>
 
-    </p></div></div>
+    </div></div>
 <p>Ако погледаш табелу ASCII кодова на претходном линку, видећеш да ту нема српских латиничних слова, нема ћирилице, а ни многих других симбола који припадају разним језицима.</p>
 <p>Овај проблем је решаван на различите начине, укључујући и поменута проширења ASCII кода са додатних - изабраних 128 симбола. Та проширења су такође стандардизована и добила су назив <em>кодне стране</em>, али на жалост, постојало је неколико стандарда. Ни у једном од тих стандарда, систем кодних страна није био довољно удобан, нарочито за оне који пишу на више језика, или на језику чији симболи не могу да стану у једну кодну страну (користе више од 128 симбола).</p>
 <p>Удобно и вероватно трајно решење је донео стандард за мапирање текстуалних симбола, који се зове Јуникод (<em>Unicode</em>). Овај стандард сваком симболу придружује један природан број, који се назива кодна тачка (<em>code point</em>). Ту су укључени дословно сви симболи који се користе у свим писмима на свету (чак и писмо измишљеног клингонског језика), велики број емотикона и многи други симболи који не спадају у слова.</p>
@@ -808,25 +776,25 @@
 <a class="reference internal image-reference" href="../_images/6_L2S7.png"><img alt="../_images/6_L2S7.png" class="align-center" src="../_images/6_L2S7.png" style="width: 720px;" /></a>
 <p>Количина меморије потребна за запис неке растерске слике зависи од броја пиксела из којих се слика састоји, као и од палете боја која се користи. Ако је слика црно-бела, за сваки пиксел је довољан по један бит за памћење боје, као на горњој слици. Уколико желимо да убацимо и нијансе сиве или неке друге боје, биће потребно више од једног бита са сваки пиксел, па и укупно више меморије. Ако хоћемо да сваки пиксел може да буде обојен у једну од 256 боја из палете, требаће нам за сваки пиксел по један бајт.</p>
 
-    <div class="course-box course-box-special">
+    <div class="note-wrapper questionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/question-mark.png" class="note-image questionnote-image" /> 
         <div class="course-content">
-            <h4 class="carbox-title">
-                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
-            </h4>
-            <p>
 <p>Дешава се да покренемо неки програм за цртање и наиђемо на информацију да нам је на располагању „16 милиона боја”. Покушај да израчунаш колико је у том случају потребно бајтова за запис боје сваког пиксела.</p>
 
-    </p></div></div>
+    </div></div>
 
     <div data-component="reveal" id="boje"   data-showtitle="Одговор" data-hidetitle="Сакриј прозор">
     
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p>Ради се о <span class="math notranslate nohighlight">\(2^{24}\)</span> боја (што је приближно 16 милиона), па је потребно 24 бита, односно три бајта.</p>
 <p>Поменутих <span class="math notranslate nohighlight">\(2^{24}\)</span> боја се добија комбиновањем по 256 нијанси црвене, зелене и плаве, од којих се генерише свака боја, јер <span class="math notranslate nohighlight">\(256 \cdot 256 \cdot 256 = 256^3 = {(2^8)}^3 = 2^{8 \cdot 3} = 2^{24}\)</span>. За записивање удела сваке од ове три боје у актуелној комбинацији потребан је по један бајт, што је укупно три бајта по пикселу.</p>
 
-    </p></div></div>
+    </div></div>
 
     </div>
     <div class="line-block">
@@ -843,7 +811,7 @@
 <div class="section" id="id10">
 <h2>Обрада података у рачунару<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h2>
 <p>Поред чувања и преноса, податке је у рачунару потребно и обрађивати. Међутим, свака обрада података, ма како била сложена, састоји се само од копирања података и основних логичких и аритметичких операција над њима, мада број тих операција може да буде веома велики.</p>
-<p>На пример, над логичким вредностима <span class="math notranslate nohighlight">\(\top\)</span> и <span class="math notranslate nohighlight">\(\bot\)</span> потребно је обезбедити само основне логичке операције <em>„не”</em>, <em>„и”</em> „и“ и <em>„или”</em> <span class="math notranslate nohighlight">\((\neg, \wedge, \vee)\)</span>.</p>
+<p>На пример, над логичким вредностима <span class="math notranslate nohighlight">\(\top\)</span> и <span class="math notranslate nohighlight">\(\bot\)</span> потребно је обезбедити само основне логичке операције „не”, „и” и „или” <span class="math notranslate nohighlight">\((\neg, \wedge, \vee)\)</span>.</p>
 <p>У електроници се једноставно конструише коло са два улаза и једним излазом, тако да ако у датом тренутку на бар један улаз стигне импулс, онда се и на излазу појављује импулс. Овакво коло може да се употреби за израчунавање логичке функције <span class="math notranslate nohighlight">\(\vee\)</span>. Заиста, ако вредност <span class="math notranslate nohighlight">\(\top\)</span> кодирамо као 1, а вредност <span class="math notranslate nohighlight">\(\bot\)</span> као 0, онда се вредност <span class="math notranslate nohighlight">\(\top\)</span> у рачунару доводи до потребног места слањем импулса, док се вредност <span class="math notranslate nohighlight">\(\bot\)</span> доводи као изостанак импулса. Довођењем овако представљених логичких вредности <span class="math notranslate nohighlight">\(p\)</span> и <span class="math notranslate nohighlight">\(q\)</span> на улазе поменутог кола, на излазу добијамо њихову дисјункцију <span class="math notranslate nohighlight">\(p \vee q\)</span> представљену на исти начин (постојање импулса се тумачи као вредност <span class="math notranslate nohighlight">\(\top\)</span>, а непостојање као <span class="math notranslate nohighlight">\(\bot\)</span>). Ова излазна вредност може да се пошаље даље где је потребно или да се сачува у бистабилном елементу, тј. меморији.</p>
 <p>За операције конјункције <span class="math notranslate nohighlight">\(\wedge\)</span> и негације <span class="math notranslate nohighlight">\(\neg\)</span> такође могу да се конструишу одговарајућа кола, која израчунавају ове логичке операције. Комбиновањем великог броја оваквих основних кола праве се сложенија, која могу да извршавају аритметичке операције <span class="math notranslate nohighlight">\((+, -,\cdot, :)\)</span> над целим бројевима, представљеним помоћу низова нула и јединица.</p>
 <p>Када смо говорили о историјату рачунара, спомињали смо електронске цеви у првој, а затим транзисторе у другој генерацији рачунара. Управо ова електронска кола која извршавају основне логичке и аритметичке операције су у почетку израђивана од електронских цеви, а затим од транзистора. Касније су транзистори замењени полупроводничком технологијом, која у суштини омогућава прављење минијатурних транзистора у високо интегрисаним колима - чиповима. Како су ове компоненте и растојања између њих постајали мањи, рачунари су постајали све бржи. Тако се данас број ових основних операција које рачунар може да изврши у секунди мери стотинама милиона или милијардама. Било да на рачунару пишемо и форматирамо текст, дотерујемо слику у Фотошопу, управљамо ликом у лавиринту неке игре или само користимо калкулатор, све се своди на мањи или већи број основних логичких и аритметичких операција.</p>

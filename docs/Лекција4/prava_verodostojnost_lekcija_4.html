@@ -6,6 +6,7 @@
     <title>Ауторска права и веродостојност информација</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -24,14 +25,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/nimgame.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -113,6 +109,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -120,49 +117,14 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/nimgame.js"></script>
-    <script type="text/javascript" src="../_static/nimgame-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/nimgame-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -619,12 +581,14 @@
 
     <div data-component="reveal" id="zabrana"   data-showtitle="Овим забрањујем да се користе моји подаци..." data-hidetitle="Сакриј прозор">
     
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p>Интересантна је појава да се повремено појави на пример на Фејсбуку, објава да „Овим забрањујем да  Фејсбук користи моје фотографије…” <strong>Овакве објаве немају никакво ни техничко ни правно дејство и само „загушују” комуникацију на мрежи, и не треба их копирати.</strong>  Сва права у том смислу одређена су условима коришћења одређеног сервиса, са чиме се сагласимо прихватањем услова при отварању налога.</p>
 
-    </p></div></div>
+    </div></div>
 
     </div>
     <div class="line-block">
@@ -651,12 +615,14 @@
 
     <div data-component="reveal" id="cc"   data-showtitle="Ко стоји иза Creative Commons лиценци?" data-hidetitle="Сакриј прозор">
     
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p>Посети сајт који је приказан у претходном видео-прилогу. Више о организацији можеш да прочиташ овде <a class="reference external" href="https://creativecommons.org.rs/?page_id=54">O CC licencama</a>.</p>
 
-    </p></div></div>
+    </div></div>
 
     </div>
     <div class="line-block">
@@ -665,7 +631,7 @@
 <p>Да резимирамо причу о лиценцама након гледања видео-прилога и посете сајту:</p>
 <p>Свака лиценца се састоји из три „слоја”:</p>
 <ul class="simple">
-<li><p>Машински читљив слој намењен је интернет претраживачимакако би могли да пронађу садржаје према захтеваној лиценци.</p></li>
+<li><p>Машински читљив слој намењен је интернет претраживачима како би могли да пронађу садржаје према захтеваној лиценци.</p></li>
 <li><p>Лако размуљив слој је она „маркица” коју видиш на сајту а састоји се из симбола који указују на основне карактеристике лиценце.</p></li>
 <li><p>Уговор о лиценци који чини сам документ који дефинише права аутора и права корисника.</p></li>
 </ul>
@@ -697,12 +663,14 @@
 
     <div data-component="reveal" id="sumnjivi"   data-showtitle="Шта би могли да буду „сумњиви” домени?" data-hidetitle="Сакриј прозор">
     
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p>Ако домен нема назив који на неки начин одговара називу фабрике, трговачког ланца, организације, чији сајт тражиш, или је ознака домена таква да не указује на врсту институције за коју се представља, на пример, на сајту пише да је у питању универзитет, а у домену је ознака попут .info,  .biz или нешто слично уместо .ac и домен земље у којој је универзитет онда би требало да побољшаш претрагу и упоредиш резултате.</p>
 
-    </p></div></div>
+    </div></div>
 
     </div>
     <p>У потрази за информацијама, добро је проверити на више сајтова, из више извора веродостојност информације.</p>
@@ -713,12 +681,14 @@
 
     <div data-component="reveal" id="wiki"   data-showtitle="О Википедији" data-hidetitle="Сакриј прозор">
     
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p><a class="reference external" href="https://sr.wikipedia.org/sr-ec/%D0%92%D0%B8%D0%BA%D0%B8%D0%BF%D0%B5%D0%B4%D0%B8%D1%98%D0%B0">Википедија о википедеији</a></p>
 
-    </p></div></div>
+    </div></div>
 
     </div>
     <p>Иако на Википедији може апсолутно свако да буде аутор, исто тако, свако ко утврди грешку може да је исправи. Генерално, кључни механизам за проверу релевантности је провера извора информација па се тако и на Википедији инсистира на томе да се на дну чланка експлицитно и јасно наведу извори информација. Реценезију и уређење текста раде уредници, тако да и тај процес утиче на поузданост објављених садржаја. Статистике кажу да, чак и ако неко случајно или злонамерно унесе нетачну или увредљиву информацију, у врло кратком року, од неколико минута или сати ће неко од уредника који прате измене приметити и интервенисати. Свакако ни Википедији као ни једном другом извору не можемо апсолутно веровати, али ипак добијамо добру основу за претрагу и „унакрсну проверу” чињеница које смо пронашли на Википедији. Наравно, и након свих ових провера, не можемо да будемо 100% сигурни у информацију јер су можда и аутор и рецензент у заблуди или пак постоји више супротсављених гледишта у вези са појмом који се објашњава.</p>
@@ -730,12 +700,14 @@
 <p>Неретко на вебу можемо пронаћи вести које нам делују невероватно, а ипак аутори прилажу слике и разне „доказе” којима нас уверавају у истинитост својих тврдњи. Оваква појава назива се „масовна обмана” или „хоакс”. Поруке са лажним информацијама корисника могу да доведу у заблуду и наведу да, на пример ода неке поверљиве податке или да створи панику и подстакне га да предузме неке друге радње из страха од тобожње опасности. Разлози за настанак оваквих „вести” су разни: манипулација, пропаганда, „теорије завере”, а све то зарад остварења неких политичких, верских, комерцијалних циљева, а понекад су то само неслане шале.
 У ову групу спадају и ланчани мејлови, мејлови којима се саопштавају „велике тајне” а у ствари квазинаучне „теорије”, мејлови у којима нам неко тражи личне податке да би нам оставио тобожње велико наследство или лозинке да би „спречио крађу наших података” а управо нас навео да их сами одамо.</p>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p>Изузетно је важно да не прихватамо одмах, без провере вести које смо пронашли на интернету - треба увек потражити још извора, проверити ко стоји иза одређеног сајта, односно са које адресе је послат „сумњиви” имејл, да ли је то нека организација од ауторитета, али наравно пре свега да мислимо својом главом, критички и утемељено на научним чињеницама.</p>
 
-    </p></div></div>
+    </div></div>
 <p>На интернету постоје сајтови који се баве анализом у потрази за истином. Наравно, ако ћемо да будемо доследни до краја у свом критичком мишљењу, можда ни тамо није баш све 100% тачно, али свакако такви текстови садрже мноштво линкова и аргумената који ће нам помоћи да њиховим трагом прикупимо довољно чињеница да можемо да формирамо став.</p>
 <ul class="simple">
 <li><p>Ово је пример једног таквог домаћег сајта: <a class="reference external" href="https://fakenews.rs/">fakenews.rs</a>.</p></li>
@@ -751,15 +723,17 @@
 
     <div data-component="reveal" id="tz"   data-showtitle="Шта је „теорија завере”" data-hidetitle="Сакриј прозор">
     
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p>Теорија завере као појава је била присутна у народу и пре појаве интернета, али су убрзане комуникације, имејл и друштвене мреже допринели њиховом ширењу, јер свако ко пожели може да објави вест или „вест” и да допре до широке публике. У питању су објашњења неких догађаја укључивањем „завера”, политичких или финансијских циљева, при чему објашњења и „докази” нису засновани на научним методама и реалним чињеницама, а лакоћа хиперпродукције лажних „доказа” и „сведока” ствара уктисак да је „теорија доказана”.</p>
 <p>У настојањима да се открије истина, понекад је врло тешко остати објективан и непристрасан. Могуће је, на пример, и да неко ко изнесе истините тврдње буде етикетиран као „теоретичар завере”, или дискредитован на други начин. Пошто не можемо унапред да знамо са каквим случајем смо се сусрели, са закључцима не треба журити.</p>
 <p>Спорне тврдње често можемо да проверимо на релевантним изворима на интернету, мада то није увек једноставно, а некад ни могуће. Важно је бити свестан да смо окружени и информацијама и дезинформацијама, сачувати опрез и критички став. Такав приступ не може да нам гарантује потпуну безбедност, али свакако може значајно да умањи шансе да будемо изманипулисани или доведени у заблуду.</p>
 <p>Ако те интересује да сазнаш више о овом социолошком феномену који је узео маха на интернету, више можеш да прочиташ овде <a class="reference external" href="https://sr.wikipedia.org/sr-el/Teorija_zavere">О теоријама завере</a>.</p>
 
-    </p></div></div>
+    </div></div>
 
     </div>
     <a class="reference internal image-reference" href="../_images/4_zavere.png"><img alt="../_images/4_zavere.png" class="align-center" src="../_images/4_zavere.png" style="width: 720px;" /></a>
@@ -771,12 +745,10 @@
 <div class="line"><br /></div>
 </div>
 
-    <div class="course-box course-box-special">
+    <div class="note-wrapper questionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/question-mark.png" class="note-image questionnote-image" /> 
         <div class="course-content">
-            <h4 class="carbox-title">
-                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
-            </h4>
-            <p>
 <p>Веродостојност информација</p>
 <ol class="arabic simple">
 <li><p>Процените истинитост вести на овом сајту <a class="reference external" href="https://zapatopi.net/treeoctopus/">https://zapatopi.net/treeoctopus/</a></p></li>
@@ -787,17 +759,15 @@
 </ol>
 <p>Ако га поделиш на друштвеним мрежама, шта мислиш који проценат твојих пријатеља ће поверовати да је истинит?</p>
 
-    </p></div></div>
+    </div></div>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 
-    <div class="course-box course-box-special">
+    <div class="note-wrapper questionnote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/question-mark.png" class="note-image questionnote-image" /> 
         <div class="course-content">
-            <h4 class="carbox-title">
-                <img class="corner-image float-right" src="../_static/img/question-mark.png" />
-            </h4>
-            <p>
 <p>Вредновање извора</p>
 <p>Изненада те је у току ноћи заболео зуб. Твој стоматолог не ради ноћу. Потражићеш помоћ на интернету. Којим сајтовима ћеш највише веровати и зашто?</p>
 <p><a class="reference external" href="http://www.novosti.rs/vesti/lifestyle.304.html:425213-Malim-trikovima-ublazite-zubobolju">http://www.novosti.rs/vesti/lifestyle.304.html:425213-Malim-trikovima-ublazite-zubobolju</a></p>
@@ -807,7 +777,7 @@
 <p><a class="reference external" href="https://www.stomatolog-novi-sad.rs/zablude-vs-istine-u-stomatologiji-no9-stavljanje-aspirina-u-podrucje-obolelog-zuba-smanjuje-bol">https://www.stomatolog-novi-sad.rs/zablude-vs-istine-u-stomatologiji-no9-stavljanje-aspirina-u-podrucje-obolelog-zuba-smanjuje-bol</a></p>
 <p><a class="reference external" href="http://www.zenasamja.me/zdravlje/3010/boli-vas-zub-evo-par-trikova-kako-da-ublazite-bol">http://www.zenasamja.me/zdravlje/3010/boli-vas-zub-evo-par-trikova-kako-da-ublazite-bol</a></p>
 
-    </p></div></div>
+    </div></div>
 </div>
 </div>
 

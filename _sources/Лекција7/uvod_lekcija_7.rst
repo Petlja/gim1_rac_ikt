@@ -20,5 +20,5 @@
 |
 
 .. image:: ../../_images/7_binary-2925964_1280.jpg
-   :width: 650px   
+   :width: 780px   
    :align: center

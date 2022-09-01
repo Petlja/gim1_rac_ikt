@@ -6,33 +6,38 @@
 
 На картици *Уметање* (Insert) налазе се алатке за уметање слика са рачунара или са веба, геометријских облика, графикона итд.
 
-.. image:: ../../_images/w3_slika1.png
-   :width: 400px   
+.. figure:: ../../_images/w3_slika1.png
+   :width: 500px   
    :align: center
+   :class: screenshot-shadow
 
 При избору алатке за уметање слике отвара се дијалог у којем проналазимо слику коју желимо да уметнемо у текст.
 
-.. image:: ../../_images/w3_slika2.png
-   :width: 400px   
+.. figure:: ../../_images/w3_slika2.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
 Уметнутој слици мењамо величину тако што мишем „ухватимо” неки од кружића (најбоље неки од кружића на угловима јер се тако неће променити пропорције слике)
 
-.. image:: ../../_images/w3_slika3.png
-   :width: 400px   
+.. figure:: ../../_images/w3_slika3.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
 Опцијама распореда подешавамо прелом текста у односу на слику.
 
-.. image:: ../../_images/w3_slika4.png
-   :width: 400px   
+.. figure:: ../../_images/w3_slika4.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
 Слику можемо да позиционирамо унутар текста једноставним превлачењем мишем.
 
-.. image:: ../../_images/w3_slika5.png
-   :width: 400px   
+.. figure:: ../../_images/w3_slika5.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
 Погледај сада видео-прилог који ће те подсетити неких поступака из претходне лекције, али у којем ћеш видети поступак додавања слике и њеног уређивања, на примеру обраде једног текста:
 
@@ -48,10 +53,10 @@
 
 Разноврсни геометријски облици умећу се слично као и слике:
 
-.. image:: ../../_images/w3_oblici.png
+.. figure:: ../../_images/w3_oblici.png
    :width: 250px   
    :align: center
-
+   :class: screenshot-shadow
 
 Поступак уметања геометријских облика и подешавање њихове боје попуне и линије као и промена величине и прелом околног текста детаљно је описан и у следећем видео-прилогу:
 

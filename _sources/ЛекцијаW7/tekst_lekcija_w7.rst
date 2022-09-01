@@ -11,10 +11,10 @@
 Пријави се на свој Гугл-налог и иди на Гугл-диск. Формирај директоријум (фолдер) (1) који ћеш назвати "Презентације" и у њему креирај нови документ, Гугл презентацију (2).
 
 
-.. image:: ../../_images/w7_gugldisk1.png
+.. figure:: ../../_images/w7_gugldisk1.png
    :width: 400px   
    :align: center
-
+   :class: screenshot-shadow
 
 За потребе вежбе на часу, за своју презентацију изабери тему коју желиш - може то да буде презентовање неког твог хобија, неке лекције, неке интересантне појаве и слично. Тема је слободна, али ипак, немој да то буду биографије музичара, глумаца, спортиста... Покушај да креираш нешто оригинално!
 
@@ -23,17 +23,18 @@
 
 
 
-.. image:: ../../_images/w7_guglprezent1.png
+.. figure:: ../../_images/w7_guglprezent1.png
    :width: 800px   
    :align: center
+   :class: screenshot-shadow
 
 Обрати пажњу, када на слајду куцаш текст у палети алата ће се појавити алатке за форматирање текста (6).
 
 
-.. image:: ../../_images/w7_guglprezent2.png
+.. figure:: ../../_images/w7_guglprezent2.png
    :width: 800px   
    :align: center
-
+   :class: screenshot-shadow
 
 Покушај да откријеш где се у Гугл-презентацијама налазе команде и алатке које знаш из Пауерпоинта:
 
@@ -50,39 +51,39 @@
 - Презентацију радите у пару, подешавањем дељења (7) 
 
 
-.. image:: ../../_images/w7_guglprezent3.png
+.. figure:: ../../_images/w7_guglprezent3.png
    :width: 500px   
    :align: center
+   :class: screenshot-shadow
 
 и додавањем мејл адресе ученика са којим радиш у пару  
 
-.. image:: ../../_images/w7_guglprezent4.png
+.. figure:: ../../_images/w7_guglprezent4.png
    :width: 500px   
    :align: center
 
 да обоје (8, 9)
 
-.. image:: ../../_images/w7_guglprezent6.png
+.. figure:: ../../_images/w7_guglprezent6.png
    :width: 500px   
    :align: center
+   :class: screenshot-shadow
 
 можете да уређујете (10, 11) презентацију:
 
-.. image:: ../../_images/w7_guglprezent7.png
+.. figure:: ../../_images/w7_guglprezent7.png
    :width: 500px   
    :align: center
-
+   :class: screenshot-shadow
 
 
 - Да би наставник и остали ученици могли да виде презентацију (али не и да је уређују) подеси да свако са линком може да види презентацију (12, 13, 14) и тај линк (15) постави у конверзацију (чет) овде, на Петљи, а затим прегледај презентације других ученика.
 
-
-
-.. image:: ../../_images/w7_guglprezent5.png
+.. figure:: ../../_images/w7_guglprezent5.png
    :width: 500px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 Кратко упутство за рад са Гугл презентацијама можеш да погледаш у следећем видео-прилогу.
 

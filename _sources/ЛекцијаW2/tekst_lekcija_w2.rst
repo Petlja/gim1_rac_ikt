@@ -81,7 +81,7 @@
 .. figure:: ../../_images/w2_par2.png
    :width: 200px   
    :align: center
-
+   :class: screenshot-shadow
 
 
 **Увлачење параграфа - Indentation**
@@ -92,7 +92,7 @@
 .. figure:: ../../_images/w2_par3.png
    :width: 200px   
    :align: center
-
+   :class: screenshot-shadow
 
 
 **Први начин:**
@@ -107,17 +107,17 @@
 
 
 .. figure:: ../../_images/w2_par5.png
-   :width: 700px   
+   :width: 780px   
    :align: center
-
+   :class: screenshot-shadow
 
 Обратите пажњу како они утичу на изглед текста:
 
 
 .. figure:: ../../_images/w2_par4.png
-   :width: 700px   
+   :width: 780px   
    :align: center
-
+   :class: screenshot-shadow
 
 
 **Трећи начин:**
@@ -136,7 +136,7 @@
 
 
 .. figure:: ../../_images/w2_par8a.png
-   :width: 700px   
+   :width: 780px   
    :align: center
 
 
@@ -170,9 +170,9 @@ Kартица *Преламање редова и страница* (Line and Pa
 
 
 .. figure:: ../../_images/w2_par9.png
-   :width: 300px   
+   :width: 500px   
    :align: center
-
+   :class: screenshot-shadow
 
 
 **Oквири и сенчење**
@@ -220,7 +220,7 @@ Kартица *Преламање редова и страница* (Line and Pa
 .. figure:: ../../_images/w2_par11.png
    :width: 500px   
    :align: center
-
+   :class: screenshot-shadow
 
 
 **Картица Shading**
@@ -235,7 +235,7 @@ Kартица *Преламање редова и страница* (Line and Pa
 .. figure:: ../../_images/w2_Image_12.png
    :width: 500px   
    :align: center
-
+   :class: screenshot-shadow
 
 
 
@@ -260,7 +260,7 @@ Kартица *Преламање редова и страница* (Line and Pa
 .. figure:: ../../_images/w2_prelomstr.png
    :width: 900px   
    :align: center
-
+   :class: screenshot-shadow
 
 
 
@@ -283,7 +283,7 @@ Kартица *Преламање редова и страница* (Line and Pa
 .. figure:: ../../_images/w2_lista1.png
    :width: 450px   
    :align: center
-
+   :class: screenshot-shadow
 
 
 Без обзира у којој врсти листе се налази курсор, последње две алатке у уоквиреном низу на горњој слици - *Смањи увлачење* и *Повећај увлачење*  ће "померати" ставке листе по нивоима. Испробај да видиш шта се дешава кад употребиш ове две алатке! 
@@ -295,6 +295,7 @@ Kартица *Преламање редова и страница* (Line and Pa
 .. figure:: ../../_images/w2_lista2.png
    :width: 800px   
    :align: center
+   :class: screenshot-shadow
 
 Кликом на стрелицу поред сваке од ових алатки отвориће ти се могућност да прилагођаваш изглед ознака којима почињу ставке у листи. Испробај!
 Рад са листама ћеш најбоље научити ако откуцаш неки произвољан текст и испробаш што више различитих могућности комбиновањем алатки за рад са листама.

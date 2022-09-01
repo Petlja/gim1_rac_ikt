@@ -95,13 +95,9 @@
 
 |
 
-.. reveal:: dugmeupr
-   :showtitle: Кад смо код е-управе…
-   :hidetitle: Сакриј прозор
-   
-   .. infonote::
-   
-      Погледај које су све услуге доступне преко сервиса `еУправа <https://euprava.gov.rs/>`_.
+.. suggestionnote:: 
+
+   Погледај које су све услуге доступне преко сервиса `еУправа <https://euprava.gov.rs/>`_.
 
 
 .. questionnote::
@@ -117,7 +113,6 @@
    :width: 780px   
    :align: center
 
-|
 
 Друштвено организовање
 ----------------------

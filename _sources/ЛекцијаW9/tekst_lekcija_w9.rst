@@ -14,31 +14,32 @@
 
 Након што селектујеш објекат (1) на који желиш да ставиш хиперлинк, са траке алата *Уметање* (2) изабери алатку *Хиперлинк* (3) или алатку *Радња* (4): 
 
-.. image:: ../../_images/w9_hiperlink1.png
-   :width: 400px   
+.. figure:: ../../_images/w9_hiperlink1.png
+   :width: 780px   
    :align: center
-
+   :class: screenshot-shadow
 
 а онда у прозору који се отворио подеси куда ће водити хиперлинк:
 
-.. image:: ../../_images/w9_hiperlink2.png
-   :width: 550px   
+.. figure:: ../../_images/w9_hiperlink2.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
 односно неку другу радњу (покретање програма, репродукција звука и слично):
 
-.. image:: ../../_images/w9_hiperlink3.png
+.. figure:: ../../_images/w9_hiperlink3.png
    :width: 350px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 Уколико имаш "разгранату" презентацију и не желиш да се на неке слајдове дође линеарним проласком кроз презентацију, потребно је да такве слајдове сакријеш избором опције *Сакриј слајд* (hide slide)
 
-.. image:: ../../_images/w9_sakrij.png
+.. figure:: ../../_images/w9_sakrij.png
    :width: 350px   
    :align: center
-
+   :class: screenshot-shadow
 
 Мултимедија
 -----------
@@ -46,16 +47,17 @@
 Видео-клип можеш да уградиш са свог рачунара, али и са интернета без преузимања (под условом да је рачунар онлајн у току презентовања).
 
 
-.. image:: ../../_images/w9_video.png
-   :width: 700px   
+.. figure:: ../../_images/w9_video.png
+   :width: 780px   
    :align: center
-
+   :class: screenshot-shadow
 
 Звук може да се дода у слајд убацивањем уграђених ефеката или уградњом звучне датотеке.
 
-.. image:: ../../_images/w9_zvuk.png
-   :width: 700px   
+.. figure:: ../../_images/w9_zvuk.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
 Анимације
 ---------   
@@ -63,27 +65,26 @@
 Са сваком новом верзијом програма Пауерпоинт, могућности су све веће. 
 
 
-.. image:: ../../_images/w9_animacija1.png
+.. figure:: ../../_images/w9_animacija1.png
    :width: 500px   
    :align: center
-
-|
+   :class: screenshot-shadow
 
 Нека те не збуни то што неке операције можеш да урадиш кроз различите меније и опције у њима:
 
-.. image:: ../../_images/w9_animacija2.png
-   :width: 600px   
+.. figure:: ../../_images/w9_animacija2.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
 Анимација неког објекта се најчешће подешава тако да се покрене кликом на тај објекат. Међутим, *Окидач* (Trigger) за неки ефекат може да буде и друга радња.
 
 Примера ради, овде смо ефекат повећавања придружили диносаурусу (Grafika 5), али тај ефекат се активира кликом на стрелицу (Strelica: nadesno 3). Селектован је најпре диносаурус и додата му је анимација (1), а затим је додат окидач (2) као клик на стрелицу (3).
 
-.. image:: ../../_images/w9_dinosaurus.png
-   :width: 700px   
+.. figure:: ../../_images/w9_dinosaurus.png
+   :width: 780px   
    :align: center
-
-|
+   :class: screenshot-shadow
 
 Уколико ти је потребно више детаља, погледај упутство `за употребу окидача у анимацијама <https://support.microsoft.com/sr-latn-rs/office/aktiviranje-efekta-animacije-651726d6-9454-4bfd-b8e5-11d84767a6da?ui=sr-latn-rs&rs=sr-latn-rs&ad=rs>`_. 
 

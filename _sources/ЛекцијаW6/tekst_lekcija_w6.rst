@@ -14,144 +14,146 @@
 
 Изабери *Диск* (Drive) и даље ћеш се лако снаћи - то је твоје „парче” диска на Гугловом серверу, којем можеш да приступиш путем интернета (2).
 
-.. image:: ../../_images/w6_gugl1.png
-   :width: 700px   
+.. figure:: ../../_images/w6_gugl1.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 За започињање новог документа одабери из менија са стране опцију "Ново".
 
-.. image:: ../../_images/w6_gugl2.png
-   :width: 700px   
+.. figure:: ../../_images/w6_gugl2.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
-|
+
 
 Одабери "Гугл документи" - то је програм за обраду текста.
 
-.. image:: ../../_images/w6_gugl3.png
-   :width: 700px   
+.. figure:: ../../_images/w6_gugl3.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
-|
+
 
 Радно окружење ти је можда познато из проласка кроз претходне лекције, ако не користиш Мајкрософт офис. Сви текст-процесори имају веома сличне ознаке алатки за форматирање текста (1).
 
 Тема ове лекције је "Рад у дељеном текстуалном документу". Ево шта то значи: документ се налази "у облаку" односно на неком серверу на интернету и више корисника истовремено може да му приступи и ради на њему. Да би то било могуће, "власник" документа треба да га подели са другима (2). 
 
-.. image:: ../../_images/w6_gugl4.png
-   :width: 700px   
+.. figure:: ../../_images/w6_gugl4.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 Документ може да се подели са одређеним особама и у том случају потребно је унети њихове Гугл мејл-адресе (1). Особе са којима делиш документ ће о томе добити обавештење путем мејла. Можеш и да копираш линк (2) и пошаљеш им.
 
 Уколико желиш да поделиш са више других корисника, можеш и да промениш начин дељења тако да документу може да приступи свако са линком.
 
-.. image:: ../../_images/w6_gugl5.png
-   :width: 700px   
+.. figure:: ../../_images/w6_gugl5.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 Кад додаш адресу корисника са којим желиш да поделиш документ, додатно можеш да одредиш каква ће он имати права на том документу - да га само види, да коментарише или да га уређује. Такође, можеш му написати и поруку коју ће добити у обавештењу о дељењу документа.
 
-.. image:: ../../_images/w6_gugl8.png
-   :width: 700px   
+.. figure:: ../../_images/w6_gugl8.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 Када више корисника ради на дељеном документу истовремено, сви корисници ће видети курсор осталих корисника:
 
-.. image:: ../../_images/w6_gugl6.png
-   :width: 700px   
+.. figure:: ../../_images/w6_gugl6.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 Уколико желиш да имаш копије својих докумената и локално (на свом рачунару), тако да су ти доступни и када рачунар није повезан на интернет, можеш да инсталираш Гугл-диск за локални рачунар. Измене које направиш у локалној копији синхронизоваће се са верзијом у облаку при повезивању на интернет.
 
-.. image:: ../../_images/w6_gugl7.png
-   :width: 700px   
+.. figure:: ../../_images/w6_gugl7.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 Рад у дељеном документу - Офис 365
 ----------------------------------
 
 Ако имаш Мајкрософт налог и пријавиш се на `office.com <https://office.com>`_ добићеш приступ свом простору *Уандрајв* (енгл OneDrive) и *Офис 365* (енгл. Office 365) апликацијама:
 
-.. image:: ../../_images/w6_office_com.png
-   :width: 500px   
+.. figure:: ../../_images/w6_office_com.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
 Ако при томе радиш на ОС Виндоуз и имаш инсталиран Офис 365 на свом рачунару онда ћеш у *Истраживачу датотека* (Windows Explorer) видети линк ка облаку *Уандрајв* (OneDrive).
 
-.. image:: ../../_images/w6_onedrivewin.png
+.. figure:: ../../_images/w6_onedrivewin.png
    :width: 400px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 При чувању документа можеш да се определиш да се документ сачува на локалном диску или у услузи *Уандрајв* (енгл. OneDrive).
 
-.. image:: ../../_images/w6_onedrive1.png
-   :width: 750px   
+.. figure:: ../../_images/w6_onedrive1.png
+   :width: 780px   
    :align: center
 
-|
+
 
 Документ ће бити снимљен на локални диск:
 
-.. image:: ../../_images/w6_onedrive4.png
-   :width: 600px   
+.. figure:: ../../_images/w6_onedrive4.png
+   :width: 500px   
    :align: center
-
-|
+   :class: screenshot-shadow
 
 али ће бити и "у облаку":
 
-.. image:: ../../_images/w6_onedrive5.png
-   :width: 600px   
+.. figure:: ../../_images/w6_onedrive5.png
+   :width: 500px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 Као што смо већ навели, добра особина документа у облаку је могућност дељења: одређивањем права и слањем поруке (1) или копирањем и слањем линка (2).
 
-.. image:: ../../_images/w6_onedrive6.png
-   :width: 600px   
+.. figure:: ../../_images/w6_onedrive6.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 И у овом случају, као и код Гугл-диска можемо да одаберемо да ли ће документ видети свако ко има линк или само одређене особе, као и да дозоволимо уређивање или само гледање документа, 
 
-.. image:: ../../_images/w6_onedrive7.png
-   :width: 600px   
+.. figure:: ../../_images/w6_onedrive7.png
+   :width: 500px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 односно да ископирамо линк и пошаљемо га другим корисницима:
 
-.. image:: ../../_images/w6_onedrive8.png
-   :width: 600px   
+.. figure:: ../../_images/w6_onedrive8.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 Када више корисника истовремено уређује текст, означене су позиције курсора сваког корисника.
 
-.. image:: ../../_images/w6_onedrive9.png
-   :width: 600px   
+.. figure:: ../../_images/w6_onedrive9.png
+   :width: 780px   
    :align: center
+   :class: screenshot-shadow
 
-|
 
 
 Видео-лекција о раду у дељеном документу - Гугл документ

@@ -92,7 +92,9 @@
 
     IBM PC, Commodore 64, ZX Spectrum 
     
-    `Ruben de Rijcke <http://dendmedia.com/vintage/>`_  / CC BY, `Bill Bertram <https://creativecommons.org/licenses/by-sa/2.5>`_ / CC BY-SA.
+    `Ruben de Rijcke  / CC BY <https://creativecommons.org/licenses/by/4.0/>`_,
+    
+    `Bill Bertram  / CC BY-SA <https://creativecommons.org/licenses/by-sa/2.5>`_.
 
 
 У области софтвера овај период карактерише и развој програмских језика и оперативних система који су омогућили ширем слоју корисника коришћење рачунара (што је до тада била веома ускостручна и специјализована област). Наравно, паралелно са микрорачунарима и даље су наставили свој развој мејнфрејм и суперкомпјутери за научне, пословне и војне сврхе.

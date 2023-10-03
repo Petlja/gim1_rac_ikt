@@ -2,9 +2,9 @@
 
 Ovaj repozitorijum posvećen je kursu za IKT, računarstvo i organizacija podataka za prvi razred gimnazije. 
 
-Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/kurs/490/0](https://petlja.org/kurs/490/)
+Kurs je na Petljinom portalu dotupan ovde: [https://petlja.org/kurs/490/0](https://petlja.org/kurs/490/)
 
-Kurs možete itegrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/gim1_rac_ikt/releases
+Kurs možete integrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/gim1_rac_ikt/releases
 
 ## Konverzija u *HTML*
 
